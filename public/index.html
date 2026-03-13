@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ + Schema + AEO Builder PRO</title>
+    <meta name="description" content="Générez des FAQ utiles, JSON-LD propre et HTML prêt à intégrer depuis une URL ou un texte." />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="container hero">
+      <span id="eyebrow" class="eyebrow"></span>
+      <h1 id="hero-title"></h1>
+      <p id="hero-subtitle"></p>
+      <div class="cta-row">
+        <a href="#builder" class="btn btn-primary" id="cta-main"></a>
+        <a href="#pricing" class="btn btn-secondary" id="cta-secondary"></a>
+      </div>
+      <ul id="trust-points" class="trust-points"></ul>
+    </header>
+
+    <main class="container layout">
+      <section id="builder" class="card sticky">
+        <h2>Générateur PRO</h2>
+        <p class="muted">1) Choisissez URL ou texte 2) générez 3) copiez et publiez.</p>
+
+        <div class="mode-switch">
+          <label><input type="radio" name="mode" value="url" checked /> URL</label>
+          <label><input type="radio" name="mode" value="text" /> Texte</label>
+        </div>
+
+        <textarea id="input" rows="9" placeholder="https://... ou texte métier"></textarea>
+
+        <div class="row">
+          <div class="grow">
+            <label for="tone">Style de réponse</label>
+            <select id="tone">
+              <option value="neutre">Neutre</option>
+              <option value="commercial">Commercial</option>
+              <option value="pedagogique">Pédagogique</option>
+            </select>
+          </div>
+          <div>
+            <label>Exemples</label>
+            <div class="examples">
+              <button class="btn tiny" data-example="url">URL</button>
+              <button class="btn tiny" data-example="text">Texte</button>
+            </div>
+          </div>
+        </div>
+
+        <button id="generate" class="btn btn-primary full">Générer</button>
+        <p id="status" class="status"></p>
+        <p id="quota" class="muted"></p>
+      </section>
+
+      <section>
+        <section class="results-grid">
+          <article class="card">
+            <div class="head"><h3>FAQ prêtes à publier</h3><button class="btn tiny" data-copy="faq">Copier</button></div>
+            <pre id="faq-output"></pre>
+          </article>
+          <article class="card">
+            <div class="head"><h3>JSON-LD (FAQPage)</h3><button class="btn tiny" data-copy="json">Copier</button></div>
+            <pre id="json-output"></pre>
+          </article>
+          <article class="card">
+            <div class="head"><h3>HTML intégrable</h3><button class="btn tiny" data-copy="html">Copier</button></div>
+            <pre id="html-output"></pre>
+          </article>
+        </section>
+
+        <section class="card">
+          <h3>Recommandations d’usage</h3>
+          <ul id="notes"></ul>
+        </section>
+
+        <section class="card">
+          <h3>Historique local</h3>
+          <div id="history"></div>
+        </section>
+      </section>
+
+      <section id="pricing" class="card pricing-wide">
+        <h2>Pricing</h2>
+        <div id="pricing-grid" class="pricing-grid"></div>
+      </section>
+
+      <section class="card">
+        <h3>Recevoir les nouveautés</h3>
+        <div class="email-row">
+          <input id="email" type="email" placeholder="vous@entreprise.com" />
+          <button id="email-submit" class="btn btn-primary">S'inscrire</button>
+        </div>
+        <p id="email-status"></p>
+      </section>
+    </main>
+
+    <footer class="container footer">
+      <p>© <span id="brand-name"></span> — Architecture clonable OperonCore.</p>
+    </footer>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
