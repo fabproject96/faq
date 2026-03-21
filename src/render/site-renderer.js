@@ -194,6 +194,62 @@ export function renderPage(slug) {
         <p>Utilisez le builder pour générer un brouillon FAQ + JSON-LD, puis adaptez les réponses à votre contexte métier.</p>
         <p><a class="btn" href="/tool">Ouvrir l’outil FAQ + Schema + AEO Builder</a></p>
       </section>
+
+      ${slug === ‘/’ ? `
+      <section class="article-section network-section">
+        <h2>Réseau de blogs OperonCore</h2>
+        <p class="intro">Microsites spécialisés — contenu SEO longue traîne, monétisation AdSense &amp; affiliés.</p>
+        <div class="blogs-grid">
+          <a href="https://mind.operoncore.com" target="_blank" rel="noopener" class="blog-card">
+            <span class="blog-tag">IA &amp; Philosophie</span>
+            <strong>EspritIA</strong>
+            <span class="blog-desc">Réflexions d’une IA sur l’existence, la cognition et l’humanité. Articles + vidéos YouTube.</span>
+            <span class="blog-lang">FR</span>
+          </a>
+          <a href="https://credit.operoncore.com" target="_blank" rel="noopener" class="blog-card">
+            <span class="blog-tag">Finances personnelles</span>
+            <strong>CréditNav</strong>
+            <span class="blog-desc">40 guides FR sur le crédit, les dettes et les finances personnelles au Canada.</span>
+            <span class="blog-lang">FR</span>
+          </a>
+          <a href="https://maison.operoncore.com" target="_blank" rel="noopener" class="blog-card">
+            <span class="blog-tag">Rénovation &amp; Domotique</span>
+            <strong>MaisonExpert</strong>
+            <span class="blog-desc">59 articles FR sur la rénovation, la domotique et l’entretien de la maison.</span>
+            <span class="blog-lang">FR</span>
+          </a>
+          <a href="https://patte.operoncore.com" target="_blank" rel="noopener" class="blog-card">
+            <span class="blog-tag">Animaux de compagnie</span>
+            <strong>PatteExpert</strong>
+            <span class="blog-desc">20 articles FR sur les soins, la santé et le bien-être des animaux.</span>
+            <span class="blog-lang">FR</span>
+          </a>
+          <a href="https://tech.operoncore.com" target="_blank" rel="noopener" class="blog-card">
+            <span class="blog-tag">Technologie</span>
+            <strong>TechExpert</strong>
+            <span class="blog-desc">60 comparatifs et guides tech FR avec liens affiliés Amazon.ca.</span>
+            <span class="blog-lang">FR</span>
+          </a>
+          <a href="https://margin.operoncore.com" target="_blank" rel="noopener" class="blog-card">
+            <span class="blog-tag">Business &amp; Productivité</span>
+            <strong>Margin Hub</strong>
+            <span class="blog-desc">80 playbooks EN/FR sur la rentabilité, la marge et la croissance.</span>
+            <span class="blog-lang">EN / FR</span>
+          </a>
+          <a href="https://petins.operoncore.com" target="_blank" rel="noopener" class="blog-card">
+            <span class="blog-tag">Pet Insurance</span>
+            <strong>PetIns Hub</strong>
+            <span class="blog-desc">Guides and comparisons on pet insurance plans in North America.</span>
+            <span class="blog-lang">EN</span>
+          </a>
+          <a href="https://faq.operoncore.com" target="_blank" rel="noopener" class="blog-card">
+            <span class="blog-tag">FAQ &amp; AEO</span>
+            <strong>FAQ Content Hub</strong>
+            <span class="blog-desc">Contenu FAQ optimisé pour les moteurs de réponse (AEO/GEO/SGE).</span>
+            <span class="blog-lang">FR / EN</span>
+          </a>
+        </div>
+      </section>` : ‘’}
     </article>
 
     <aside class="sidebar">

@@ -48,4 +48,11 @@ pre { min-height: 200px; white-space: pre-wrap; overflow: auto; background: #0a1
 .plan.highlight { border-color: #5f86ff; box-shadow: 0 0 0 1px #5f86ff inset; }
 .trust-points { padding-left: 18px; color: var(--muted); }
 .footer { color: var(--muted); padding: 24px 0 38px; }
+.blogs-grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+.blog-card { display: flex; flex-direction: column; gap: 6px; background: linear-gradient(180deg,#131e39,#11192f); border: 1px solid var(--border); border-radius: 14px; padding: 18px; text-decoration: none; color: var(--text); transition: border-color .2s, box-shadow .2s; }
+.blog-card:hover { border-color: #5f86ff; box-shadow: 0 0 0 1px #5f86ff44; }
+.blog-card strong { font-size: 1.05rem; }
+.blog-tag { font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; color: #7fa2ff; }
+.blog-desc { font-size: .85rem; color: var(--muted); flex: 1; }
+.blog-lang { font-size: .75rem; color: #74e2aa; align-self: flex-start; background: #0e2318; border: 1px solid #1d4a35; border-radius: 6px; padding: 2px 8px; }
 @media (max-width: 900px) { .sticky { position: static; } .row, .email-row { flex-direction: column; align-items: stretch; } }

@@ -17,6 +17,14 @@ article{background:#fff;border:1px solid var(--line);border-radius:16px;padding:
 .sidebar .card{border:1px solid var(--line);background:#fff;border-radius:12px;padding:14px;margin-bottom:14px}
 .ad-slot{border:1px dashed #b8c6eb;background:var(--soft);color:#4e6399;border-radius:12px;padding:14px;margin:20px 0;font-size:.91rem;text-align:center}
 .btn{display:inline-block;padding:10px 14px;background:var(--accent);color:#fff;border-radius:10px;text-decoration:none}.footer{padding:28px 0;color:var(--muted)}
+.network-section{border-bottom:none}
+.blogs-grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));margin-top:16px}
+.blog-card{display:flex;flex-direction:column;gap:6px;background:#f3f7ff;border:1px solid #c8d5f5;border-radius:12px;padding:16px;text-decoration:none;color:var(--text);transition:border-color .2s,box-shadow .2s}
+.blog-card:hover{border-color:var(--accent);box-shadow:0 0 0 1px #2b58ff33}
+.blog-card strong{font-size:1rem}
+.blog-tag{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:#2b58ff}
+.blog-desc{font-size:.84rem;color:var(--muted);flex:1}
+.blog-lang{font-size:.75rem;color:#1a7a45;background:#eaf8ef;border:1px solid #b7e5c3;border-radius:6px;padding:2px 8px;align-self:flex-start}
 @media(max-width:920px){.editorial-layout{grid-template-columns:1fr}nav{display:none}}
 
 .hero-media{margin:18px 0 20px}.hero-media img{display:block;width:100%;height:auto;border-radius:16px;border:1px solid var(--line);background:#eef3ff}
