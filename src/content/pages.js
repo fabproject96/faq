@@ -3007,6 +3007,1790 @@ export const pages = [
       }]
   }
 
+,
+  {
+    slug: '/guide-aeo-searchgpt-optimisation',
+    title: 'Guide AEO : Optimiser sa FAQ pour SearchGPT et l’IA',
+    description: 'Comprendre et maîtriser l’optimisation de FAQ pour les moteurs de recherche basés sur l’IA et les LLMs (SearchGPT, Perplexity).',
+    h1: 'AEO et SearchGPT : Comment structurer sa FAQ',
+    intro: 'L’essor de la recherche générative (GEO) et de l’Answer Engine Optimization (AEO) modifie la façon dont les FAQ sont comprises et restituées. Ce guide détaillé explore les stratégies pour rendre vos contenus lisibles par l’IA.',
+    ...meta({ type: 'guide', cluster: 'aeo', intents: ['informationnelle', 'technique'] }),
+    sections: [
+      {
+        h2: 'Les fondamentaux du GEO et de l’AEO',
+        paragraphs: [
+          'Le Generative Engine Optimization (GEO) consiste à structurer les informations pour qu’elles soient facilement assimilables par les Large Language Models (LLMs).',
+          'Contrairement au SEO traditionnel basé sur les mots-clés, l’AEO privilégie la clarté sémantique, la concision et la réponse directe aux requêtes des utilisateurs.'
+        ]
+      },
+      {
+        h2: 'Comparaison : SEO Classique vs AEO',
+        table: {
+          headers: ['Critère', 'SEO Classique', 'AEO / GEO'],
+          rows: [
+            ['Cible principale', 'Algorithmes de classement classiques', 'Modèles génératifs (LLMs, SearchGPT)'],
+            ['Format privilégié', 'Articles longs, densité de mots-clés', 'Réponses directes, listes, FAQ structurées'],
+            ['Objectif', 'Obtenir un clic (Trafic web)', 'Être cité comme source (Position Zéro)']
+          ]
+        }
+      },
+      {
+        h2: 'Checklist d’optimisation pour les LLMs',
+        checklist: [
+          'Utiliser des phrases courtes (Sujet-Verbe-Complément)',
+          'Structurer le contenu avec du JSON-LD FAQPage',
+          'Apporter des données uniques (statistiques, études de cas)',
+          'Maintenir une architecture d’information hiérarchique claire'
+        ],
+        callout: {
+          kind: 'info',
+          title: 'Insight Éditorial OperonCore',
+          text: 'Les LLMs priorisent la densité informationnelle. Supprimez le remplissage (fluff) et concentrez-vous sur des réponses factuelles et vérifiables.'
+        }
+      }
+    ]
+  },
+  {
+    slug: '/guide-geo-generative-engine-optimisation',
+    title: 'GEO (Generative Engine Optimization) : Le guide pratique',
+    description: 'Comprendre et maîtriser l’optimisation de FAQ pour les moteurs de recherche basés sur l’IA et les LLMs (SearchGPT, Perplexity).',
+    h1: 'GEO : Optimiser pour les moteurs génératifs',
+    intro: 'L’essor de la recherche générative (GEO) et de l’Answer Engine Optimization (AEO) modifie la façon dont les FAQ sont comprises et restituées. Ce guide détaillé explore les stratégies pour rendre vos contenus lisibles par l’IA.',
+    ...meta({ type: 'guide', cluster: 'aeo', intents: ['informationnelle', 'technique'] }),
+    sections: [
+      {
+        h2: 'Les fondamentaux du GEO et de l’AEO',
+        paragraphs: [
+          'Le Generative Engine Optimization (GEO) consiste à structurer les informations pour qu’elles soient facilement assimilables par les Large Language Models (LLMs).',
+          'Contrairement au SEO traditionnel basé sur les mots-clés, l’AEO privilégie la clarté sémantique, la concision et la réponse directe aux requêtes des utilisateurs.'
+        ]
+      },
+      {
+        h2: 'Comparaison : SEO Classique vs AEO',
+        table: {
+          headers: ['Critère', 'SEO Classique', 'AEO / GEO'],
+          rows: [
+            ['Cible principale', 'Algorithmes de classement classiques', 'Modèles génératifs (LLMs, SearchGPT)'],
+            ['Format privilégié', 'Articles longs, densité de mots-clés', 'Réponses directes, listes, FAQ structurées'],
+            ['Objectif', 'Obtenir un clic (Trafic web)', 'Être cité comme source (Position Zéro)']
+          ]
+        }
+      },
+      {
+        h2: 'Checklist d’optimisation pour les LLMs',
+        checklist: [
+          'Utiliser des phrases courtes (Sujet-Verbe-Complément)',
+          'Structurer le contenu avec du JSON-LD FAQPage',
+          'Apporter des données uniques (statistiques, études de cas)',
+          'Maintenir une architecture d’information hiérarchique claire'
+        ],
+        callout: {
+          kind: 'info',
+          title: 'Insight Éditorial OperonCore',
+          text: 'Les LLMs priorisent la densité informationnelle. Supprimez le remplissage (fluff) et concentrez-vous sur des réponses factuelles et vérifiables.'
+        }
+      }
+    ]
+  },
+  {
+    slug: '/difference-seo-geo',
+    title: 'SEO vs GEO : Comprendre les différences et synergies',
+    description: 'Comprendre et maîtriser l’optimisation de FAQ pour les moteurs de recherche basés sur l’IA et les LLMs (SearchGPT, Perplexity).',
+    h1: 'Différence entre SEO et GEO',
+    intro: 'L’essor de la recherche générative (GEO) et de l’Answer Engine Optimization (AEO) modifie la façon dont les FAQ sont comprises et restituées. Ce guide détaillé explore les stratégies pour rendre vos contenus lisibles par l’IA.',
+    ...meta({ type: 'guide', cluster: 'aeo', intents: ['informationnelle', 'technique'] }),
+    sections: [
+      {
+        h2: 'Les fondamentaux du GEO et de l’AEO',
+        paragraphs: [
+          'Le Generative Engine Optimization (GEO) consiste à structurer les informations pour qu’elles soient facilement assimilables par les Large Language Models (LLMs).',
+          'Contrairement au SEO traditionnel basé sur les mots-clés, l’AEO privilégie la clarté sémantique, la concision et la réponse directe aux requêtes des utilisateurs.'
+        ]
+      },
+      {
+        h2: 'Comparaison : SEO Classique vs AEO',
+        table: {
+          headers: ['Critère', 'SEO Classique', 'AEO / GEO'],
+          rows: [
+            ['Cible principale', 'Algorithmes de classement classiques', 'Modèles génératifs (LLMs, SearchGPT)'],
+            ['Format privilégié', 'Articles longs, densité de mots-clés', 'Réponses directes, listes, FAQ structurées'],
+            ['Objectif', 'Obtenir un clic (Trafic web)', 'Être cité comme source (Position Zéro)']
+          ]
+        }
+      },
+      {
+        h2: 'Checklist d’optimisation pour les LLMs',
+        checklist: [
+          'Utiliser des phrases courtes (Sujet-Verbe-Complément)',
+          'Structurer le contenu avec du JSON-LD FAQPage',
+          'Apporter des données uniques (statistiques, études de cas)',
+          'Maintenir une architecture d’information hiérarchique claire'
+        ],
+        callout: {
+          kind: 'info',
+          title: 'Insight Éditorial OperonCore',
+          text: 'Les LLMs priorisent la densité informationnelle. Supprimez le remplissage (fluff) et concentrez-vous sur des réponses factuelles et vérifiables.'
+        }
+      }
+    ]
+  },
+  {
+    slug: '/optimiser-faq-pour-llm',
+    title: 'Comment optimiser une FAQ pour les LLMs (ChatGPT, Claude)',
+    description: 'Comprendre et maîtriser l’optimisation de FAQ pour les moteurs de recherche basés sur l’IA et les LLMs (SearchGPT, Perplexity).',
+    h1: 'Optimiser sa FAQ pour les LLMs',
+    intro: 'L’essor de la recherche générative (GEO) et de l’Answer Engine Optimization (AEO) modifie la façon dont les FAQ sont comprises et restituées. Ce guide détaillé explore les stratégies pour rendre vos contenus lisibles par l’IA.',
+    ...meta({ type: 'guide', cluster: 'aeo', intents: ['informationnelle', 'technique'] }),
+    sections: [
+      {
+        h2: 'Les fondamentaux du GEO et de l’AEO',
+        paragraphs: [
+          'Le Generative Engine Optimization (GEO) consiste à structurer les informations pour qu’elles soient facilement assimilables par les Large Language Models (LLMs).',
+          'Contrairement au SEO traditionnel basé sur les mots-clés, l’AEO privilégie la clarté sémantique, la concision et la réponse directe aux requêtes des utilisateurs.'
+        ]
+      },
+      {
+        h2: 'Comparaison : SEO Classique vs AEO',
+        table: {
+          headers: ['Critère', 'SEO Classique', 'AEO / GEO'],
+          rows: [
+            ['Cible principale', 'Algorithmes de classement classiques', 'Modèles génératifs (LLMs, SearchGPT)'],
+            ['Format privilégié', 'Articles longs, densité de mots-clés', 'Réponses directes, listes, FAQ structurées'],
+            ['Objectif', 'Obtenir un clic (Trafic web)', 'Être cité comme source (Position Zéro)']
+          ]
+        }
+      },
+      {
+        h2: 'Checklist d’optimisation pour les LLMs',
+        checklist: [
+          'Utiliser des phrases courtes (Sujet-Verbe-Complément)',
+          'Structurer le contenu avec du JSON-LD FAQPage',
+          'Apporter des données uniques (statistiques, études de cas)',
+          'Maintenir une architecture d’information hiérarchique claire'
+        ],
+        callout: {
+          kind: 'info',
+          title: 'Insight Éditorial OperonCore',
+          text: 'Les LLMs priorisent la densité informationnelle. Supprimez le remplissage (fluff) et concentrez-vous sur des réponses factuelles et vérifiables.'
+        }
+      }
+    ]
+  },
+  {
+    slug: '/guide-perplexity-seo',
+    title: 'Perplexity SEO : Être cité comme source par l’IA',
+    description: 'Comprendre et maîtriser l’optimisation de FAQ pour les moteurs de recherche basés sur l’IA et les LLMs (SearchGPT, Perplexity).',
+    h1: 'Perplexity SEO : Optimiser ses sources',
+    intro: 'L’essor de la recherche générative (GEO) et de l’Answer Engine Optimization (AEO) modifie la façon dont les FAQ sont comprises et restituées. Ce guide détaillé explore les stratégies pour rendre vos contenus lisibles par l’IA.',
+    ...meta({ type: 'guide', cluster: 'aeo', intents: ['informationnelle', 'technique'] }),
+    sections: [
+      {
+        h2: 'Les fondamentaux du GEO et de l’AEO',
+        paragraphs: [
+          'Le Generative Engine Optimization (GEO) consiste à structurer les informations pour qu’elles soient facilement assimilables par les Large Language Models (LLMs).',
+          'Contrairement au SEO traditionnel basé sur les mots-clés, l’AEO privilégie la clarté sémantique, la concision et la réponse directe aux requêtes des utilisateurs.'
+        ]
+      },
+      {
+        h2: 'Comparaison : SEO Classique vs AEO',
+        table: {
+          headers: ['Critère', 'SEO Classique', 'AEO / GEO'],
+          rows: [
+            ['Cible principale', 'Algorithmes de classement classiques', 'Modèles génératifs (LLMs, SearchGPT)'],
+            ['Format privilégié', 'Articles longs, densité de mots-clés', 'Réponses directes, listes, FAQ structurées'],
+            ['Objectif', 'Obtenir un clic (Trafic web)', 'Être cité comme source (Position Zéro)']
+          ]
+        }
+      },
+      {
+        h2: 'Checklist d’optimisation pour les LLMs',
+        checklist: [
+          'Utiliser des phrases courtes (Sujet-Verbe-Complément)',
+          'Structurer le contenu avec du JSON-LD FAQPage',
+          'Apporter des données uniques (statistiques, études de cas)',
+          'Maintenir une architecture d’information hiérarchique claire'
+        ],
+        callout: {
+          kind: 'info',
+          title: 'Insight Éditorial OperonCore',
+          text: 'Les LLMs priorisent la densité informationnelle. Supprimez le remplissage (fluff) et concentrez-vous sur des réponses factuelles et vérifiables.'
+        }
+      }
+    ]
+  },
+  {
+    slug: '/faq-optimisation-recherche-vocale',
+    title: 'FAQ et Recherche Vocale : Les bonnes pratiques',
+    description: 'Comprendre et maîtriser l’optimisation de FAQ pour les moteurs de recherche basés sur l’IA et les LLMs (SearchGPT, Perplexity).',
+    h1: 'Optimisation de FAQ pour la recherche vocale',
+    intro: 'L’essor de la recherche générative (GEO) et de l’Answer Engine Optimization (AEO) modifie la façon dont les FAQ sont comprises et restituées. Ce guide détaillé explore les stratégies pour rendre vos contenus lisibles par l’IA.',
+    ...meta({ type: 'guide', cluster: 'aeo', intents: ['informationnelle', 'technique'] }),
+    sections: [
+      {
+        h2: 'Les fondamentaux du GEO et de l’AEO',
+        paragraphs: [
+          'Le Generative Engine Optimization (GEO) consiste à structurer les informations pour qu’elles soient facilement assimilables par les Large Language Models (LLMs).',
+          'Contrairement au SEO traditionnel basé sur les mots-clés, l’AEO privilégie la clarté sémantique, la concision et la réponse directe aux requêtes des utilisateurs.'
+        ]
+      },
+      {
+        h2: 'Comparaison : SEO Classique vs AEO',
+        table: {
+          headers: ['Critère', 'SEO Classique', 'AEO / GEO'],
+          rows: [
+            ['Cible principale', 'Algorithmes de classement classiques', 'Modèles génératifs (LLMs, SearchGPT)'],
+            ['Format privilégié', 'Articles longs, densité de mots-clés', 'Réponses directes, listes, FAQ structurées'],
+            ['Objectif', 'Obtenir un clic (Trafic web)', 'Être cité comme source (Position Zéro)']
+          ]
+        }
+      },
+      {
+        h2: 'Checklist d’optimisation pour les LLMs',
+        checklist: [
+          'Utiliser des phrases courtes (Sujet-Verbe-Complément)',
+          'Structurer le contenu avec du JSON-LD FAQPage',
+          'Apporter des données uniques (statistiques, études de cas)',
+          'Maintenir une architecture d’information hiérarchique claire'
+        ],
+        callout: {
+          kind: 'info',
+          title: 'Insight Éditorial OperonCore',
+          text: 'Les LLMs priorisent la densité informationnelle. Supprimez le remplissage (fluff) et concentrez-vous sur des réponses factuelles et vérifiables.'
+        }
+      }
+    ]
+  },
+  {
+    slug: '/impact-ia-sur-faq',
+    title: 'Impact de l’IA sur les FAQ et la recherche d’information',
+    description: 'Comprendre et maîtriser l’optimisation de FAQ pour les moteurs de recherche basés sur l’IA et les LLMs (SearchGPT, Perplexity).',
+    h1: 'L’IA et l’avenir des FAQ',
+    intro: 'L’essor de la recherche générative (GEO) et de l’Answer Engine Optimization (AEO) modifie la façon dont les FAQ sont comprises et restituées. Ce guide détaillé explore les stratégies pour rendre vos contenus lisibles par l’IA.',
+    ...meta({ type: 'guide', cluster: 'aeo', intents: ['informationnelle', 'technique'] }),
+    sections: [
+      {
+        h2: 'Les fondamentaux du GEO et de l’AEO',
+        paragraphs: [
+          'Le Generative Engine Optimization (GEO) consiste à structurer les informations pour qu’elles soient facilement assimilables par les Large Language Models (LLMs).',
+          'Contrairement au SEO traditionnel basé sur les mots-clés, l’AEO privilégie la clarté sémantique, la concision et la réponse directe aux requêtes des utilisateurs.'
+        ]
+      },
+      {
+        h2: 'Comparaison : SEO Classique vs AEO',
+        table: {
+          headers: ['Critère', 'SEO Classique', 'AEO / GEO'],
+          rows: [
+            ['Cible principale', 'Algorithmes de classement classiques', 'Modèles génératifs (LLMs, SearchGPT)'],
+            ['Format privilégié', 'Articles longs, densité de mots-clés', 'Réponses directes, listes, FAQ structurées'],
+            ['Objectif', 'Obtenir un clic (Trafic web)', 'Être cité comme source (Position Zéro)']
+          ]
+        }
+      },
+      {
+        h2: 'Checklist d’optimisation pour les LLMs',
+        checklist: [
+          'Utiliser des phrases courtes (Sujet-Verbe-Complément)',
+          'Structurer le contenu avec du JSON-LD FAQPage',
+          'Apporter des données uniques (statistiques, études de cas)',
+          'Maintenir une architecture d’information hiérarchique claire'
+        ],
+        callout: {
+          kind: 'info',
+          title: 'Insight Éditorial OperonCore',
+          text: 'Les LLMs priorisent la densité informationnelle. Supprimez le remplissage (fluff) et concentrez-vous sur des réponses factuelles et vérifiables.'
+        }
+      }
+    ]
+  },
+  {
+    slug: '/guide-reponse-directe-zero-click',
+    title: 'Guide : FAQ et position Zéro-Click en 2026',
+    description: 'Comprendre et maîtriser l’optimisation de FAQ pour les moteurs de recherche basés sur l’IA et les LLMs (SearchGPT, Perplexity).',
+    h1: 'Dominer les recherches Zéro-Click avec une FAQ',
+    intro: 'L’essor de la recherche générative (GEO) et de l’Answer Engine Optimization (AEO) modifie la façon dont les FAQ sont comprises et restituées. Ce guide détaillé explore les stratégies pour rendre vos contenus lisibles par l’IA.',
+    ...meta({ type: 'guide', cluster: 'aeo', intents: ['informationnelle', 'technique'] }),
+    sections: [
+      {
+        h2: 'Les fondamentaux du GEO et de l’AEO',
+        paragraphs: [
+          'Le Generative Engine Optimization (GEO) consiste à structurer les informations pour qu’elles soient facilement assimilables par les Large Language Models (LLMs).',
+          'Contrairement au SEO traditionnel basé sur les mots-clés, l’AEO privilégie la clarté sémantique, la concision et la réponse directe aux requêtes des utilisateurs.'
+        ]
+      },
+      {
+        h2: 'Comparaison : SEO Classique vs AEO',
+        table: {
+          headers: ['Critère', 'SEO Classique', 'AEO / GEO'],
+          rows: [
+            ['Cible principale', 'Algorithmes de classement classiques', 'Modèles génératifs (LLMs, SearchGPT)'],
+            ['Format privilégié', 'Articles longs, densité de mots-clés', 'Réponses directes, listes, FAQ structurées'],
+            ['Objectif', 'Obtenir un clic (Trafic web)', 'Être cité comme source (Position Zéro)']
+          ]
+        }
+      },
+      {
+        h2: 'Checklist d’optimisation pour les LLMs',
+        checklist: [
+          'Utiliser des phrases courtes (Sujet-Verbe-Complément)',
+          'Structurer le contenu avec du JSON-LD FAQPage',
+          'Apporter des données uniques (statistiques, études de cas)',
+          'Maintenir une architecture d’information hiérarchique claire'
+        ],
+        callout: {
+          kind: 'info',
+          title: 'Insight Éditorial OperonCore',
+          text: 'Les LLMs priorisent la densité informationnelle. Supprimez le remplissage (fluff) et concentrez-vous sur des réponses factuelles et vérifiables.'
+        }
+      }
+    ]
+  },
+  {
+    slug: '/mesurer-performance-geo',
+    title: 'Comment mesurer la performance GEO de ses contenus',
+    description: 'Comprendre et maîtriser l’optimisation de FAQ pour les moteurs de recherche basés sur l’IA et les LLMs (SearchGPT, Perplexity).',
+    h1: 'Mesurer la performance GEO',
+    intro: 'L’essor de la recherche générative (GEO) et de l’Answer Engine Optimization (AEO) modifie la façon dont les FAQ sont comprises et restituées. Ce guide détaillé explore les stratégies pour rendre vos contenus lisibles par l’IA.',
+    ...meta({ type: 'guide', cluster: 'aeo', intents: ['informationnelle', 'technique'] }),
+    sections: [
+      {
+        h2: 'Les fondamentaux du GEO et de l’AEO',
+        paragraphs: [
+          'Le Generative Engine Optimization (GEO) consiste à structurer les informations pour qu’elles soient facilement assimilables par les Large Language Models (LLMs).',
+          'Contrairement au SEO traditionnel basé sur les mots-clés, l’AEO privilégie la clarté sémantique, la concision et la réponse directe aux requêtes des utilisateurs.'
+        ]
+      },
+      {
+        h2: 'Comparaison : SEO Classique vs AEO',
+        table: {
+          headers: ['Critère', 'SEO Classique', 'AEO / GEO'],
+          rows: [
+            ['Cible principale', 'Algorithmes de classement classiques', 'Modèles génératifs (LLMs, SearchGPT)'],
+            ['Format privilégié', 'Articles longs, densité de mots-clés', 'Réponses directes, listes, FAQ structurées'],
+            ['Objectif', 'Obtenir un clic (Trafic web)', 'Être cité comme source (Position Zéro)']
+          ]
+        }
+      },
+      {
+        h2: 'Checklist d’optimisation pour les LLMs',
+        checklist: [
+          'Utiliser des phrases courtes (Sujet-Verbe-Complément)',
+          'Structurer le contenu avec du JSON-LD FAQPage',
+          'Apporter des données uniques (statistiques, études de cas)',
+          'Maintenir une architecture d’information hiérarchique claire'
+        ],
+        callout: {
+          kind: 'info',
+          title: 'Insight Éditorial OperonCore',
+          text: 'Les LLMs priorisent la densité informationnelle. Supprimez le remplissage (fluff) et concentrez-vous sur des réponses factuelles et vérifiables.'
+        }
+      }
+    ]
+  },
+  {
+    slug: '/structure-donnees-pour-ia',
+    title: 'Balisage et Structure de données pour l’IA',
+    description: 'Comprendre et maîtriser l’optimisation de FAQ pour les moteurs de recherche basés sur l’IA et les LLMs (SearchGPT, Perplexity).',
+    h1: 'Structurer ses données pour les moteurs IA',
+    intro: 'L’essor de la recherche générative (GEO) et de l’Answer Engine Optimization (AEO) modifie la façon dont les FAQ sont comprises et restituées. Ce guide détaillé explore les stratégies pour rendre vos contenus lisibles par l’IA.',
+    ...meta({ type: 'guide', cluster: 'aeo', intents: ['informationnelle', 'technique'] }),
+    sections: [
+      {
+        h2: 'Les fondamentaux du GEO et de l’AEO',
+        paragraphs: [
+          'Le Generative Engine Optimization (GEO) consiste à structurer les informations pour qu’elles soient facilement assimilables par les Large Language Models (LLMs).',
+          'Contrairement au SEO traditionnel basé sur les mots-clés, l’AEO privilégie la clarté sémantique, la concision et la réponse directe aux requêtes des utilisateurs.'
+        ]
+      },
+      {
+        h2: 'Comparaison : SEO Classique vs AEO',
+        table: {
+          headers: ['Critère', 'SEO Classique', 'AEO / GEO'],
+          rows: [
+            ['Cible principale', 'Algorithmes de classement classiques', 'Modèles génératifs (LLMs, SearchGPT)'],
+            ['Format privilégié', 'Articles longs, densité de mots-clés', 'Réponses directes, listes, FAQ structurées'],
+            ['Objectif', 'Obtenir un clic (Trafic web)', 'Être cité comme source (Position Zéro)']
+          ]
+        }
+      },
+      {
+        h2: 'Checklist d’optimisation pour les LLMs',
+        checklist: [
+          'Utiliser des phrases courtes (Sujet-Verbe-Complément)',
+          'Structurer le contenu avec du JSON-LD FAQPage',
+          'Apporter des données uniques (statistiques, études de cas)',
+          'Maintenir une architecture d’information hiérarchique claire'
+        ],
+        callout: {
+          kind: 'info',
+          title: 'Insight Éditorial OperonCore',
+          text: 'Les LLMs priorisent la densité informationnelle. Supprimez le remplissage (fluff) et concentrez-vous sur des réponses factuelles et vérifiables.'
+        }
+      }
+    ]
+  },
+  {
+    slug: '/tutoriel-faq-schema-framer',
+    title: 'Tutoriel : Ajouter un FAQ Schema sur Framer',
+    description: 'Tutoriel étape par étape pour implémenter un balisage FAQ Schema propre et sans erreur sur ce CMS.',
+    h1: 'Ajouter FAQ Schema sur Framer',
+    intro: 'Ajouter un FAQ Schema (JSON-LD) correctement sur ce CMS permet d’améliorer la visibilité de vos pages dans les résultats de recherche. Ce tutoriel détaille la méthode recommandée par l’OperonCore Editorial Board pour éviter les erreurs de balisage.',
+    ...meta({ type: 'guide', cluster: 'cms-tutorials', intents: ['pratique', 'technique'] }),
+    sections: [
+      {
+        h2: 'Prérequis avant intégration',
+        paragraphs: [
+          'Avant d’injecter du code JSON-LD, assurez-vous que la FAQ est physiquement visible par les utilisateurs sur la page. Google pénalise les microdonnées cachées.',
+          'Préparez vos questions et réponses dans un format texte simple pour faciliter la conversion en JSON.'
+        ]
+      },
+      {
+        h2: 'Méthode d’implémentation recommandée',
+        bullets: [
+          'Générer le script JSON-LD via l’outil gratuit OperonCore',
+          'Insérer le code dans la balise <head> ou avant la fermeture de </body>',
+          'Vérifier l’absence de balises conflictuelles générées par d’autres plugins'
+        ],
+        callout: {
+          kind: 'warning',
+          title: 'Erreur courante',
+          text: 'Ne copiez pas le même script FAQ sur toutes les pages de votre site. Chaque page doit avoir un schéma strictement correspondant à son contenu.'
+        }
+      },
+      {
+        h2: 'Vérification post-déploiement',
+        table: {
+          headers: ['Étape de contrôle', 'Outil recommandé', 'Résultat attendu'],
+          rows: [
+            ['Validation Syntaxique', 'Rich Results Test (Google)', 'Aucune erreur critique'],
+            ['Inspection Sémantique', 'Validator Schema.org', 'Correspondance stricte Type FAQPage'],
+            ['Suivi Indexation', 'Google Search Console', 'Rapport "FAQ" sans avertissement']
+          ]
+        }
+      }
+    ]
+  },
+  {
+    slug: '/tutoriel-faq-schema-webflow',
+    title: 'Tutoriel : Intégrer un FAQ Schema dans Webflow',
+    description: 'Tutoriel étape par étape pour implémenter un balisage FAQ Schema propre et sans erreur sur ce CMS.',
+    h1: 'Intégration FAQ Schema Webflow',
+    intro: 'Ajouter un FAQ Schema (JSON-LD) correctement sur ce CMS permet d’améliorer la visibilité de vos pages dans les résultats de recherche. Ce tutoriel détaille la méthode recommandée par l’OperonCore Editorial Board pour éviter les erreurs de balisage.',
+    ...meta({ type: 'guide', cluster: 'cms-tutorials', intents: ['pratique', 'technique'] }),
+    sections: [
+      {
+        h2: 'Prérequis avant intégration',
+        paragraphs: [
+          'Avant d’injecter du code JSON-LD, assurez-vous que la FAQ est physiquement visible par les utilisateurs sur la page. Google pénalise les microdonnées cachées.',
+          'Préparez vos questions et réponses dans un format texte simple pour faciliter la conversion en JSON.'
+        ]
+      },
+      {
+        h2: 'Méthode d’implémentation recommandée',
+        bullets: [
+          'Générer le script JSON-LD via l’outil gratuit OperonCore',
+          'Insérer le code dans la balise <head> ou avant la fermeture de </body>',
+          'Vérifier l’absence de balises conflictuelles générées par d’autres plugins'
+        ],
+        callout: {
+          kind: 'warning',
+          title: 'Erreur courante',
+          text: 'Ne copiez pas le même script FAQ sur toutes les pages de votre site. Chaque page doit avoir un schéma strictement correspondant à son contenu.'
+        }
+      },
+      {
+        h2: 'Vérification post-déploiement',
+        table: {
+          headers: ['Étape de contrôle', 'Outil recommandé', 'Résultat attendu'],
+          rows: [
+            ['Validation Syntaxique', 'Rich Results Test (Google)', 'Aucune erreur critique'],
+            ['Inspection Sémantique', 'Validator Schema.org', 'Correspondance stricte Type FAQPage'],
+            ['Suivi Indexation', 'Google Search Console', 'Rapport "FAQ" sans avertissement']
+          ]
+        }
+      }
+    ]
+  },
+  {
+    slug: '/tutoriel-faq-schema-shopify',
+    title: 'Tutoriel : FAQ Schema pour fiches produits Shopify',
+    description: 'Tutoriel étape par étape pour implémenter un balisage FAQ Schema propre et sans erreur sur ce CMS.',
+    h1: 'FAQ Schema sur Shopify',
+    intro: 'Ajouter un FAQ Schema (JSON-LD) correctement sur ce CMS permet d’améliorer la visibilité de vos pages dans les résultats de recherche. Ce tutoriel détaille la méthode recommandée par l’OperonCore Editorial Board pour éviter les erreurs de balisage.',
+    ...meta({ type: 'guide', cluster: 'cms-tutorials', intents: ['pratique', 'technique'] }),
+    sections: [
+      {
+        h2: 'Prérequis avant intégration',
+        paragraphs: [
+          'Avant d’injecter du code JSON-LD, assurez-vous que la FAQ est physiquement visible par les utilisateurs sur la page. Google pénalise les microdonnées cachées.',
+          'Préparez vos questions et réponses dans un format texte simple pour faciliter la conversion en JSON.'
+        ]
+      },
+      {
+        h2: 'Méthode d’implémentation recommandée',
+        bullets: [
+          'Générer le script JSON-LD via l’outil gratuit OperonCore',
+          'Insérer le code dans la balise <head> ou avant la fermeture de </body>',
+          'Vérifier l’absence de balises conflictuelles générées par d’autres plugins'
+        ],
+        callout: {
+          kind: 'warning',
+          title: 'Erreur courante',
+          text: 'Ne copiez pas le même script FAQ sur toutes les pages de votre site. Chaque page doit avoir un schéma strictement correspondant à son contenu.'
+        }
+      },
+      {
+        h2: 'Vérification post-déploiement',
+        table: {
+          headers: ['Étape de contrôle', 'Outil recommandé', 'Résultat attendu'],
+          rows: [
+            ['Validation Syntaxique', 'Rich Results Test (Google)', 'Aucune erreur critique'],
+            ['Inspection Sémantique', 'Validator Schema.org', 'Correspondance stricte Type FAQPage'],
+            ['Suivi Indexation', 'Google Search Console', 'Rapport "FAQ" sans avertissement']
+          ]
+        }
+      }
+    ]
+  },
+  {
+    slug: '/tutoriel-faq-schema-ghost',
+    title: 'Tutoriel : Créer un FAQ Schema propre sur Ghost CMS',
+    description: 'Tutoriel étape par étape pour implémenter un balisage FAQ Schema propre et sans erreur sur ce CMS.',
+    h1: 'FAQ Schema sur Ghost',
+    intro: 'Ajouter un FAQ Schema (JSON-LD) correctement sur ce CMS permet d’améliorer la visibilité de vos pages dans les résultats de recherche. Ce tutoriel détaille la méthode recommandée par l’OperonCore Editorial Board pour éviter les erreurs de balisage.',
+    ...meta({ type: 'guide', cluster: 'cms-tutorials', intents: ['pratique', 'technique'] }),
+    sections: [
+      {
+        h2: 'Prérequis avant intégration',
+        paragraphs: [
+          'Avant d’injecter du code JSON-LD, assurez-vous que la FAQ est physiquement visible par les utilisateurs sur la page. Google pénalise les microdonnées cachées.',
+          'Préparez vos questions et réponses dans un format texte simple pour faciliter la conversion en JSON.'
+        ]
+      },
+      {
+        h2: 'Méthode d’implémentation recommandée',
+        bullets: [
+          'Générer le script JSON-LD via l’outil gratuit OperonCore',
+          'Insérer le code dans la balise <head> ou avant la fermeture de </body>',
+          'Vérifier l’absence de balises conflictuelles générées par d’autres plugins'
+        ],
+        callout: {
+          kind: 'warning',
+          title: 'Erreur courante',
+          text: 'Ne copiez pas le même script FAQ sur toutes les pages de votre site. Chaque page doit avoir un schéma strictement correspondant à son contenu.'
+        }
+      },
+      {
+        h2: 'Vérification post-déploiement',
+        table: {
+          headers: ['Étape de contrôle', 'Outil recommandé', 'Résultat attendu'],
+          rows: [
+            ['Validation Syntaxique', 'Rich Results Test (Google)', 'Aucune erreur critique'],
+            ['Inspection Sémantique', 'Validator Schema.org', 'Correspondance stricte Type FAQPage'],
+            ['Suivi Indexation', 'Google Search Console', 'Rapport "FAQ" sans avertissement']
+          ]
+        }
+      }
+    ]
+  },
+  {
+    slug: '/tutoriel-faq-schema-wix-studio',
+    title: 'Tutoriel : FAQ Schema avancé avec Wix Studio',
+    description: 'Tutoriel étape par étape pour implémenter un balisage FAQ Schema propre et sans erreur sur ce CMS.',
+    h1: 'FAQ Schema dans Wix Studio',
+    intro: 'Ajouter un FAQ Schema (JSON-LD) correctement sur ce CMS permet d’améliorer la visibilité de vos pages dans les résultats de recherche. Ce tutoriel détaille la méthode recommandée par l’OperonCore Editorial Board pour éviter les erreurs de balisage.',
+    ...meta({ type: 'guide', cluster: 'cms-tutorials', intents: ['pratique', 'technique'] }),
+    sections: [
+      {
+        h2: 'Prérequis avant intégration',
+        paragraphs: [
+          'Avant d’injecter du code JSON-LD, assurez-vous que la FAQ est physiquement visible par les utilisateurs sur la page. Google pénalise les microdonnées cachées.',
+          'Préparez vos questions et réponses dans un format texte simple pour faciliter la conversion en JSON.'
+        ]
+      },
+      {
+        h2: 'Méthode d’implémentation recommandée',
+        bullets: [
+          'Générer le script JSON-LD via l’outil gratuit OperonCore',
+          'Insérer le code dans la balise <head> ou avant la fermeture de </body>',
+          'Vérifier l’absence de balises conflictuelles générées par d’autres plugins'
+        ],
+        callout: {
+          kind: 'warning',
+          title: 'Erreur courante',
+          text: 'Ne copiez pas le même script FAQ sur toutes les pages de votre site. Chaque page doit avoir un schéma strictement correspondant à son contenu.'
+        }
+      },
+      {
+        h2: 'Vérification post-déploiement',
+        table: {
+          headers: ['Étape de contrôle', 'Outil recommandé', 'Résultat attendu'],
+          rows: [
+            ['Validation Syntaxique', 'Rich Results Test (Google)', 'Aucune erreur critique'],
+            ['Inspection Sémantique', 'Validator Schema.org', 'Correspondance stricte Type FAQPage'],
+            ['Suivi Indexation', 'Google Search Console', 'Rapport "FAQ" sans avertissement']
+          ]
+        }
+      }
+    ]
+  },
+  {
+    slug: '/tutoriel-faq-schema-bubble',
+    title: 'Tutoriel : Intégrer JSON-LD FAQ sur Bubble.io',
+    description: 'Tutoriel étape par étape pour implémenter un balisage FAQ Schema propre et sans erreur sur ce CMS.',
+    h1: 'FAQ Schema sur Bubble',
+    intro: 'Ajouter un FAQ Schema (JSON-LD) correctement sur ce CMS permet d’améliorer la visibilité de vos pages dans les résultats de recherche. Ce tutoriel détaille la méthode recommandée par l’OperonCore Editorial Board pour éviter les erreurs de balisage.',
+    ...meta({ type: 'guide', cluster: 'cms-tutorials', intents: ['pratique', 'technique'] }),
+    sections: [
+      {
+        h2: 'Prérequis avant intégration',
+        paragraphs: [
+          'Avant d’injecter du code JSON-LD, assurez-vous que la FAQ est physiquement visible par les utilisateurs sur la page. Google pénalise les microdonnées cachées.',
+          'Préparez vos questions et réponses dans un format texte simple pour faciliter la conversion en JSON.'
+        ]
+      },
+      {
+        h2: 'Méthode d’implémentation recommandée',
+        bullets: [
+          'Générer le script JSON-LD via l’outil gratuit OperonCore',
+          'Insérer le code dans la balise <head> ou avant la fermeture de </body>',
+          'Vérifier l’absence de balises conflictuelles générées par d’autres plugins'
+        ],
+        callout: {
+          kind: 'warning',
+          title: 'Erreur courante',
+          text: 'Ne copiez pas le même script FAQ sur toutes les pages de votre site. Chaque page doit avoir un schéma strictement correspondant à son contenu.'
+        }
+      },
+      {
+        h2: 'Vérification post-déploiement',
+        table: {
+          headers: ['Étape de contrôle', 'Outil recommandé', 'Résultat attendu'],
+          rows: [
+            ['Validation Syntaxique', 'Rich Results Test (Google)', 'Aucune erreur critique'],
+            ['Inspection Sémantique', 'Validator Schema.org', 'Correspondance stricte Type FAQPage'],
+            ['Suivi Indexation', 'Google Search Console', 'Rapport "FAQ" sans avertissement']
+          ]
+        }
+      }
+    ]
+  },
+  {
+    slug: '/tutoriel-faq-schema-wordpress',
+    title: 'Tutoriel : FAQ Schema natif sur WordPress sans plugin lourd',
+    description: 'Tutoriel étape par étape pour implémenter un balisage FAQ Schema propre et sans erreur sur ce CMS.',
+    h1: 'FAQ Schema WordPress',
+    intro: 'Ajouter un FAQ Schema (JSON-LD) correctement sur ce CMS permet d’améliorer la visibilité de vos pages dans les résultats de recherche. Ce tutoriel détaille la méthode recommandée par l’OperonCore Editorial Board pour éviter les erreurs de balisage.',
+    ...meta({ type: 'guide', cluster: 'cms-tutorials', intents: ['pratique', 'technique'] }),
+    sections: [
+      {
+        h2: 'Prérequis avant intégration',
+        paragraphs: [
+          'Avant d’injecter du code JSON-LD, assurez-vous que la FAQ est physiquement visible par les utilisateurs sur la page. Google pénalise les microdonnées cachées.',
+          'Préparez vos questions et réponses dans un format texte simple pour faciliter la conversion en JSON.'
+        ]
+      },
+      {
+        h2: 'Méthode d’implémentation recommandée',
+        bullets: [
+          'Générer le script JSON-LD via l’outil gratuit OperonCore',
+          'Insérer le code dans la balise <head> ou avant la fermeture de </body>',
+          'Vérifier l’absence de balises conflictuelles générées par d’autres plugins'
+        ],
+        callout: {
+          kind: 'warning',
+          title: 'Erreur courante',
+          text: 'Ne copiez pas le même script FAQ sur toutes les pages de votre site. Chaque page doit avoir un schéma strictement correspondant à son contenu.'
+        }
+      },
+      {
+        h2: 'Vérification post-déploiement',
+        table: {
+          headers: ['Étape de contrôle', 'Outil recommandé', 'Résultat attendu'],
+          rows: [
+            ['Validation Syntaxique', 'Rich Results Test (Google)', 'Aucune erreur critique'],
+            ['Inspection Sémantique', 'Validator Schema.org', 'Correspondance stricte Type FAQPage'],
+            ['Suivi Indexation', 'Google Search Console', 'Rapport "FAQ" sans avertissement']
+          ]
+        }
+      }
+    ]
+  },
+  {
+    slug: '/tutoriel-faq-schema-prestashop',
+    title: 'Tutoriel : Optimiser PrestaShop avec un FAQ Schema',
+    description: 'Tutoriel étape par étape pour implémenter un balisage FAQ Schema propre et sans erreur sur ce CMS.',
+    h1: 'FAQ Schema PrestaShop',
+    intro: 'Ajouter un FAQ Schema (JSON-LD) correctement sur ce CMS permet d’améliorer la visibilité de vos pages dans les résultats de recherche. Ce tutoriel détaille la méthode recommandée par l’OperonCore Editorial Board pour éviter les erreurs de balisage.',
+    ...meta({ type: 'guide', cluster: 'cms-tutorials', intents: ['pratique', 'technique'] }),
+    sections: [
+      {
+        h2: 'Prérequis avant intégration',
+        paragraphs: [
+          'Avant d’injecter du code JSON-LD, assurez-vous que la FAQ est physiquement visible par les utilisateurs sur la page. Google pénalise les microdonnées cachées.',
+          'Préparez vos questions et réponses dans un format texte simple pour faciliter la conversion en JSON.'
+        ]
+      },
+      {
+        h2: 'Méthode d’implémentation recommandée',
+        bullets: [
+          'Générer le script JSON-LD via l’outil gratuit OperonCore',
+          'Insérer le code dans la balise <head> ou avant la fermeture de </body>',
+          'Vérifier l’absence de balises conflictuelles générées par d’autres plugins'
+        ],
+        callout: {
+          kind: 'warning',
+          title: 'Erreur courante',
+          text: 'Ne copiez pas le même script FAQ sur toutes les pages de votre site. Chaque page doit avoir un schéma strictement correspondant à son contenu.'
+        }
+      },
+      {
+        h2: 'Vérification post-déploiement',
+        table: {
+          headers: ['Étape de contrôle', 'Outil recommandé', 'Résultat attendu'],
+          rows: [
+            ['Validation Syntaxique', 'Rich Results Test (Google)', 'Aucune erreur critique'],
+            ['Inspection Sémantique', 'Validator Schema.org', 'Correspondance stricte Type FAQPage'],
+            ['Suivi Indexation', 'Google Search Console', 'Rapport "FAQ" sans avertissement']
+          ]
+        }
+      }
+    ]
+  },
+  {
+    slug: '/tutoriel-faq-schema-magento',
+    title: 'Tutoriel : FAQ Schema pour e-commerce Magento',
+    description: 'Tutoriel étape par étape pour implémenter un balisage FAQ Schema propre et sans erreur sur ce CMS.',
+    h1: 'FAQ Schema Magento',
+    intro: 'Ajouter un FAQ Schema (JSON-LD) correctement sur ce CMS permet d’améliorer la visibilité de vos pages dans les résultats de recherche. Ce tutoriel détaille la méthode recommandée par l’OperonCore Editorial Board pour éviter les erreurs de balisage.',
+    ...meta({ type: 'guide', cluster: 'cms-tutorials', intents: ['pratique', 'technique'] }),
+    sections: [
+      {
+        h2: 'Prérequis avant intégration',
+        paragraphs: [
+          'Avant d’injecter du code JSON-LD, assurez-vous que la FAQ est physiquement visible par les utilisateurs sur la page. Google pénalise les microdonnées cachées.',
+          'Préparez vos questions et réponses dans un format texte simple pour faciliter la conversion en JSON.'
+        ]
+      },
+      {
+        h2: 'Méthode d’implémentation recommandée',
+        bullets: [
+          'Générer le script JSON-LD via l’outil gratuit OperonCore',
+          'Insérer le code dans la balise <head> ou avant la fermeture de </body>',
+          'Vérifier l’absence de balises conflictuelles générées par d’autres plugins'
+        ],
+        callout: {
+          kind: 'warning',
+          title: 'Erreur courante',
+          text: 'Ne copiez pas le même script FAQ sur toutes les pages de votre site. Chaque page doit avoir un schéma strictement correspondant à son contenu.'
+        }
+      },
+      {
+        h2: 'Vérification post-déploiement',
+        table: {
+          headers: ['Étape de contrôle', 'Outil recommandé', 'Résultat attendu'],
+          rows: [
+            ['Validation Syntaxique', 'Rich Results Test (Google)', 'Aucune erreur critique'],
+            ['Inspection Sémantique', 'Validator Schema.org', 'Correspondance stricte Type FAQPage'],
+            ['Suivi Indexation', 'Google Search Console', 'Rapport "FAQ" sans avertissement']
+          ]
+        }
+      }
+    ]
+  },
+  {
+    slug: '/tutoriel-faq-schema-drupal',
+    title: 'Tutoriel : Déployer un FAQ Schema sur Drupal',
+    description: 'Tutoriel étape par étape pour implémenter un balisage FAQ Schema propre et sans erreur sur ce CMS.',
+    h1: 'FAQ Schema Drupal',
+    intro: 'Ajouter un FAQ Schema (JSON-LD) correctement sur ce CMS permet d’améliorer la visibilité de vos pages dans les résultats de recherche. Ce tutoriel détaille la méthode recommandée par l’OperonCore Editorial Board pour éviter les erreurs de balisage.',
+    ...meta({ type: 'guide', cluster: 'cms-tutorials', intents: ['pratique', 'technique'] }),
+    sections: [
+      {
+        h2: 'Prérequis avant intégration',
+        paragraphs: [
+          'Avant d’injecter du code JSON-LD, assurez-vous que la FAQ est physiquement visible par les utilisateurs sur la page. Google pénalise les microdonnées cachées.',
+          'Préparez vos questions et réponses dans un format texte simple pour faciliter la conversion en JSON.'
+        ]
+      },
+      {
+        h2: 'Méthode d’implémentation recommandée',
+        bullets: [
+          'Générer le script JSON-LD via l’outil gratuit OperonCore',
+          'Insérer le code dans la balise <head> ou avant la fermeture de </body>',
+          'Vérifier l’absence de balises conflictuelles générées par d’autres plugins'
+        ],
+        callout: {
+          kind: 'warning',
+          title: 'Erreur courante',
+          text: 'Ne copiez pas le même script FAQ sur toutes les pages de votre site. Chaque page doit avoir un schéma strictement correspondant à son contenu.'
+        }
+      },
+      {
+        h2: 'Vérification post-déploiement',
+        table: {
+          headers: ['Étape de contrôle', 'Outil recommandé', 'Résultat attendu'],
+          rows: [
+            ['Validation Syntaxique', 'Rich Results Test (Google)', 'Aucune erreur critique'],
+            ['Inspection Sémantique', 'Validator Schema.org', 'Correspondance stricte Type FAQPage'],
+            ['Suivi Indexation', 'Google Search Console', 'Rapport "FAQ" sans avertissement']
+          ]
+        }
+      }
+    ]
+  },
+  {
+    slug: '/tutoriel-faq-schema-joomla',
+    title: 'Tutoriel : Implémenter JSON-LD FAQ sur Joomla',
+    description: 'Tutoriel étape par étape pour implémenter un balisage FAQ Schema propre et sans erreur sur ce CMS.',
+    h1: 'FAQ Schema Joomla',
+    intro: 'Ajouter un FAQ Schema (JSON-LD) correctement sur ce CMS permet d’améliorer la visibilité de vos pages dans les résultats de recherche. Ce tutoriel détaille la méthode recommandée par l’OperonCore Editorial Board pour éviter les erreurs de balisage.',
+    ...meta({ type: 'guide', cluster: 'cms-tutorials', intents: ['pratique', 'technique'] }),
+    sections: [
+      {
+        h2: 'Prérequis avant intégration',
+        paragraphs: [
+          'Avant d’injecter du code JSON-LD, assurez-vous que la FAQ est physiquement visible par les utilisateurs sur la page. Google pénalise les microdonnées cachées.',
+          'Préparez vos questions et réponses dans un format texte simple pour faciliter la conversion en JSON.'
+        ]
+      },
+      {
+        h2: 'Méthode d’implémentation recommandée',
+        bullets: [
+          'Générer le script JSON-LD via l’outil gratuit OperonCore',
+          'Insérer le code dans la balise <head> ou avant la fermeture de </body>',
+          'Vérifier l’absence de balises conflictuelles générées par d’autres plugins'
+        ],
+        callout: {
+          kind: 'warning',
+          title: 'Erreur courante',
+          text: 'Ne copiez pas le même script FAQ sur toutes les pages de votre site. Chaque page doit avoir un schéma strictement correspondant à son contenu.'
+        }
+      },
+      {
+        h2: 'Vérification post-déploiement',
+        table: {
+          headers: ['Étape de contrôle', 'Outil recommandé', 'Résultat attendu'],
+          rows: [
+            ['Validation Syntaxique', 'Rich Results Test (Google)', 'Aucune erreur critique'],
+            ['Inspection Sémantique', 'Validator Schema.org', 'Correspondance stricte Type FAQPage'],
+            ['Suivi Indexation', 'Google Search Console', 'Rapport "FAQ" sans avertissement']
+          ]
+        }
+      }
+    ]
+  },
+  {
+    slug: '/tutoriel-faq-schema-squarespace',
+    title: 'Tutoriel : Ajouter une FAQ SEO sur Squarespace',
+    description: 'Tutoriel étape par étape pour implémenter un balisage FAQ Schema propre et sans erreur sur ce CMS.',
+    h1: 'FAQ Schema Squarespace',
+    intro: 'Ajouter un FAQ Schema (JSON-LD) correctement sur ce CMS permet d’améliorer la visibilité de vos pages dans les résultats de recherche. Ce tutoriel détaille la méthode recommandée par l’OperonCore Editorial Board pour éviter les erreurs de balisage.',
+    ...meta({ type: 'guide', cluster: 'cms-tutorials', intents: ['pratique', 'technique'] }),
+    sections: [
+      {
+        h2: 'Prérequis avant intégration',
+        paragraphs: [
+          'Avant d’injecter du code JSON-LD, assurez-vous que la FAQ est physiquement visible par les utilisateurs sur la page. Google pénalise les microdonnées cachées.',
+          'Préparez vos questions et réponses dans un format texte simple pour faciliter la conversion en JSON.'
+        ]
+      },
+      {
+        h2: 'Méthode d’implémentation recommandée',
+        bullets: [
+          'Générer le script JSON-LD via l’outil gratuit OperonCore',
+          'Insérer le code dans la balise <head> ou avant la fermeture de </body>',
+          'Vérifier l’absence de balises conflictuelles générées par d’autres plugins'
+        ],
+        callout: {
+          kind: 'warning',
+          title: 'Erreur courante',
+          text: 'Ne copiez pas le même script FAQ sur toutes les pages de votre site. Chaque page doit avoir un schéma strictement correspondant à son contenu.'
+        }
+      },
+      {
+        h2: 'Vérification post-déploiement',
+        table: {
+          headers: ['Étape de contrôle', 'Outil recommandé', 'Résultat attendu'],
+          rows: [
+            ['Validation Syntaxique', 'Rich Results Test (Google)', 'Aucune erreur critique'],
+            ['Inspection Sémantique', 'Validator Schema.org', 'Correspondance stricte Type FAQPage'],
+            ['Suivi Indexation', 'Google Search Console', 'Rapport "FAQ" sans avertissement']
+          ]
+        }
+      }
+    ]
+  },
+  {
+    slug: '/tutoriel-faq-schema-strapi',
+    title: 'Tutoriel : Gérer le FAQ Schema via API avec Strapi',
+    description: 'Tutoriel étape par étape pour implémenter un balisage FAQ Schema propre et sans erreur sur ce CMS.',
+    h1: 'FAQ Schema Strapi',
+    intro: 'Ajouter un FAQ Schema (JSON-LD) correctement sur ce CMS permet d’améliorer la visibilité de vos pages dans les résultats de recherche. Ce tutoriel détaille la méthode recommandée par l’OperonCore Editorial Board pour éviter les erreurs de balisage.',
+    ...meta({ type: 'guide', cluster: 'cms-tutorials', intents: ['pratique', 'technique'] }),
+    sections: [
+      {
+        h2: 'Prérequis avant intégration',
+        paragraphs: [
+          'Avant d’injecter du code JSON-LD, assurez-vous que la FAQ est physiquement visible par les utilisateurs sur la page. Google pénalise les microdonnées cachées.',
+          'Préparez vos questions et réponses dans un format texte simple pour faciliter la conversion en JSON.'
+        ]
+      },
+      {
+        h2: 'Méthode d’implémentation recommandée',
+        bullets: [
+          'Générer le script JSON-LD via l’outil gratuit OperonCore',
+          'Insérer le code dans la balise <head> ou avant la fermeture de </body>',
+          'Vérifier l’absence de balises conflictuelles générées par d’autres plugins'
+        ],
+        callout: {
+          kind: 'warning',
+          title: 'Erreur courante',
+          text: 'Ne copiez pas le même script FAQ sur toutes les pages de votre site. Chaque page doit avoir un schéma strictement correspondant à son contenu.'
+        }
+      },
+      {
+        h2: 'Vérification post-déploiement',
+        table: {
+          headers: ['Étape de contrôle', 'Outil recommandé', 'Résultat attendu'],
+          rows: [
+            ['Validation Syntaxique', 'Rich Results Test (Google)', 'Aucune erreur critique'],
+            ['Inspection Sémantique', 'Validator Schema.org', 'Correspondance stricte Type FAQPage'],
+            ['Suivi Indexation', 'Google Search Console', 'Rapport "FAQ" sans avertissement']
+          ]
+        }
+      }
+    ]
+  },
+  {
+    slug: '/tutoriel-faq-schema-contentful',
+    title: 'Tutoriel : Structure FAQ Schema avec Contentful',
+    description: 'Tutoriel étape par étape pour implémenter un balisage FAQ Schema propre et sans erreur sur ce CMS.',
+    h1: 'FAQ Schema Contentful',
+    intro: 'Ajouter un FAQ Schema (JSON-LD) correctement sur ce CMS permet d’améliorer la visibilité de vos pages dans les résultats de recherche. Ce tutoriel détaille la méthode recommandée par l’OperonCore Editorial Board pour éviter les erreurs de balisage.',
+    ...meta({ type: 'guide', cluster: 'cms-tutorials', intents: ['pratique', 'technique'] }),
+    sections: [
+      {
+        h2: 'Prérequis avant intégration',
+        paragraphs: [
+          'Avant d’injecter du code JSON-LD, assurez-vous que la FAQ est physiquement visible par les utilisateurs sur la page. Google pénalise les microdonnées cachées.',
+          'Préparez vos questions et réponses dans un format texte simple pour faciliter la conversion en JSON.'
+        ]
+      },
+      {
+        h2: 'Méthode d’implémentation recommandée',
+        bullets: [
+          'Générer le script JSON-LD via l’outil gratuit OperonCore',
+          'Insérer le code dans la balise <head> ou avant la fermeture de </body>',
+          'Vérifier l’absence de balises conflictuelles générées par d’autres plugins'
+        ],
+        callout: {
+          kind: 'warning',
+          title: 'Erreur courante',
+          text: 'Ne copiez pas le même script FAQ sur toutes les pages de votre site. Chaque page doit avoir un schéma strictement correspondant à son contenu.'
+        }
+      },
+      {
+        h2: 'Vérification post-déploiement',
+        table: {
+          headers: ['Étape de contrôle', 'Outil recommandé', 'Résultat attendu'],
+          rows: [
+            ['Validation Syntaxique', 'Rich Results Test (Google)', 'Aucune erreur critique'],
+            ['Inspection Sémantique', 'Validator Schema.org', 'Correspondance stricte Type FAQPage'],
+            ['Suivi Indexation', 'Google Search Console', 'Rapport "FAQ" sans avertissement']
+          ]
+        }
+      }
+    ]
+  },
+  {
+    slug: '/tutoriel-faq-schema-hubspot',
+    title: 'Tutoriel : Intégrer FAQ Schema sur les landing pages HubSpot',
+    description: 'Tutoriel étape par étape pour implémenter un balisage FAQ Schema propre et sans erreur sur ce CMS.',
+    h1: 'FAQ Schema HubSpot',
+    intro: 'Ajouter un FAQ Schema (JSON-LD) correctement sur ce CMS permet d’améliorer la visibilité de vos pages dans les résultats de recherche. Ce tutoriel détaille la méthode recommandée par l’OperonCore Editorial Board pour éviter les erreurs de balisage.',
+    ...meta({ type: 'guide', cluster: 'cms-tutorials', intents: ['pratique', 'technique'] }),
+    sections: [
+      {
+        h2: 'Prérequis avant intégration',
+        paragraphs: [
+          'Avant d’injecter du code JSON-LD, assurez-vous que la FAQ est physiquement visible par les utilisateurs sur la page. Google pénalise les microdonnées cachées.',
+          'Préparez vos questions et réponses dans un format texte simple pour faciliter la conversion en JSON.'
+        ]
+      },
+      {
+        h2: 'Méthode d’implémentation recommandée',
+        bullets: [
+          'Générer le script JSON-LD via l’outil gratuit OperonCore',
+          'Insérer le code dans la balise <head> ou avant la fermeture de </body>',
+          'Vérifier l’absence de balises conflictuelles générées par d’autres plugins'
+        ],
+        callout: {
+          kind: 'warning',
+          title: 'Erreur courante',
+          text: 'Ne copiez pas le même script FAQ sur toutes les pages de votre site. Chaque page doit avoir un schéma strictement correspondant à son contenu.'
+        }
+      },
+      {
+        h2: 'Vérification post-déploiement',
+        table: {
+          headers: ['Étape de contrôle', 'Outil recommandé', 'Résultat attendu'],
+          rows: [
+            ['Validation Syntaxique', 'Rich Results Test (Google)', 'Aucune erreur critique'],
+            ['Inspection Sémantique', 'Validator Schema.org', 'Correspondance stricte Type FAQPage'],
+            ['Suivi Indexation', 'Google Search Console', 'Rapport "FAQ" sans avertissement']
+          ]
+        }
+      }
+    ]
+  },
+  {
+    slug: '/examples/tatoueur',
+    title: 'Exemples FAQ Tatoueur : Hygiène, prix et cicatrisation',
+    description: 'Modèles de FAQ spécifiques à cette profession. Questions longues traînes, structure recommandée et conseils de conversion.',
+    h1: 'FAQ Tatoueur : Rassurer et cadrer',
+    intro: 'Dans ce secteur, la FAQ est un outil de conversion puissant. Elle permet de répondre aux objections récurrentes, de rassurer le prospect et de qualifier les demandes avant le premier contact. Voici notre sélection de questions éprouvées.',
+    ...meta({ type: 'example', cluster: 'examples-metiers', intents: ['locale', 'semi-transactionnelle'] }),
+    sections: [
+      {
+        h2: 'Questions indispensables pour la conversion',
+        bullets: [
+          'Quels sont vos tarifs moyens ou comment obtenir un devis ?',
+          'Quels sont vos délais de disponibilité ?',
+          'Comment se déroule la première rencontre/prestation ?',
+          'Quelles sont vos garanties ou modalités d’annulation ?'
+        ]
+      },
+      {
+        h2: 'Structuration des objections clients',
+        table: {
+          headers: ['Objection typique', 'Approche de réponse FAQ', 'Exemple de formulation'],
+          rows: [
+            ['Prix perçu comme élevé', 'Mettre en avant la valeur et la durabilité', '"Notre tarif inclut un suivi complet sur 6 mois..."'],
+            ['Peur de l’inconnu', 'Détailler le processus pas-à-pas', '"La première séance consiste en un bilan gratuit de 30 min..."'],
+            ['Doute sur la zone/logistique', 'Être transparent sur la zone desservie', '"Nous intervenons dans un rayon de 30km autour de..."']
+          ]
+        },
+        callout: {
+          kind: 'success',
+          title: 'Conseil OperonCore',
+          text: 'Ne donnez jamais de réponses de type "Ça dépend". Donnez des fourchettes de prix ou expliquez concrètement les variables qui influencent le tarif final.'
+        }
+      },
+      {
+        h2: 'Checklist d’adaptation de cette FAQ',
+        checklist: [
+          'Personnaliser les délais avec vos capacités réelles',
+          'Ajouter les noms des villes ou quartiers desservis',
+          'Remplacer les tarifs d’exemple par votre grille',
+          'Ajouter un Call-to-Action clair à la fin de la FAQ'
+        ]
+      }
+    ]
+  },
+  {
+    slug: '/examples/gite-chambre-hotes',
+    title: 'Exemples FAQ Gîtes : Réservation, horaires et commodités',
+    description: 'Modèles de FAQ spécifiques à cette profession. Questions longues traînes, structure recommandée et conseils de conversion.',
+    h1: 'FAQ Gîtes et Chambres d’hôtes',
+    intro: 'Dans ce secteur, la FAQ est un outil de conversion puissant. Elle permet de répondre aux objections récurrentes, de rassurer le prospect et de qualifier les demandes avant le premier contact. Voici notre sélection de questions éprouvées.',
+    ...meta({ type: 'example', cluster: 'examples-metiers', intents: ['locale', 'semi-transactionnelle'] }),
+    sections: [
+      {
+        h2: 'Questions indispensables pour la conversion',
+        bullets: [
+          'Quels sont vos tarifs moyens ou comment obtenir un devis ?',
+          'Quels sont vos délais de disponibilité ?',
+          'Comment se déroule la première rencontre/prestation ?',
+          'Quelles sont vos garanties ou modalités d’annulation ?'
+        ]
+      },
+      {
+        h2: 'Structuration des objections clients',
+        table: {
+          headers: ['Objection typique', 'Approche de réponse FAQ', 'Exemple de formulation'],
+          rows: [
+            ['Prix perçu comme élevé', 'Mettre en avant la valeur et la durabilité', '"Notre tarif inclut un suivi complet sur 6 mois..."'],
+            ['Peur de l’inconnu', 'Détailler le processus pas-à-pas', '"La première séance consiste en un bilan gratuit de 30 min..."'],
+            ['Doute sur la zone/logistique', 'Être transparent sur la zone desservie', '"Nous intervenons dans un rayon de 30km autour de..."']
+          ]
+        },
+        callout: {
+          kind: 'success',
+          title: 'Conseil OperonCore',
+          text: 'Ne donnez jamais de réponses de type "Ça dépend". Donnez des fourchettes de prix ou expliquez concrètement les variables qui influencent le tarif final.'
+        }
+      },
+      {
+        h2: 'Checklist d’adaptation de cette FAQ',
+        checklist: [
+          'Personnaliser les délais avec vos capacités réelles',
+          'Ajouter les noms des villes ou quartiers desservis',
+          'Remplacer les tarifs d’exemple par votre grille',
+          'Ajouter un Call-to-Action clair à la fin de la FAQ'
+        ]
+      }
+    ]
+  },
+  {
+    slug: '/examples/coach-sportif',
+    title: 'Exemples FAQ Coach Sportif : Programmes, tarifs et suivi',
+    description: 'Modèles de FAQ spécifiques à cette profession. Questions longues traînes, structure recommandée et conseils de conversion.',
+    h1: 'FAQ Coach Sportif',
+    intro: 'Dans ce secteur, la FAQ est un outil de conversion puissant. Elle permet de répondre aux objections récurrentes, de rassurer le prospect et de qualifier les demandes avant le premier contact. Voici notre sélection de questions éprouvées.',
+    ...meta({ type: 'example', cluster: 'examples-metiers', intents: ['locale', 'semi-transactionnelle'] }),
+    sections: [
+      {
+        h2: 'Questions indispensables pour la conversion',
+        bullets: [
+          'Quels sont vos tarifs moyens ou comment obtenir un devis ?',
+          'Quels sont vos délais de disponibilité ?',
+          'Comment se déroule la première rencontre/prestation ?',
+          'Quelles sont vos garanties ou modalités d’annulation ?'
+        ]
+      },
+      {
+        h2: 'Structuration des objections clients',
+        table: {
+          headers: ['Objection typique', 'Approche de réponse FAQ', 'Exemple de formulation'],
+          rows: [
+            ['Prix perçu comme élevé', 'Mettre en avant la valeur et la durabilité', '"Notre tarif inclut un suivi complet sur 6 mois..."'],
+            ['Peur de l’inconnu', 'Détailler le processus pas-à-pas', '"La première séance consiste en un bilan gratuit de 30 min..."'],
+            ['Doute sur la zone/logistique', 'Être transparent sur la zone desservie', '"Nous intervenons dans un rayon de 30km autour de..."']
+          ]
+        },
+        callout: {
+          kind: 'success',
+          title: 'Conseil OperonCore',
+          text: 'Ne donnez jamais de réponses de type "Ça dépend". Donnez des fourchettes de prix ou expliquez concrètement les variables qui influencent le tarif final.'
+        }
+      },
+      {
+        h2: 'Checklist d’adaptation de cette FAQ',
+        checklist: [
+          'Personnaliser les délais avec vos capacités réelles',
+          'Ajouter les noms des villes ou quartiers desservis',
+          'Remplacer les tarifs d’exemple par votre grille',
+          'Ajouter un Call-to-Action clair à la fin de la FAQ'
+        ]
+      }
+    ]
+  },
+  {
+    slug: '/examples/photographe',
+    title: 'Exemples FAQ Photographe : Livrables, retouches et droits',
+    description: 'Modèles de FAQ spécifiques à cette profession. Questions longues traînes, structure recommandée et conseils de conversion.',
+    h1: 'FAQ Photographe',
+    intro: 'Dans ce secteur, la FAQ est un outil de conversion puissant. Elle permet de répondre aux objections récurrentes, de rassurer le prospect et de qualifier les demandes avant le premier contact. Voici notre sélection de questions éprouvées.',
+    ...meta({ type: 'example', cluster: 'examples-metiers', intents: ['locale', 'semi-transactionnelle'] }),
+    sections: [
+      {
+        h2: 'Questions indispensables pour la conversion',
+        bullets: [
+          'Quels sont vos tarifs moyens ou comment obtenir un devis ?',
+          'Quels sont vos délais de disponibilité ?',
+          'Comment se déroule la première rencontre/prestation ?',
+          'Quelles sont vos garanties ou modalités d’annulation ?'
+        ]
+      },
+      {
+        h2: 'Structuration des objections clients',
+        table: {
+          headers: ['Objection typique', 'Approche de réponse FAQ', 'Exemple de formulation'],
+          rows: [
+            ['Prix perçu comme élevé', 'Mettre en avant la valeur et la durabilité', '"Notre tarif inclut un suivi complet sur 6 mois..."'],
+            ['Peur de l’inconnu', 'Détailler le processus pas-à-pas', '"La première séance consiste en un bilan gratuit de 30 min..."'],
+            ['Doute sur la zone/logistique', 'Être transparent sur la zone desservie', '"Nous intervenons dans un rayon de 30km autour de..."']
+          ]
+        },
+        callout: {
+          kind: 'success',
+          title: 'Conseil OperonCore',
+          text: 'Ne donnez jamais de réponses de type "Ça dépend". Donnez des fourchettes de prix ou expliquez concrètement les variables qui influencent le tarif final.'
+        }
+      },
+      {
+        h2: 'Checklist d’adaptation de cette FAQ',
+        checklist: [
+          'Personnaliser les délais avec vos capacités réelles',
+          'Ajouter les noms des villes ou quartiers desservis',
+          'Remplacer les tarifs d’exemple par votre grille',
+          'Ajouter un Call-to-Action clair à la fin de la FAQ'
+        ]
+      }
+    ]
+  },
+  {
+    slug: '/examples/mariage-wedding-planner',
+    title: 'Exemples FAQ Wedding Planner : Budget, prestataires et délais',
+    description: 'Modèles de FAQ spécifiques à cette profession. Questions longues traînes, structure recommandée et conseils de conversion.',
+    h1: 'FAQ Mariage et Wedding Planner',
+    intro: 'Dans ce secteur, la FAQ est un outil de conversion puissant. Elle permet de répondre aux objections récurrentes, de rassurer le prospect et de qualifier les demandes avant le premier contact. Voici notre sélection de questions éprouvées.',
+    ...meta({ type: 'example', cluster: 'examples-metiers', intents: ['locale', 'semi-transactionnelle'] }),
+    sections: [
+      {
+        h2: 'Questions indispensables pour la conversion',
+        bullets: [
+          'Quels sont vos tarifs moyens ou comment obtenir un devis ?',
+          'Quels sont vos délais de disponibilité ?',
+          'Comment se déroule la première rencontre/prestation ?',
+          'Quelles sont vos garanties ou modalités d’annulation ?'
+        ]
+      },
+      {
+        h2: 'Structuration des objections clients',
+        table: {
+          headers: ['Objection typique', 'Approche de réponse FAQ', 'Exemple de formulation'],
+          rows: [
+            ['Prix perçu comme élevé', 'Mettre en avant la valeur et la durabilité', '"Notre tarif inclut un suivi complet sur 6 mois..."'],
+            ['Peur de l’inconnu', 'Détailler le processus pas-à-pas', '"La première séance consiste en un bilan gratuit de 30 min..."'],
+            ['Doute sur la zone/logistique', 'Être transparent sur la zone desservie', '"Nous intervenons dans un rayon de 30km autour de..."']
+          ]
+        },
+        callout: {
+          kind: 'success',
+          title: 'Conseil OperonCore',
+          text: 'Ne donnez jamais de réponses de type "Ça dépend". Donnez des fourchettes de prix ou expliquez concrètement les variables qui influencent le tarif final.'
+        }
+      },
+      {
+        h2: 'Checklist d’adaptation de cette FAQ',
+        checklist: [
+          'Personnaliser les délais avec vos capacités réelles',
+          'Ajouter les noms des villes ou quartiers desservis',
+          'Remplacer les tarifs d’exemple par votre grille',
+          'Ajouter un Call-to-Action clair à la fin de la FAQ'
+        ]
+      }
+    ]
+  },
+  {
+    slug: '/examples/salle-de-sport',
+    title: 'Exemples FAQ Salle de Sport : Abonnements, cours et accès',
+    description: 'Modèles de FAQ spécifiques à cette profession. Questions longues traînes, structure recommandée et conseils de conversion.',
+    h1: 'FAQ Salle de Sport',
+    intro: 'Dans ce secteur, la FAQ est un outil de conversion puissant. Elle permet de répondre aux objections récurrentes, de rassurer le prospect et de qualifier les demandes avant le premier contact. Voici notre sélection de questions éprouvées.',
+    ...meta({ type: 'example', cluster: 'examples-metiers', intents: ['locale', 'semi-transactionnelle'] }),
+    sections: [
+      {
+        h2: 'Questions indispensables pour la conversion',
+        bullets: [
+          'Quels sont vos tarifs moyens ou comment obtenir un devis ?',
+          'Quels sont vos délais de disponibilité ?',
+          'Comment se déroule la première rencontre/prestation ?',
+          'Quelles sont vos garanties ou modalités d’annulation ?'
+        ]
+      },
+      {
+        h2: 'Structuration des objections clients',
+        table: {
+          headers: ['Objection typique', 'Approche de réponse FAQ', 'Exemple de formulation'],
+          rows: [
+            ['Prix perçu comme élevé', 'Mettre en avant la valeur et la durabilité', '"Notre tarif inclut un suivi complet sur 6 mois..."'],
+            ['Peur de l’inconnu', 'Détailler le processus pas-à-pas', '"La première séance consiste en un bilan gratuit de 30 min..."'],
+            ['Doute sur la zone/logistique', 'Être transparent sur la zone desservie', '"Nous intervenons dans un rayon de 30km autour de..."']
+          ]
+        },
+        callout: {
+          kind: 'success',
+          title: 'Conseil OperonCore',
+          text: 'Ne donnez jamais de réponses de type "Ça dépend". Donnez des fourchettes de prix ou expliquez concrètement les variables qui influencent le tarif final.'
+        }
+      },
+      {
+        h2: 'Checklist d’adaptation de cette FAQ',
+        checklist: [
+          'Personnaliser les délais avec vos capacités réelles',
+          'Ajouter les noms des villes ou quartiers desservis',
+          'Remplacer les tarifs d’exemple par votre grille',
+          'Ajouter un Call-to-Action clair à la fin de la FAQ'
+        ]
+      }
+    ]
+  },
+  {
+    slug: '/examples/garage-auto',
+    title: 'Exemples FAQ Garage Auto : Devis, réparations et prêts',
+    description: 'Modèles de FAQ spécifiques à cette profession. Questions longues traînes, structure recommandée et conseils de conversion.',
+    h1: 'FAQ Garage Auto',
+    intro: 'Dans ce secteur, la FAQ est un outil de conversion puissant. Elle permet de répondre aux objections récurrentes, de rassurer le prospect et de qualifier les demandes avant le premier contact. Voici notre sélection de questions éprouvées.',
+    ...meta({ type: 'example', cluster: 'examples-metiers', intents: ['locale', 'semi-transactionnelle'] }),
+    sections: [
+      {
+        h2: 'Questions indispensables pour la conversion',
+        bullets: [
+          'Quels sont vos tarifs moyens ou comment obtenir un devis ?',
+          'Quels sont vos délais de disponibilité ?',
+          'Comment se déroule la première rencontre/prestation ?',
+          'Quelles sont vos garanties ou modalités d’annulation ?'
+        ]
+      },
+      {
+        h2: 'Structuration des objections clients',
+        table: {
+          headers: ['Objection typique', 'Approche de réponse FAQ', 'Exemple de formulation'],
+          rows: [
+            ['Prix perçu comme élevé', 'Mettre en avant la valeur et la durabilité', '"Notre tarif inclut un suivi complet sur 6 mois..."'],
+            ['Peur de l’inconnu', 'Détailler le processus pas-à-pas', '"La première séance consiste en un bilan gratuit de 30 min..."'],
+            ['Doute sur la zone/logistique', 'Être transparent sur la zone desservie', '"Nous intervenons dans un rayon de 30km autour de..."']
+          ]
+        },
+        callout: {
+          kind: 'success',
+          title: 'Conseil OperonCore',
+          text: 'Ne donnez jamais de réponses de type "Ça dépend". Donnez des fourchettes de prix ou expliquez concrètement les variables qui influencent le tarif final.'
+        }
+      },
+      {
+        h2: 'Checklist d’adaptation de cette FAQ',
+        checklist: [
+          'Personnaliser les délais avec vos capacités réelles',
+          'Ajouter les noms des villes ou quartiers desservis',
+          'Remplacer les tarifs d’exemple par votre grille',
+          'Ajouter un Call-to-Action clair à la fin de la FAQ'
+        ]
+      }
+    ]
+  },
+  {
+    slug: '/examples/auto-ecole',
+    title: 'Exemples FAQ Auto-école : Code, conduite et CPF',
+    description: 'Modèles de FAQ spécifiques à cette profession. Questions longues traînes, structure recommandée et conseils de conversion.',
+    h1: 'FAQ Auto-école',
+    intro: 'Dans ce secteur, la FAQ est un outil de conversion puissant. Elle permet de répondre aux objections récurrentes, de rassurer le prospect et de qualifier les demandes avant le premier contact. Voici notre sélection de questions éprouvées.',
+    ...meta({ type: 'example', cluster: 'examples-metiers', intents: ['locale', 'semi-transactionnelle'] }),
+    sections: [
+      {
+        h2: 'Questions indispensables pour la conversion',
+        bullets: [
+          'Quels sont vos tarifs moyens ou comment obtenir un devis ?',
+          'Quels sont vos délais de disponibilité ?',
+          'Comment se déroule la première rencontre/prestation ?',
+          'Quelles sont vos garanties ou modalités d’annulation ?'
+        ]
+      },
+      {
+        h2: 'Structuration des objections clients',
+        table: {
+          headers: ['Objection typique', 'Approche de réponse FAQ', 'Exemple de formulation'],
+          rows: [
+            ['Prix perçu comme élevé', 'Mettre en avant la valeur et la durabilité', '"Notre tarif inclut un suivi complet sur 6 mois..."'],
+            ['Peur de l’inconnu', 'Détailler le processus pas-à-pas', '"La première séance consiste en un bilan gratuit de 30 min..."'],
+            ['Doute sur la zone/logistique', 'Être transparent sur la zone desservie', '"Nous intervenons dans un rayon de 30km autour de..."']
+          ]
+        },
+        callout: {
+          kind: 'success',
+          title: 'Conseil OperonCore',
+          text: 'Ne donnez jamais de réponses de type "Ça dépend". Donnez des fourchettes de prix ou expliquez concrètement les variables qui influencent le tarif final.'
+        }
+      },
+      {
+        h2: 'Checklist d’adaptation de cette FAQ',
+        checklist: [
+          'Personnaliser les délais avec vos capacités réelles',
+          'Ajouter les noms des villes ou quartiers desservis',
+          'Remplacer les tarifs d’exemple par votre grille',
+          'Ajouter un Call-to-Action clair à la fin de la FAQ'
+        ]
+      }
+    ]
+  },
+  {
+    slug: '/examples/salon-de-coiffure',
+    title: 'Exemples FAQ Salon de Coiffure : Tarifs, produits et rendez-vous',
+    description: 'Modèles de FAQ spécifiques à cette profession. Questions longues traînes, structure recommandée et conseils de conversion.',
+    h1: 'FAQ Salon de Coiffure',
+    intro: 'Dans ce secteur, la FAQ est un outil de conversion puissant. Elle permet de répondre aux objections récurrentes, de rassurer le prospect et de qualifier les demandes avant le premier contact. Voici notre sélection de questions éprouvées.',
+    ...meta({ type: 'example', cluster: 'examples-metiers', intents: ['locale', 'semi-transactionnelle'] }),
+    sections: [
+      {
+        h2: 'Questions indispensables pour la conversion',
+        bullets: [
+          'Quels sont vos tarifs moyens ou comment obtenir un devis ?',
+          'Quels sont vos délais de disponibilité ?',
+          'Comment se déroule la première rencontre/prestation ?',
+          'Quelles sont vos garanties ou modalités d’annulation ?'
+        ]
+      },
+      {
+        h2: 'Structuration des objections clients',
+        table: {
+          headers: ['Objection typique', 'Approche de réponse FAQ', 'Exemple de formulation'],
+          rows: [
+            ['Prix perçu comme élevé', 'Mettre en avant la valeur et la durabilité', '"Notre tarif inclut un suivi complet sur 6 mois..."'],
+            ['Peur de l’inconnu', 'Détailler le processus pas-à-pas', '"La première séance consiste en un bilan gratuit de 30 min..."'],
+            ['Doute sur la zone/logistique', 'Être transparent sur la zone desservie', '"Nous intervenons dans un rayon de 30km autour de..."']
+          ]
+        },
+        callout: {
+          kind: 'success',
+          title: 'Conseil OperonCore',
+          text: 'Ne donnez jamais de réponses de type "Ça dépend". Donnez des fourchettes de prix ou expliquez concrètement les variables qui influencent le tarif final.'
+        }
+      },
+      {
+        h2: 'Checklist d’adaptation de cette FAQ',
+        checklist: [
+          'Personnaliser les délais avec vos capacités réelles',
+          'Ajouter les noms des villes ou quartiers desservis',
+          'Remplacer les tarifs d’exemple par votre grille',
+          'Ajouter un Call-to-Action clair à la fin de la FAQ'
+        ]
+      }
+    ]
+  },
+  {
+    slug: '/examples/institut-de-beaute',
+    title: 'Exemples FAQ Institut de Beauté : Soins, durée et réservation',
+    description: 'Modèles de FAQ spécifiques à cette profession. Questions longues traînes, structure recommandée et conseils de conversion.',
+    h1: 'FAQ Institut de Beauté',
+    intro: 'Dans ce secteur, la FAQ est un outil de conversion puissant. Elle permet de répondre aux objections récurrentes, de rassurer le prospect et de qualifier les demandes avant le premier contact. Voici notre sélection de questions éprouvées.',
+    ...meta({ type: 'example', cluster: 'examples-metiers', intents: ['locale', 'semi-transactionnelle'] }),
+    sections: [
+      {
+        h2: 'Questions indispensables pour la conversion',
+        bullets: [
+          'Quels sont vos tarifs moyens ou comment obtenir un devis ?',
+          'Quels sont vos délais de disponibilité ?',
+          'Comment se déroule la première rencontre/prestation ?',
+          'Quelles sont vos garanties ou modalités d’annulation ?'
+        ]
+      },
+      {
+        h2: 'Structuration des objections clients',
+        table: {
+          headers: ['Objection typique', 'Approche de réponse FAQ', 'Exemple de formulation'],
+          rows: [
+            ['Prix perçu comme élevé', 'Mettre en avant la valeur et la durabilité', '"Notre tarif inclut un suivi complet sur 6 mois..."'],
+            ['Peur de l’inconnu', 'Détailler le processus pas-à-pas', '"La première séance consiste en un bilan gratuit de 30 min..."'],
+            ['Doute sur la zone/logistique', 'Être transparent sur la zone desservie', '"Nous intervenons dans un rayon de 30km autour de..."']
+          ]
+        },
+        callout: {
+          kind: 'success',
+          title: 'Conseil OperonCore',
+          text: 'Ne donnez jamais de réponses de type "Ça dépend". Donnez des fourchettes de prix ou expliquez concrètement les variables qui influencent le tarif final.'
+        }
+      },
+      {
+        h2: 'Checklist d’adaptation de cette FAQ',
+        checklist: [
+          'Personnaliser les délais avec vos capacités réelles',
+          'Ajouter les noms des villes ou quartiers desservis',
+          'Remplacer les tarifs d’exemple par votre grille',
+          'Ajouter un Call-to-Action clair à la fin de la FAQ'
+        ]
+      }
+    ]
+  },
+  {
+    slug: '/examples/dermatologue-esthetique',
+    title: 'Exemples FAQ Dermatologue Esthétique : Soins, douleurs et suites',
+    description: 'Modèles de FAQ spécifiques à cette profession. Questions longues traînes, structure recommandée et conseils de conversion.',
+    h1: 'FAQ Dermatologue Esthétique',
+    intro: 'Dans ce secteur, la FAQ est un outil de conversion puissant. Elle permet de répondre aux objections récurrentes, de rassurer le prospect et de qualifier les demandes avant le premier contact. Voici notre sélection de questions éprouvées.',
+    ...meta({ type: 'example', cluster: 'examples-metiers', intents: ['locale', 'semi-transactionnelle'] }),
+    sections: [
+      {
+        h2: 'Questions indispensables pour la conversion',
+        bullets: [
+          'Quels sont vos tarifs moyens ou comment obtenir un devis ?',
+          'Quels sont vos délais de disponibilité ?',
+          'Comment se déroule la première rencontre/prestation ?',
+          'Quelles sont vos garanties ou modalités d’annulation ?'
+        ]
+      },
+      {
+        h2: 'Structuration des objections clients',
+        table: {
+          headers: ['Objection typique', 'Approche de réponse FAQ', 'Exemple de formulation'],
+          rows: [
+            ['Prix perçu comme élevé', 'Mettre en avant la valeur et la durabilité', '"Notre tarif inclut un suivi complet sur 6 mois..."'],
+            ['Peur de l’inconnu', 'Détailler le processus pas-à-pas', '"La première séance consiste en un bilan gratuit de 30 min..."'],
+            ['Doute sur la zone/logistique', 'Être transparent sur la zone desservie', '"Nous intervenons dans un rayon de 30km autour de..."']
+          ]
+        },
+        callout: {
+          kind: 'success',
+          title: 'Conseil OperonCore',
+          text: 'Ne donnez jamais de réponses de type "Ça dépend". Donnez des fourchettes de prix ou expliquez concrètement les variables qui influencent le tarif final.'
+        }
+      },
+      {
+        h2: 'Checklist d’adaptation de cette FAQ',
+        checklist: [
+          'Personnaliser les délais avec vos capacités réelles',
+          'Ajouter les noms des villes ou quartiers desservis',
+          'Remplacer les tarifs d’exemple par votre grille',
+          'Ajouter un Call-to-Action clair à la fin de la FAQ'
+        ]
+      }
+    ]
+  },
+  {
+    slug: '/examples/veterinaire',
+    title: 'Exemples FAQ Vétérinaire : Urgences, vaccins et tarifs',
+    description: 'Modèles de FAQ spécifiques à cette profession. Questions longues traînes, structure recommandée et conseils de conversion.',
+    h1: 'FAQ Vétérinaire',
+    intro: 'Dans ce secteur, la FAQ est un outil de conversion puissant. Elle permet de répondre aux objections récurrentes, de rassurer le prospect et de qualifier les demandes avant le premier contact. Voici notre sélection de questions éprouvées.',
+    ...meta({ type: 'example', cluster: 'examples-metiers', intents: ['locale', 'semi-transactionnelle'] }),
+    sections: [
+      {
+        h2: 'Questions indispensables pour la conversion',
+        bullets: [
+          'Quels sont vos tarifs moyens ou comment obtenir un devis ?',
+          'Quels sont vos délais de disponibilité ?',
+          'Comment se déroule la première rencontre/prestation ?',
+          'Quelles sont vos garanties ou modalités d’annulation ?'
+        ]
+      },
+      {
+        h2: 'Structuration des objections clients',
+        table: {
+          headers: ['Objection typique', 'Approche de réponse FAQ', 'Exemple de formulation'],
+          rows: [
+            ['Prix perçu comme élevé', 'Mettre en avant la valeur et la durabilité', '"Notre tarif inclut un suivi complet sur 6 mois..."'],
+            ['Peur de l’inconnu', 'Détailler le processus pas-à-pas', '"La première séance consiste en un bilan gratuit de 30 min..."'],
+            ['Doute sur la zone/logistique', 'Être transparent sur la zone desservie', '"Nous intervenons dans un rayon de 30km autour de..."']
+          ]
+        },
+        callout: {
+          kind: 'success',
+          title: 'Conseil OperonCore',
+          text: 'Ne donnez jamais de réponses de type "Ça dépend". Donnez des fourchettes de prix ou expliquez concrètement les variables qui influencent le tarif final.'
+        }
+      },
+      {
+        h2: 'Checklist d’adaptation de cette FAQ',
+        checklist: [
+          'Personnaliser les délais avec vos capacités réelles',
+          'Ajouter les noms des villes ou quartiers desservis',
+          'Remplacer les tarifs d’exemple par votre grille',
+          'Ajouter un Call-to-Action clair à la fin de la FAQ'
+        ]
+      }
+    ]
+  },
+  {
+    slug: '/examples/garde-meuble',
+    title: 'Exemples FAQ Garde-meuble : Accès, sécurité et volumes',
+    description: 'Modèles de FAQ spécifiques à cette profession. Questions longues traînes, structure recommandée et conseils de conversion.',
+    h1: 'FAQ Garde-meuble',
+    intro: 'Dans ce secteur, la FAQ est un outil de conversion puissant. Elle permet de répondre aux objections récurrentes, de rassurer le prospect et de qualifier les demandes avant le premier contact. Voici notre sélection de questions éprouvées.',
+    ...meta({ type: 'example', cluster: 'examples-metiers', intents: ['locale', 'semi-transactionnelle'] }),
+    sections: [
+      {
+        h2: 'Questions indispensables pour la conversion',
+        bullets: [
+          'Quels sont vos tarifs moyens ou comment obtenir un devis ?',
+          'Quels sont vos délais de disponibilité ?',
+          'Comment se déroule la première rencontre/prestation ?',
+          'Quelles sont vos garanties ou modalités d’annulation ?'
+        ]
+      },
+      {
+        h2: 'Structuration des objections clients',
+        table: {
+          headers: ['Objection typique', 'Approche de réponse FAQ', 'Exemple de formulation'],
+          rows: [
+            ['Prix perçu comme élevé', 'Mettre en avant la valeur et la durabilité', '"Notre tarif inclut un suivi complet sur 6 mois..."'],
+            ['Peur de l’inconnu', 'Détailler le processus pas-à-pas', '"La première séance consiste en un bilan gratuit de 30 min..."'],
+            ['Doute sur la zone/logistique', 'Être transparent sur la zone desservie', '"Nous intervenons dans un rayon de 30km autour de..."']
+          ]
+        },
+        callout: {
+          kind: 'success',
+          title: 'Conseil OperonCore',
+          text: 'Ne donnez jamais de réponses de type "Ça dépend". Donnez des fourchettes de prix ou expliquez concrètement les variables qui influencent le tarif final.'
+        }
+      },
+      {
+        h2: 'Checklist d’adaptation de cette FAQ',
+        checklist: [
+          'Personnaliser les délais avec vos capacités réelles',
+          'Ajouter les noms des villes ou quartiers desservis',
+          'Remplacer les tarifs d’exemple par votre grille',
+          'Ajouter un Call-to-Action clair à la fin de la FAQ'
+        ]
+      }
+    ]
+  },
+  {
+    slug: '/examples/agence-voyage',
+    title: 'Exemples FAQ Agence de Voyage : Annulation, visas et sur-mesure',
+    description: 'Modèles de FAQ spécifiques à cette profession. Questions longues traînes, structure recommandée et conseils de conversion.',
+    h1: 'FAQ Agence de Voyage',
+    intro: 'Dans ce secteur, la FAQ est un outil de conversion puissant. Elle permet de répondre aux objections récurrentes, de rassurer le prospect et de qualifier les demandes avant le premier contact. Voici notre sélection de questions éprouvées.',
+    ...meta({ type: 'example', cluster: 'examples-metiers', intents: ['locale', 'semi-transactionnelle'] }),
+    sections: [
+      {
+        h2: 'Questions indispensables pour la conversion',
+        bullets: [
+          'Quels sont vos tarifs moyens ou comment obtenir un devis ?',
+          'Quels sont vos délais de disponibilité ?',
+          'Comment se déroule la première rencontre/prestation ?',
+          'Quelles sont vos garanties ou modalités d’annulation ?'
+        ]
+      },
+      {
+        h2: 'Structuration des objections clients',
+        table: {
+          headers: ['Objection typique', 'Approche de réponse FAQ', 'Exemple de formulation'],
+          rows: [
+            ['Prix perçu comme élevé', 'Mettre en avant la valeur et la durabilité', '"Notre tarif inclut un suivi complet sur 6 mois..."'],
+            ['Peur de l’inconnu', 'Détailler le processus pas-à-pas', '"La première séance consiste en un bilan gratuit de 30 min..."'],
+            ['Doute sur la zone/logistique', 'Être transparent sur la zone desservie', '"Nous intervenons dans un rayon de 30km autour de..."']
+          ]
+        },
+        callout: {
+          kind: 'success',
+          title: 'Conseil OperonCore',
+          text: 'Ne donnez jamais de réponses de type "Ça dépend". Donnez des fourchettes de prix ou expliquez concrètement les variables qui influencent le tarif final.'
+        }
+      },
+      {
+        h2: 'Checklist d’adaptation de cette FAQ',
+        checklist: [
+          'Personnaliser les délais avec vos capacités réelles',
+          'Ajouter les noms des villes ou quartiers desservis',
+          'Remplacer les tarifs d’exemple par votre grille',
+          'Ajouter un Call-to-Action clair à la fin de la FAQ'
+        ]
+      }
+    ]
+  },
+  {
+    slug: '/examples/peintre-en-batiment',
+    title: 'Exemples FAQ Peintre : Délais, devis et protections',
+    description: 'Modèles de FAQ spécifiques à cette profession. Questions longues traînes, structure recommandée et conseils de conversion.',
+    h1: 'FAQ Peintre en Bâtiment',
+    intro: 'Dans ce secteur, la FAQ est un outil de conversion puissant. Elle permet de répondre aux objections récurrentes, de rassurer le prospect et de qualifier les demandes avant le premier contact. Voici notre sélection de questions éprouvées.',
+    ...meta({ type: 'example', cluster: 'examples-metiers', intents: ['locale', 'semi-transactionnelle'] }),
+    sections: [
+      {
+        h2: 'Questions indispensables pour la conversion',
+        bullets: [
+          'Quels sont vos tarifs moyens ou comment obtenir un devis ?',
+          'Quels sont vos délais de disponibilité ?',
+          'Comment se déroule la première rencontre/prestation ?',
+          'Quelles sont vos garanties ou modalités d’annulation ?'
+        ]
+      },
+      {
+        h2: 'Structuration des objections clients',
+        table: {
+          headers: ['Objection typique', 'Approche de réponse FAQ', 'Exemple de formulation'],
+          rows: [
+            ['Prix perçu comme élevé', 'Mettre en avant la valeur et la durabilité', '"Notre tarif inclut un suivi complet sur 6 mois..."'],
+            ['Peur de l’inconnu', 'Détailler le processus pas-à-pas', '"La première séance consiste en un bilan gratuit de 30 min..."'],
+            ['Doute sur la zone/logistique', 'Être transparent sur la zone desservie', '"Nous intervenons dans un rayon de 30km autour de..."']
+          ]
+        },
+        callout: {
+          kind: 'success',
+          title: 'Conseil OperonCore',
+          text: 'Ne donnez jamais de réponses de type "Ça dépend". Donnez des fourchettes de prix ou expliquez concrètement les variables qui influencent le tarif final.'
+        }
+      },
+      {
+        h2: 'Checklist d’adaptation de cette FAQ',
+        checklist: [
+          'Personnaliser les délais avec vos capacités réelles',
+          'Ajouter les noms des villes ou quartiers desservis',
+          'Remplacer les tarifs d’exemple par votre grille',
+          'Ajouter un Call-to-Action clair à la fin de la FAQ'
+        ]
+      }
+    ]
+  },
+  {
+    slug: '/examples/artisan-carreleur',
+    title: 'Exemples FAQ Carreleur : Matériaux, pose et préparation',
+    description: 'Modèles de FAQ spécifiques à cette profession. Questions longues traînes, structure recommandée et conseils de conversion.',
+    h1: 'FAQ Carreleur',
+    intro: 'Dans ce secteur, la FAQ est un outil de conversion puissant. Elle permet de répondre aux objections récurrentes, de rassurer le prospect et de qualifier les demandes avant le premier contact. Voici notre sélection de questions éprouvées.',
+    ...meta({ type: 'example', cluster: 'examples-metiers', intents: ['locale', 'semi-transactionnelle'] }),
+    sections: [
+      {
+        h2: 'Questions indispensables pour la conversion',
+        bullets: [
+          'Quels sont vos tarifs moyens ou comment obtenir un devis ?',
+          'Quels sont vos délais de disponibilité ?',
+          'Comment se déroule la première rencontre/prestation ?',
+          'Quelles sont vos garanties ou modalités d’annulation ?'
+        ]
+      },
+      {
+        h2: 'Structuration des objections clients',
+        table: {
+          headers: ['Objection typique', 'Approche de réponse FAQ', 'Exemple de formulation'],
+          rows: [
+            ['Prix perçu comme élevé', 'Mettre en avant la valeur et la durabilité', '"Notre tarif inclut un suivi complet sur 6 mois..."'],
+            ['Peur de l’inconnu', 'Détailler le processus pas-à-pas', '"La première séance consiste en un bilan gratuit de 30 min..."'],
+            ['Doute sur la zone/logistique', 'Être transparent sur la zone desservie', '"Nous intervenons dans un rayon de 30km autour de..."']
+          ]
+        },
+        callout: {
+          kind: 'success',
+          title: 'Conseil OperonCore',
+          text: 'Ne donnez jamais de réponses de type "Ça dépend". Donnez des fourchettes de prix ou expliquez concrètement les variables qui influencent le tarif final.'
+        }
+      },
+      {
+        h2: 'Checklist d’adaptation de cette FAQ',
+        checklist: [
+          'Personnaliser les délais avec vos capacités réelles',
+          'Ajouter les noms des villes ou quartiers desservis',
+          'Remplacer les tarifs d’exemple par votre grille',
+          'Ajouter un Call-to-Action clair à la fin de la FAQ'
+        ]
+      }
+    ]
+  },
+  {
+    slug: '/examples/menuisier-ebeniste',
+    title: 'Exemples FAQ Menuisier-Ébéniste : Sur-mesure, bois et livraison',
+    description: 'Modèles de FAQ spécifiques à cette profession. Questions longues traînes, structure recommandée et conseils de conversion.',
+    h1: 'FAQ Menuisier-Ébéniste',
+    intro: 'Dans ce secteur, la FAQ est un outil de conversion puissant. Elle permet de répondre aux objections récurrentes, de rassurer le prospect et de qualifier les demandes avant le premier contact. Voici notre sélection de questions éprouvées.',
+    ...meta({ type: 'example', cluster: 'examples-metiers', intents: ['locale', 'semi-transactionnelle'] }),
+    sections: [
+      {
+        h2: 'Questions indispensables pour la conversion',
+        bullets: [
+          'Quels sont vos tarifs moyens ou comment obtenir un devis ?',
+          'Quels sont vos délais de disponibilité ?',
+          'Comment se déroule la première rencontre/prestation ?',
+          'Quelles sont vos garanties ou modalités d’annulation ?'
+        ]
+      },
+      {
+        h2: 'Structuration des objections clients',
+        table: {
+          headers: ['Objection typique', 'Approche de réponse FAQ', 'Exemple de formulation'],
+          rows: [
+            ['Prix perçu comme élevé', 'Mettre en avant la valeur et la durabilité', '"Notre tarif inclut un suivi complet sur 6 mois..."'],
+            ['Peur de l’inconnu', 'Détailler le processus pas-à-pas', '"La première séance consiste en un bilan gratuit de 30 min..."'],
+            ['Doute sur la zone/logistique', 'Être transparent sur la zone desservie', '"Nous intervenons dans un rayon de 30km autour de..."']
+          ]
+        },
+        callout: {
+          kind: 'success',
+          title: 'Conseil OperonCore',
+          text: 'Ne donnez jamais de réponses de type "Ça dépend". Donnez des fourchettes de prix ou expliquez concrètement les variables qui influencent le tarif final.'
+        }
+      },
+      {
+        h2: 'Checklist d’adaptation de cette FAQ',
+        checklist: [
+          'Personnaliser les délais avec vos capacités réelles',
+          'Ajouter les noms des villes ou quartiers desservis',
+          'Remplacer les tarifs d’exemple par votre grille',
+          'Ajouter un Call-to-Action clair à la fin de la FAQ'
+        ]
+      }
+    ]
+  }
 ];
 
 export const pageMap = new Map(pages.map((p) => [p.slug, p]));
