@@ -15,7 +15,7 @@ export const site = {
           <text x="70" y="330" font-family="Inter,Arial,sans-serif" font-size="28" fill="#46608f">Guides, exemples métier et outil FAQ + Schema + AEO</text>
         </svg>` )
   },
-  baseUrl: process.env.SITE_BASE_URL || 'https://faq-schema-aeo.operoncore.com',
+  baseUrl: process.env.SITE_BASE_URL || 'https://faq.operoncore.com',
   siteName: 'OperonCore FAQ Content Hub',
   description:
     'Guides, exemples et outil FAQ JSON-LD pour améliorer vos pages SEO sans complexité technique.',
@@ -43,7 +43,7 @@ function meta(data) {
 export const pages = [
   {
     slug: '/',
-    title: 'FAQ SEO Hub: guides, exemples métier et outil JSON-LD',
+    title: 'FAQ SEO Hub : guides, exemples métier et outil JSON-LD',
     description:
       'Un site éditorial SEO-first sur les FAQ, le schema JSON-LD et les cas métier pour PME, freelances et agences.',
     h1: 'Le hub éditorial pour créer des FAQ utiles et indexables',
@@ -85,7 +85,7 @@ export const pages = [
   },
   {
     slug: '/resources',
-    title: 'Resources FAQ SEO: piliers, guides pratiques et templates',
+    title: 'Ressources FAQ SEO : piliers, guides pratiques et modèles utiles',
     description: 'Centre de ressources structuré pour piloter une stratégie FAQ SEO durable.',
     h1: 'Centre de ressources FAQ + Schema',
     hero: {
@@ -102,29 +102,7 @@ export const pages = [
     sections: [
       {
         h2: 'Piliers stratégiques',
-        list: [
-          '/faq-seo',
-          '/faq-json-ld',
-          '/faq-schema',
-          '/faq-examples',
-          '/faq-local-seo',
-          '/how-to-add-faq-schema',
-          '/faq-saas-ia',
-          '/faq-boutique-eco-responsable',
-          '/faq-createur-contenu-influence',
-          '/faq-consultant-expert-independant',
-          '/faq-agence-immo-luxe',
-          '/faq-telemedecine-sante',
-          '/faq-energie-solaire',
-          '/faq-cybersecurite-pme',
-          '/faq-voyage-durable',
-          '/faq-edtech-cours-en-ligne',
-          '/faq-coworking-spaces',
-          '/faq-podcaster-independant',
-          '/faq-soins-animaux-domestiques',
-          '/faq-domotique-maison-intelligente',
-          '/faq-planification-financiere-millennials'
-        ]
+        list: ['/faq-seo', '/faq-json-ld', '/faq-schema', '/faq-examples', '/faq-local-seo', '/how-to-add-faq-schema']
       },
       {
         h2: 'Guides actionnables',
@@ -173,12 +151,70 @@ export const pages = [
           '/checklist-faq-schema-anti-duplication-villes'
         ]
       }
-    ]
+    
+      ,
+      {
+        heading: 'Liens internes recommandés pour approfondir',
+        paragraphs: [
+          'Le hub de ressources gagne en puissance quand il renvoie vers des guides pratiques, des cas métier et des pages de décision complémentaires. Cela aide à mieux répartir l’autorité thématique et à orienter l’utilisateur vers la bonne profondeur de lecture.'
+        ],
+        bullets: [
+          '/guide-checklist-faq-seo',
+          '/guide-faq-schema-validation',
+          '/faq-schema-bonne-pratique',
+          '/examples/restaurant',
+          '/examples/serrurier',
+          '/faq-confiance-page-service'
+        ]
+      }
+      ,
+      {
+        heading: 'Commencer selon votre besoin',
+        paragraphs: [
+          'Toutes les ressources ne servent pas le même objectif. Certaines pages sont faites pour comprendre les bases, d’autres pour mieux convertir une page service, d’autres encore pour adapter une FAQ à un métier ou à une zone locale.'
+        ],
+        bullets: [
+          'Pour comprendre les bases : /faq-seo, /faq-schema, /faq-json-ld',
+          'Pour les pages locales : /faq-local-seo, /faq-ameliorer-page-service-locale, /json-ld-page-service-locale',
+          'Pour la conversion : /faq-page-devis, /faq-page-contact, /faq-reduire-objections-prix',
+          'Pour des modèles concrets : /faq-examples et les pages /examples/*'
+        ]
+      },
+      {
+        heading: 'Parcours recommandé pour avancer plus vite',
+        paragraphs: [
+          'Si vous découvrez le sujet, commencez par les piliers. Ensuite, passez aux guides de validation et aux exemples métier. Enfin, utilisez l’outil pour produire un premier brouillon adapté à votre activité.'
+        ],
+        bullets: [
+          '1. Lire /faq-seo pour le cadre global',
+          '2. Enchaîner avec /faq-schema ou /faq-json-ld selon votre besoin',
+          '3. Utiliser /guide-checklist-faq-seo et /guide-faq-schema-validation',
+          '4. Consulter un exemple métier pertinent',
+          '5. Générer une première base via /tool'
+        ]
+      },
+      {
+        heading: 'Pages prioritaires à consulter',
+        paragraphs: [
+          'Ces pages concentrent une grande partie de la valeur éditoriale et du potentiel SEO du hub. Elles servent de colonne vertébrale pour le maillage interne.'
+        ],
+        bullets: [
+          '/faq-seo',
+          '/faq-schema',
+          '/faq-json-ld',
+          '/faq-local-seo',
+          '/faq-examples',
+          '/guide-checklist-faq-seo',
+          '/faq-schema-bonne-pratique',
+          '/tool'
+        ]
+      }
+]
   },
 
   {
     slug: '/faq-seo',
-    title: 'FAQ SEO: méthode complète, checklist et erreurs à éviter',
+    title: 'FAQ SEO : méthode complète, checklist et erreurs à éviter',
     description: 'Guide pilier FAQ SEO: définition, utilité, cadre d’usage, erreurs, checklist et cas concret.',
     h1: 'FAQ SEO: construire un bloc utile, crédible et performant',
     hero: {
@@ -189,8 +225,7 @@ export const pages = [
       { q: 'Quel est le principal objectif ?', a: 'Lever les objections réelles avant la prise de contact.' },
       { q: 'Quelle erreur revient le plus ?', a: 'Publier des questions artificielles ou dupliquer le même bloc partout.' }
     ],
-    intro:
-      'Une FAQ SEO performante ne sert pas à “faire du volume”, mais à répondre aux vraies questions qui bloquent la décision. Cette page vous donne une méthode complète pour construire une FAQ lisible, utile et maintenable, avec un cadre éditorial réellement exploitable en PME, freelance ou agence.',
+    intro: 'Une FAQ SEO utile ne sert pas à remplir une page avec des questions artificielles. Elle aide à clarifier l’intention de recherche, à répondre aux objections réelles et à améliorer la lisibilité d’un contenu important. Cette page explique comment construire une FAQ crédible, utile pour l’utilisateur et cohérente avec une vraie stratégie de visibilité organique.',
     keyTakeaways: [
       'Une FAQ forte répond à des objections réelles, pas à des mots-clés isolés.',
       '4 à 8 questions solides valent mieux que 20 questions faibles.',
@@ -219,182 +254,10 @@ export const pages = [
             ['FAQ informative', 'Clarifier le sujet', 'Rester trop théorique'],
             ['FAQ service', 'Lever objections avant contact', 'Réponses vagues sans cadre concret'],
             ['FAQ locale', 'Préciser disponibilité géographique', 'Duplication massive sans adaptation']
-            ]
-            }
-            ]
-            },
-
-            // --- EXPANSION: HIGH-VALUE PILLARS (50+ PAGES TARGET) ---
-            {
-            slug: '/faq-saas-ia',
-            title: 'FAQ pour SaaS IA: transparence, sécurité et respect de la vie privée',
-            description: 'Comment rassurer vos utilisateurs sur l’usage des données par vos modèles IA.',
-            h1: 'FAQ Spécialisée pour Logiciels et Outils IA',
-            intro: 'Les utilisateurs de SaaS IA ont des craintes spécifiques: fuite de données, biais algorithmiques, coût des jetons. Cette page vous guide pour construire une FAQ qui lève ces freins.',
-            ...meta({ type: 'pillar', cluster: 'ai-saas', intents: ['trust', 'technical'] }),
-            sections: [
-            {
-            h2: 'Les 5 questions critiques en 2026',
-            bullets: [
-            'Mes données servent-elles à entraîner vos modèles ?',
-            'Comment garantissez-vous l’absence de biais dans les résultats ?',
-            'Quelles sont les limites de l’automatisation proposée ?',
-            'Comment est calculée la consommation de crédits ?',
-            'Puis-je exporter mes données en format standard ?'
-            ]
-            }
-            ]
-            },
-            {
-            slug: '/faq-boutique-eco-responsable',
-            title: 'FAQ E-commerce éco-responsable: prouver vos engagements',
-            description: 'Transparence logistique, emballages et certifications pour boutiques durables.',
-            h1: 'FAQ Éthique et Durable: Rassurer l’acheteur engagé',
-            intro: 'L’acheteur éco-responsable est exigeant. Votre FAQ doit prouver votre authenticité sans faire de greenwashing.',
-            ...meta({ type: 'pillar', cluster: 'e-commerce', intents: ['ethical', 'trust'] }),
-            sections: [
-            {
-            h2: 'Section Transparence Radicale',
-            paragraphs: [
-            'Détaillez ici la provenance exacte de vos matières premières et le bilan carbone de votre dernier kilomètre de livraison.',
-            'Expliquez votre politique de retour "zéro gâchis" et vos partenariats avec des associations locales.'
-            ]
-            }
-            ]
-            },
-            {
-            slug: '/faq-createur-contenu-influence',
-            title: 'FAQ pour Créateurs et Influenceurs: gérer les partenariats',
-            description: 'Modèle de FAQ pour expliquer votre éthique de collaboration et vos tarifs.',
-            h1: 'FAQ Influenceur: Professionnaliser sa relation marque/audience',
-            intro: 'Gérez les attentes de vos partenaires marques et la confiance de votre audience avec une FAQ transparente sur vos processus créatifs.',
-            ...meta({ type: 'pillar', cluster: 'creator-economy', intents: ['business', 'trust'] }),
-            sections: [
-            {
-            h2: 'Réponses aux marques (B2B)',
-            list: [
-            'Quelles sont vos statistiques d’engagement réelles ?',
-            'Quel est votre délai moyen de production de contenu ?',
-            'Comment gérez-vous l’exclusivité sectorielle ?'
-            ]
-            }
-            ]
-            },
-            {
-            slug: '/faq-consultant-expert-independant',
-            title: 'FAQ Consultant: Lever les freins avant signature',
-            description: 'FAQ stratégique pour experts et consultants en freelance.',
-            h1: 'FAQ Consultant Expert: Optimiser son tunnel de vente',
-            intro: 'Un client potentiel ne veut pas seulement vos compétences, il veut comprendre votre méthode. Cette FAQ prépare le terrain de la signature.',
-            ...meta({ type: 'pillar', cluster: 'freelance', intents: ['transactional'] }),
-            sections: [
-            {
-            h2: 'Processus et Méthodologie',
-            paragraphs: [
-            'Expliquez ici votre phase de diagnostic, votre gestion des imprévus et vos formats de livrables.',
-            'Détaillez vos conditions de paiement et vos options d’accompagnement post-mission.'
-            ]
-            }
-            ]
-            },
-            {
-            slug: '/faq-agence-immo-luxe',
-            title: 'FAQ Immobilier de Prestige: Confidentialité et Accompagnement',
-            description: 'Répondre aux attentes d’une clientèle haut de gamme en immobilier.',
-            h1: 'FAQ Immo de Luxe: Rassurer les acquéreurs et vendeurs premium',
-            intro: 'Dans le luxe, la FAQ sert à prouver l’exclusivité du service et la discrétion totale de l’agence.',
-            ...meta({ type: 'pillar', cluster: 'real-estate', intents: ['premium'] }),
-            sections: [
-            {
-            h2: 'Services Conciergerie',
-            bullets: [
-            'Comment garantissez-vous l’anonymat des visites ?',
-            'Quels sont vos réseaux de diffusion "off-market" ?',
-            'Accompagnez-vous les clients internationaux (fiscalité, visas) ?'
-            ]
-            }
-            ]
-            },
-            {
-            slug: '/faq-telemedecine-sante',
-            title: 'FAQ Télémédecine: Sécurité des données et parcours de soin',
-            description: 'Rassurer les patients sur la consultation à distance.',
-            h1: 'FAQ Télémédecine: Établir la confiance médicale en ligne',
-            ...meta({ type: 'pillar', cluster: 'health', intents: ['trust', 'medical'] }),
-            sections: [{ h2: 'Questions Patients', bullets: ['Comment sont sécurisées mes données de santé ?', 'La téléconsultation est-elle remboursée ?', 'Comment recevoir mon ordonnance ?'] }]
-            },
-            {
-            slug: '/faq-energie-solaire',
-            title: 'FAQ Panneaux Solaires: Rentabilité, Installation et Aides',
-            description: 'Guide complet pour les futurs propriétaires de panneaux solaires.',
-            h1: 'FAQ Énergie Solaire: Passer à l’autoconsommation',
-            ...meta({ type: 'pillar', cluster: 'renewable-energy', intents: ['technical', 'financial'] }),
-            sections: [{ h2: 'Investissement et Aides', bullets: ['Quel est le temps de retour sur investissement ?', 'Quelles sont les aides de l’État disponibles ?', 'Quelle maintenance pour mes panneaux ?'] }]
-            },
-            {
-            slug: '/faq-cybersecurite-pme',
-            title: 'FAQ Cybersécurité PME: Protéger son entreprise des menaces',
-            description: 'Réponses aux questions critiques sur la sécurité informatique.',
-            h1: 'FAQ Cybersécurité: Anticiper et Réagir aux cyberattaques',
-            ...meta({ type: 'pillar', cluster: 'tech-security', intents: ['business', 'safety'] }),
-            sections: [{ h2: 'Prévention et Réponse', bullets: ['Quels sont les premiers signes d’une intrusion ?', 'Comment former mes employés à la sécurité ?', 'Que faire en cas de ransomware ?'] }]
-            },
-            {
-            slug: '/faq-voyage-durable',
-            title: 'FAQ Voyage Durable: Voyager sans détruire la planète',
-            description: 'Conseils et astuces pour un tourisme plus responsable.',
-            h1: 'FAQ Tourisme Éco-responsable: Voyager avec conscience',
-            ...meta({ type: 'pillar', cluster: 'travel', intents: ['ethical'] }),
-            sections: [{ h2: 'Pratiques Durables', bullets: ['Comment choisir un hébergement vraiment vert ?', 'Comment compenser mon empreinte carbone ?', 'Quels gestes pour respecter la culture locale ?'] }]
-            },
-            {
-            slug: '/faq-edtech-cours-en-ligne',
-            title: 'FAQ EdTech: Apprendre en ligne avec efficacité',
-            description: 'Réponses sur les plateformes de formation et certifications.',
-            h1: 'FAQ Formation en Ligne: Maximiser son apprentissage',
-            ...meta({ type: 'pillar', cluster: 'education', intents: ['informationnelle'] }),
-            sections: [{ h2: 'Méthodologie et Diplômes', bullets: ['Vos certificats sont-ils reconnus par l’État ?', 'Quel est le temps d’étude recommandé par semaine ?', 'Accompagnez-vous les étudiants après la formation ?'] }]
-            },
-            {
-            slug: '/faq-coworking-spaces',
-            title: 'FAQ Coworking: Trouver le bureau idéal pour son activité',
-            description: 'Tout savoir sur les services et abonnements en espace partagé.',
-            h1: 'FAQ Coworking: Flexibilité et Services pour Pros',
-            ...meta({ type: 'pillar', cluster: 'business-services', intents: ['practical'] }),
-            sections: [{ h2: 'Services et Vie Communautaire', bullets: ['Quels sont les services inclus (café, imprimante, etc.) ?', 'Puis-je domicilier mon entreprise dans votre espace ?', 'Organisez-vous des événements de networking ?'] }]
-            },
-            {
-            slug: '/faq-podcaster-independant',
-            title: 'FAQ Podcast: Créer, Diffuser et Monétiser son émission',
-            description: 'Guide pratique pour les podcasters débutants et confirmés.',
-            h1: 'FAQ Podcast: Réussir son lancement et sa croissance',
-            ...meta({ type: 'pillar', cluster: 'media', intents: ['technical', 'business'] }),
-            sections: [{ h2: 'Technique et Croissance', bullets: ['Quel matériel pour débuter avec un petit budget ?', 'Comment héberger son podcast sur toutes les plateformes ?', 'Comment trouver ses premiers sponsors ?'] }]
-            },
-            {
-            slug: '/faq-soins-animaux-domestiques',
-            title: 'FAQ Soins Animaux: Santé et Bien-être de vos compagnons',
-            description: 'Réponses aux questions fréquentes des propriétaires d’animaux.',
-            h1: 'FAQ Bien-être Animal: Prendre soin de son chien ou chat',
-            ...meta({ type: 'pillar', cluster: 'pets', intents: ['medical', 'practical'] }),
-            sections: [{ h2: 'Santé et Nutrition', bullets: ['Quelle alimentation choisir pour un animal âgé ?', 'Comment détecter les signes de stress chez son animal ?', 'À quelle fréquence vacciner son compagnon ?'] }]
-            },
-            {
-            slug: '/faq-domotique-maison-intelligente',
-            title: 'FAQ Domotique: Installer et Sécuriser sa Smart Home',
-            description: 'Tout sur les objets connectés et l’automatisation du foyer.',
-            h1: 'FAQ Maison Connectée: Confort, Sécurité et Économies',
-            ...meta({ type: 'pillar', cluster: 'tech-home', intents: ['technical'] }),
-            sections: [{ h2: 'Installation et Vie Privée', bullets: ['Comment sécuriser son réseau contre le piratage d’objets ?', 'Quels objets permettent de réduire sa facture d’énergie ?', 'Quels protocoles choisir (Zigbee, Matter, Thread) ?'] }]
-            },
-            {
-            slug: '/faq-planification-financiere-millennials',
-            title: 'FAQ Finances Millennials: Investir, Épargner et Gérer ses dettes',
-            description: 'Conseils financiers adaptés à la nouvelle génération.',
-            h1: 'FAQ Éducation Financière: Bâtir son patrimoine tôt',
-            ...meta({ type: 'pillar', cluster: 'finance', intents: ['financial'] }),
-            sections: [{ h2: 'Investissement et Budget', bullets: ['Comment débuter en bourse avec de petites sommes ?', 'Quelle stratégie pour rembourser ses dettes plus vite ?', 'Faut-il investir dans l’immobilier ou le marché financier ?'] }]
-            },
+          ]
+        }
+      },
+      {
         h2: 'Quand utiliser / quand éviter',
         bullets: [
           'Utiliser: pages service, pages locales, pages offres à forte question client',
@@ -455,11 +318,39 @@ export const pages = [
           { href: '/tool', label: 'Générer une première base FAQ' }
         ]
       }
-    ]
+    
+      ,
+      {
+        heading: 'Liens internes recommandés pour approfondir',
+        paragraphs: [
+          'Cette page pilier peut pousser vers des ressources plus opérationnelles et des exemples métier pour couvrir à la fois la théorie SEO, la mise en œuvre et les cas concrets.'
+        ],
+        bullets: [
+          '/guide-checklist-faq-seo',
+          '/guide-faq-page-a-propos',
+          '/faq-confiance-page-service',
+          '/examples/restaurant',
+          '/examples/clinique-medicale',
+          '/examples/entreprise-nettoyage'
+        ]
+      }
+      ,
+      {
+        heading: 'Passer à l’action avec l’outil',
+        paragraphs: [
+          'Si vous voulez transformer cette logique SEO en FAQ concrète, utilisez l’outil pour générer une première base à partir d’une URL ou d’un texte métier, puis adaptez les réponses à votre contexte réel.'
+        ],
+        bullets: [
+          'générer une première structure rapidement',
+          'produire un HTML intégrable',
+          'obtenir un JSON-LD propre',
+          '/tool'
+        ]
+      }]
   },
   {
     slug: '/faq-json-ld',
-    title: 'FAQ JSON-LD: structure propre, validation et maintenance',
+    title: 'FAQ JSON-LD : structure propre, validation et maintenance',
     description: 'Page pilier sur le balisage FAQPage JSON-LD avec méthode de contrôle qualité.',
     h1: 'FAQ JSON-LD: structurer correctement sans dette technique',
     hero: {
@@ -470,8 +361,7 @@ export const pages = [
       { q: 'Quel est le meilleur process ?', a: 'Source unique FAQ puis génération HTML + script.' },
       { q: 'Quel est le plus gros risque ?', a: 'La divergence entre la FAQ affichée et le balisage publié.' }
     ],
-    intro:
-      'Le JSON-LD FAQPage doit refléter exactement ce que l’utilisateur lit. Cette page vous donne une méthode robuste: structure minimale, contrôles qualité, maintenance et gestion des erreurs en équipe.',
+    intro: 'Le FAQ JSON-LD permet de structurer les questions et réponses d’une page de façon lisible pour les moteurs, mais seulement si le balisage reste aligné avec le contenu visible. Cette ressource montre comment organiser un JSON-LD propre, simple à maintenir et cohérent avec une approche SEO durable.',
     keyTakeaways: [
       'Le JSON-LD est une représentation fidèle du contenu visible.',
       'Une source de vérité unique réduit les écarts au fil du temps.',
@@ -541,11 +431,38 @@ export const pages = [
           { href: '/tool', label: 'Générer JSON-LD propre' }
         ]
       }
-    ]
+    
+      ,
+      {
+        heading: 'Liens internes recommandés pour approfondir',
+        paragraphs: [
+          'Le pilier JSON-LD doit renvoyer vers les guides de validation et les pages de bonnes pratiques afin de relier la structure des données à la qualité éditoriale réelle.'
+        ],
+        bullets: [
+          '/guide-faq-schema-validation',
+          '/faq-schema-bonne-pratique',
+          '/guide-checklist-faq-seo',
+          '/how-to-add-faq-schema',
+          '/tool'
+        ]
+      }
+      ,
+      {
+        heading: 'Passer à l’action avec l’outil',
+        paragraphs: [
+          'L’outil vous aide à transformer une intention éditoriale en structure FAQ + JSON-LD cohérente, ce qui permet ensuite de relire, ajuster et publier plus rapidement.'
+        ],
+        bullets: [
+          'obtenir un JSON-LD prêt à relire',
+          'garder une base structurée',
+          'accélérer la mise en œuvre',
+          '/tool'
+        ]
+      }]
   },
   {
     slug: '/faq-schema',
-    title: 'FAQ Schema: cadre d’usage, limites et bonnes pratiques',
+    title: 'FAQ Schema : cadre d’usage, limites et bonnes pratiques',
     description: 'Comprendre quand utiliser FAQPage schema et éviter les implémentations faibles.',
     h1: 'FAQ Schema: usage intelligent dans une stratégie éditoriale',
     hero: {
@@ -556,8 +473,7 @@ export const pages = [
       { q: 'Quand faut-il l’utiliser ?', a: 'Quand la page contient un vrai bloc questions-réponses stable et utile.' },
       { q: 'Quand faut-il l’éviter ?', a: 'Sur les pages faibles, volatiles ou sans FAQ légitime.' }
     ],
-    intro:
-      'Le schema FAQPage renforce la lisibilité machine de votre contenu, mais il ne compense jamais un texte faible. L’essentiel reste la qualité des questions-réponses publiées.',
+    intro: 'Le FAQ Schema peut renforcer la structure d’une page quand il accompagne un contenu réellement utile. Cette page pilier aide à comprendre quand l’utiliser, quelles limites respecter et comment l’intégrer sans transformer la FAQ en bloc artificiel ou répétitif.',
     ...meta({ type: 'pillar', cluster: 'schema-implementation', intents: ['informationnelle'] }),
     sections: [
       {
@@ -586,11 +502,38 @@ export const pages = [
           { href: '/guide-faq-utile-vs-artificielle', label: 'Différencier utile vs artificiel' }
         ]
       }
-    ]
+    
+      ,
+      {
+        heading: 'Liens internes recommandés pour approfondir',
+        paragraphs: [
+          'Cette page doit agir comme point central entre la compréhension du balisage, les erreurs fréquentes, la validation et les cas d’usage pratiques.'
+        ],
+        bullets: [
+          '/faq-schema-bonne-pratique',
+          '/guide-faq-schema-validation',
+          '/guide-erreurs-faq-seo',
+          '/guide-checklist-faq-seo',
+          '/tool'
+        ]
+      }
+      ,
+      {
+        heading: 'Passer à l’action avec l’outil',
+        paragraphs: [
+          'Une fois le cadre d’usage compris, l’outil permet de produire une première version exploitable du bloc FAQ, du JSON-LD et du HTML à intégrer sur une page service ou éditoriale.'
+        ],
+        bullets: [
+          'partir d’une URL existante',
+          'générer un bloc FAQ plus vite',
+          'préparer un balisage plus propre',
+          '/tool'
+        ]
+      }]
   },
   {
     slug: '/faq-examples',
-    title: 'Exemples FAQ SEO par métier: modèles, variantes et conseils',
+    title: 'Exemples FAQ SEO par métier : modèles, variantes et conseils',
     description: 'Bibliothèque d’exemples FAQ par secteur pour capter la longue traîne.',
     h1: 'Exemples FAQ par métier: base prête à adapter',
     hero: {
@@ -601,8 +544,7 @@ export const pages = [
       { q: 'Que faut-il adapter en priorité ?', a: 'Le fond métier, la zone, les délais et les modalités réelles.' },
       { q: 'Quel bénéfice principal ?', a: 'Accélérer la production sans partir de zéro.' }
     ],
-    intro:
-      'Cette page est votre hub opérationnel pour transformer des modèles FAQ en versions réellement publiables. L’objectif: gagner du temps sans tomber dans le copier-coller artificiel.',
+    intro: 'Les exemples FAQ par métier permettent de passer de la théorie à l’application concrète. Cette page rassemble des modèles adaptables pour artisans, professions libérales et entreprises locales afin de montrer comment structurer une FAQ claire, crédible et orientée conversion selon chaque contexte.',
     keyTakeaways: [
       'Les exemples servent de trame, pas de texte final.',
       'Chaque secteur a ses objections spécifiques.',
@@ -661,11 +603,26 @@ export const pages = [
           { href: '/tool', label: 'Créer un brouillon à partir de votre contenu' }
         ]
       }
-    ]
+    
+      ,
+      {
+        heading: 'Liens internes recommandés pour approfondir',
+        paragraphs: [
+          'La page des exemples gagne en valeur si elle pousse vers des métiers variés et vers des guides qui expliquent comment adapter la FAQ à une page service réelle.'
+        ],
+        bullets: [
+          '/examples/restaurant',
+          '/examples/psychologue',
+          '/examples/serrurier',
+          '/examples/architecte',
+          '/faq-confiance-page-service',
+          '/guide-faq-page-tarifs'
+        ]
+      }]
   },
   {
     slug: '/faq-local-seo',
-    title: 'FAQ Local SEO: stratégie locale, exemples et checklist',
+    title: 'FAQ Local SEO : stratégie locale, exemples et checklist',
     description: 'Construire une FAQ locale crédible pour entreprises de proximité.',
     h1: 'FAQ Local SEO: capter l’intention géographique sans sur-optimiser',
     hero: {
@@ -676,8 +633,7 @@ export const pages = [
       { q: 'Que faut-il prioriser ?', a: 'Zone réelle, délai réaliste et conditions pratiques de service.' },
       { q: 'Combien de questions locales spécifiques viser ?', a: 'Au moins 2 questions propres à la zone.' }
     ],
-    intro:
-      'Le local SEO récompense la précision. Une FAQ locale premium doit répondre aux contraintes concrètes d’un visiteur: zone, délai, disponibilité, prix indicatif et conditions de service.',
+    intro: 'Une FAQ Local SEO aide à mieux répondre aux recherches de proximité quand elle clarifie les zones desservies, les services proposés, la prise de contact et les attentes concrètes du visiteur. Cette page explique comment structurer une FAQ locale utile, lisible et alignée avec les besoins d’un vrai service local.',
     keyTakeaways: [
       'La précision locale prime sur la quantité de questions.',
       'La duplication entre pages villes est le principal risque.',
@@ -747,11 +703,39 @@ export const pages = [
           { href: '/tool', label: 'Générer une FAQ locale' }
         ]
       }
-    ]
+    
+      ,
+      {
+        heading: 'Liens internes recommandés pour approfondir',
+        paragraphs: [
+          'Le pilier local SEO doit relier les pages métier les plus ancrées dans l’intention locale et les pages qui améliorent la conversion sur les pages service.'
+        ],
+        bullets: [
+          '/examples/restaurant',
+          '/examples/clinique-medicale',
+          '/examples/entreprise-nettoyage',
+          '/faq-ameliorer-page-service-locale',
+          '/faq-convertir-page-seo-locale',
+          '/json-ld-page-service-locale'
+        ]
+      }
+      ,
+      {
+        heading: 'Passer à l’action avec l’outil',
+        paragraphs: [
+          'Pour une page locale, l’outil permet de générer une première base FAQ cohérente à partir de votre service ou de votre zone, puis d’ajuster les questions pour éviter la duplication.'
+        ],
+        bullets: [
+          'préparer une FAQ locale utile',
+          'adapter les questions à une page service',
+          'garder une structure claire',
+          '/tool'
+        ]
+      }]
   },
   {
     slug: '/how-to-add-faq-schema',
-    title: 'Comment ajouter FAQ Schema: tutoriel complet étape par étape',
+    title: 'Comment ajouter FAQ Schema : tutoriel complet étape par étape',
     description: 'Tutoriel détaillé pour passer de la FAQ visible au JSON-LD validé et publié.',
     h1: 'Comment ajouter FAQ Schema sans erreur de mise en ligne',
     hero: {
@@ -762,8 +746,7 @@ export const pages = [
       { q: 'Que faut-il vérifier ensuite ?', a: 'La cohérence entre HTML affiché et JSON-LD généré.' },
       { q: 'Quelle dernière étape ne pas oublier ?', a: 'Le contrôle post-déploiement.' }
     ],
-    intro:
-      'Ce tutoriel vous guide de la rédaction à la validation finale, avec un cadre simple pour déployer rapidement sans casser la cohérence éditoriale.',
+    intro: 'Ajouter un FAQ Schema proprement ne consiste pas seulement à coller un balisage sur une page. Il faut partir d’un contenu utile, visible et cohérent, puis valider la structure sans duplication ni confusion. Ce guide montre une méthode simple pour intégrer un FAQ Schema étape par étape avec une logique SEO propre.',
     ...meta({ type: 'pillar', cluster: 'schema-implementation', intents: ['pratique', 'technique'] }),
     sections: [
       {
@@ -793,7 +776,21 @@ export const pages = [
           { href: '/tool', label: 'Générer votre FAQ + JSON-LD' }
         ]
       }
-    ]
+    
+      ,
+      {
+        heading: 'Liens internes recommandés pour approfondir',
+        paragraphs: [
+          'Après la mise en place d’un FAQ Schema, il est utile d’orienter le lecteur vers la validation, les bonnes pratiques et les erreurs les plus fréquentes.'
+        ],
+        bullets: [
+          '/guide-faq-schema-validation',
+          '/faq-schema-bonne-pratique',
+          '/guide-erreurs-faq-seo',
+          '/faq-json-ld',
+          '/tool'
+        ]
+      }]
   },
 
   {
@@ -1113,7 +1110,45 @@ export const pages = [
         ],
         links: [{ href: '/guide-faq-page-service', label: 'Guide page service' }, { href: '/tool', label: 'Créer une base FAQ plombier' }]
       }
-    ]
+    
+      ,
+      {
+        heading: 'Questions à traiter en priorité pour convertir',
+        paragraphs: [
+          'Sur une page plombier, les visiteurs veulent surtout savoir si vous intervenez vite, comment demander un devis et à quel moment appeler. Une FAQ efficace doit répondre à ces points avant même les détails plus secondaires.'
+        ],
+        bullets: [
+          'Intervenez-vous en urgence ?',
+          'Quelles zones couvrez-vous ?',
+          'Comment obtenir un devis ?',
+          'Quels problèmes traitez-vous le plus souvent ?'
+        ]
+      },
+      {
+        heading: 'Quand cette FAQ convertit mieux',
+        paragraphs: [
+          'La conversion augmente quand la FAQ réduit les doutes sur le délai, le tarif, la zone d’intervention et le sérieux du service. Sur un métier de dépannage, la clarté prime.'
+        ],
+        bullets: [
+          '/faq-page-service-urgence',
+          '/faq-page-devis',
+          '/faq-reduire-objections-prix',
+          '/tool'
+        ]
+      }
+      ,
+      {
+        heading: 'Passer à l’action avec l’outil',
+        paragraphs: [
+          'À partir de cet exemple, vous pouvez utiliser l’outil pour générer une version adaptée à votre propre page plombier, à votre zone d’intervention et à vos services réels.'
+        ],
+        bullets: [
+          'adapter l’exemple à votre activité',
+          'produire une première FAQ locale',
+          'obtenir un HTML et un JSON-LD de départ',
+          '/tool'
+        ]
+      }]
   },
   {
     slug: '/examples/dentiste',
@@ -1148,7 +1183,32 @@ export const pages = [
         ],
         links: [{ href: '/guide-adapter-faq-search-intent', label: 'Adapter à l’intention de recherche' }, { href: '/tool', label: 'Générer une base FAQ dentiste' }]
       }
-    ]
+    
+      ,
+      {
+        heading: 'Questions à traiter en priorité pour convertir',
+        paragraphs: [
+          'Une FAQ dentiste performe quand elle répond rapidement aux questions sur la prise de rendez-vous, les soins courants, la première visite et les sujets sensibles comme le coût ou l’assurance.'
+        ],
+        bullets: [
+          'Comment prendre rendez-vous ?',
+          'Quels soins proposez-vous ?',
+          'Comment se passe une première consultation ?',
+          'Acceptez-vous certaines assurances ?'
+        ]
+      },
+      {
+        heading: 'Quand cette FAQ convertit mieux',
+        paragraphs: [
+          'Sur une clinique dentaire, la FAQ aide surtout à rassurer et à rendre la prochaine étape plus simple. Moins il y a de friction, plus la page soutient la conversion.'
+        ],
+        bullets: [
+          '/faq-rassurer-avant-rdv',
+          '/faq-page-contact',
+          '/faq-local-seo',
+          '/tool'
+        ]
+      }]
   },
   {
     slug: '/examples/avocat',
@@ -1174,7 +1234,32 @@ export const pages = [
         ],
         links: [{ href: '/guide-faq-utile-vs-artificielle', label: 'Évaluer la qualité FAQ' }, { href: '/tool', label: 'Créer une FAQ avocat' }]
       }
-    ]
+    
+      ,
+      {
+        heading: 'Questions à traiter en priorité pour convertir',
+        paragraphs: [
+          'Pour un avocat, la FAQ doit clarifier le premier contact, les domaines traités, la confidentialité et la manière de cadrer une demande sans donner de faux espoirs.'
+        ],
+        bullets: [
+          'Dans quels domaines intervenez-vous ?',
+          'Comment se déroule un premier échange ?',
+          'Les échanges sont-ils confidentiels ?',
+          'Comment savoir si mon dossier entre dans votre champ ?'
+        ]
+      },
+      {
+        heading: 'Quand cette FAQ convertit mieux',
+        paragraphs: [
+          'Une page avocat convertit mieux quand la FAQ réduit l’incertitude et crée un cadre de confiance sans jargon inutile.'
+        ],
+        bullets: [
+          '/faq-page-contact',
+          '/faq-rassurer-avant-rdv',
+          '/faq-confiance-page-service',
+          '/tool'
+        ]
+      }]
   },
   {
     slug: '/examples/agence-seo',
@@ -1455,7 +1540,32 @@ export const pages = [
           { href: '/tool', label: 'Créer une FAQ agent immobilier' }
         ]
       }
-    ]
+    
+      ,
+      {
+        heading: 'Questions à traiter en priorité pour convertir',
+        paragraphs: [
+          'Sur une page agent immobilier, les visiteurs cherchent des réponses sur l’estimation, les délais, les honoraires et le déroulement de la mise en vente ou de la recherche.'
+        ],
+        bullets: [
+          'Comment se passe une estimation ?',
+          'Quels sont les délais moyens ?',
+          'Comment sont calculés les honoraires ?',
+          'Quelles zones couvrez-vous ?'
+        ]
+      },
+      {
+        heading: 'Quand cette FAQ convertit mieux',
+        paragraphs: [
+          'La page convertit mieux quand la FAQ rend le processus concret et réduit les doutes liés au mandat, au calendrier et au coût.'
+        ],
+        bullets: [
+          '/faq-page-devis',
+          '/faq-page-prestation-premium',
+          '/faq-local-seo',
+          '/tool'
+        ]
+      }]
   },
   {
     slug: '/examples/paysagiste',
@@ -1850,7 +1960,33 @@ export const pages = [
         h2: 'Standards qualité',
         bullets: ['Contenu lisible et actionnable', 'Mise à jour régulière', 'Cohérence entre conseils et implémentation technique', 'Transparence sur les limites']
       }
-    ]
+    
+      ,
+      {
+        heading: 'Pourquoi ce site existe',
+        paragraphs: [
+          'OperonCore FAQ Hub a été conçu pour aider les entreprises, indépendants et équipes éditoriales à créer des FAQ plus utiles, mieux structurées et plus cohérentes avec une stratégie SEO moderne.',
+          'Le site combine des ressources éditoriales, des exemples métier et un outil de génération afin de faciliter la création de contenus plus clairs, plus crédibles et plus faciles à maintenir.'
+        ],
+        bullets: [
+          'ressources pédagogiques',
+          'exemples concrets par métier',
+          'outil de génération FAQ + JSON-LD',
+          'approche orientée qualité et lisibilité'
+        ]
+      },
+      {
+        heading: 'Notre ligne éditoriale',
+        paragraphs: [
+          'Le site privilégie des contenus pratiques, compréhensibles et directement exploitables. L’objectif n’est pas de publier du volume pour le volume, mais de produire des pages réellement utiles pour les lecteurs et durables pour le référencement.'
+        ],
+        bullets: [
+          'priorité à l’utilité',
+          'attention à la clarté',
+          'approche SEO sans sur-optimisation',
+          'contenu révisable et adaptable'
+        ]
+      }]
   },
   {
     slug: '/contact',
@@ -1860,9 +1996,34 @@ export const pages = [
     intro: 'Vous pouvez proposer un sujet, signaler une amélioration ou demander un partenariat de contenu.',
     ...meta({ type: 'support', cluster: 'trust', intents: ['trust'] }),
     sections: [
-      { h2: 'Email principal', paragraphs: ['support@operoncore.local'] },
+      { h2: 'Email principal', paragraphs: ['support@operoncore.com'] },
       { h2: 'Sujets acceptés', bullets: ['Proposition de guide', 'Demande de correction', 'Partenariat éditorial', 'Feedback outil'] }
-    ]
+    
+      ,
+      {
+        heading: 'Quand nous contacter',
+        paragraphs: [
+          'La page contact sert à orienter les demandes légitimes liées au site, à l’outil, aux ressources publiées et aux questions générales sur l’utilisation du hub.'
+        ],
+        bullets: [
+          'question sur l’outil',
+          'retour sur une ressource',
+          'demande générale liée au site',
+          'signalement d’un problème ou d’une information à corriger'
+        ]
+      },
+      {
+        heading: 'Ce que cette page permet de clarifier',
+        paragraphs: [
+          'Une page contact claire renforce la confiance et montre qu’un site peut être joint facilement. C’est un signal important pour les visiteurs, mais aussi pour une revue de qualité plus large.'
+        ],
+        bullets: [
+          'mode de contact visible',
+          'cadre simple et lisible',
+          'attente raisonnable de réponse',
+          'transparence de fonctionnement'
+        ]
+      }]
   },
   {
     slug: '/privacy',
@@ -1875,7 +2036,33 @@ export const pages = [
       { h2: 'Données collectées', bullets: ['Logs techniques', 'Événements analytics anonymisés', 'Emails envoyés via formulaire'] },
       { h2: 'Finalité', paragraphs: ['Mesurer la performance du contenu, améliorer l’outil et répondre aux messages entrants.'] },
       { h2: 'Conservation', paragraphs: ['Les données sont conservées de façon proportionnée à leur utilité opérationnelle.'] }
-    ]
+    
+      ,
+      {
+        heading: 'Résumé simple de la confidentialité',
+        paragraphs: [
+          'Cette page explique de manière lisible quelles données peuvent être traitées dans le cadre du site, comment elles sont utilisées et dans quels cas elles peuvent être conservées de manière limitée.',
+          'L’objectif est de rester transparent, proportionné et compréhensible, sans texte inutilement opaque.'
+        ],
+        bullets: [
+          'collecte minimale',
+          'usage fonctionnel du site et de l’outil',
+          'pas de promesse trompeuse',
+          'lecture simple pour l’utilisateur'
+        ]
+      },
+      {
+        heading: 'Pourquoi cette transparence compte',
+        paragraphs: [
+          'Une politique de confidentialité claire contribue à la confiance globale du site. Elle aide aussi à montrer que le projet a été conçu avec une logique d’exploitation responsable.'
+        ],
+        bullets: [
+          'transparence',
+          'prévisibilité',
+          'meilleure compréhension utilisateur',
+          'signal de sérieux éditorial'
+        ]
+      }]
   },
   {
     slug: '/mentions',
@@ -1887,9 +2074,953 @@ export const pages = [
     sections: [
       { h2: 'Éditeur', paragraphs: ['OperonCore'] },
       { h2: 'Objet du site', paragraphs: ['Publication de ressources SEO éditoriales et mise à disposition d’un outil FAQ/JSON-LD.'] },
-      { h2: 'Contact', paragraphs: ['support@operoncore.local'] }
-    ]
+      { h2: 'Contact', paragraphs: ['support@operoncore.com'] }
+    
+      ,
+      {
+        heading: 'Rôle de cette page',
+        paragraphs: [
+          'La page mentions sert à présenter le cadre général du site, son rôle éditorial, les limites raisonnables de responsabilité et les informations utiles de contexte.'
+        ],
+        bullets: [
+          'présenter le site',
+          'clarifier le cadre éditorial',
+          'préciser la nature informative des contenus',
+          'améliorer la transparence globale'
+        ]
+      },
+      {
+        heading: 'Pourquoi les mentions renforcent la confiance',
+        paragraphs: [
+          'Un site mieux documenté inspire davantage confiance. Les mentions ne servent pas seulement à “cocher une case”, elles participent à une architecture plus crédible pour l’utilisateur comme pour l’écosystème publicitaire.'
+        ],
+        bullets: [
+          'meilleure transparence',
+          'cohérence avec les pages support',
+          'site plus mature',
+          'base plus propre pour monétisation'
+        ]
+      }]
   }
+
+  ,
+  {
+    slug: '/examples/restaurant',
+    type: 'example',
+    cluster: 'examples-metiers',
+    intents: ['locale', 'pratique', 'conversion'],
+    title: 'Exemple FAQ restaurant : questions utiles pour réservation, menu et allergènes',
+    description: 'Exemple de FAQ restaurant pour rassurer les clients, clarifier le fonctionnement du service et améliorer la lisibilité SEO locale.',
+    h1: 'Exemple FAQ restaurant : réservation, menu, horaires et allergènes',
+    intro: 'Une page restaurant performe mieux quand elle répond vite aux questions que les clients se posent avant de réserver ou de se déplacer. Une FAQ bien pensée aide à clarifier les horaires, les options du menu, les allergènes, les réservations et les informations pratiques sans surcharger le reste de la page.',
+    updatedAt: '2026-03-15',
+    author: 'OperonCore',
+    sections: [
+      {
+        heading: 'Pourquoi une FAQ est utile sur un site de restaurant',
+        paragraphs: [
+          'Pour un restaurant, les questions reviennent souvent : faut-il réserver, y a-t-il des options végétariennes, quelles sont les heures d’ouverture, peut-on venir en groupe, comment gérer les allergies alimentaires. Une FAQ claire améliore l’expérience utilisateur et réduit les hésitations.',
+          'Sur le plan SEO, ce type de bloc enrichit la page avec un vocabulaire naturel lié à l’intention locale et transactionnelle. Cela aide aussi à mieux préparer le contenu pour la recherche moderne.'
+        ],
+        bullets: [
+          'clarifier la réservation et les horaires',
+          'répondre aux questions sur le menu et les régimes alimentaires',
+          'rassurer avant la visite',
+          'améliorer la qualité de la page locale'
+        ]
+      },
+      {
+        heading: 'Questions à traiter en priorité',
+        paragraphs: [
+          'Les meilleures questions sont celles qui reviennent réellement dans les appels, messages ou conversations en salle. Il vaut mieux une FAQ courte et précise qu’un bloc artificiel rempli de généralités.'
+        ],
+        bullets: [
+          'Faut-il réserver ?',
+          'Le restaurant propose-t-il des options sans gluten ou végétariennes ?',
+          'Quels sont les horaires ?',
+          'Peut-on réserver pour un groupe ?',
+          'Comment signaler une allergie alimentaire ?'
+        ]
+      },
+      {
+        heading: 'Maillage recommandé',
+        paragraphs: [
+          'Cette page doit idéalement renvoyer vers le hub, les exemples métier, les pages locales et l’outil de génération pour transformer la structure en cluster cohérent.'
+        ],
+        bullets: [
+          '/faq-local-seo',
+          '/faq-examples',
+          '/faq-page-contact',
+          '/tool'
+        ]
+      }
+    
+      ,
+      {
+        heading: 'Questions à traiter en priorité pour convertir',
+        paragraphs: [
+          'Sur un restaurant, la FAQ convertit mieux quand elle réduit les doutes avant réservation : horaires, réservation, options du menu, groupes et contraintes alimentaires.'
+        ],
+        bullets: [
+          'Faut-il réserver ?',
+          'Avez-vous des options végétariennes ou sans gluten ?',
+          'Peut-on venir en groupe ?',
+          'Comment signaler une allergie ?'
+        ]
+      },
+      {
+        heading: 'Quand cette FAQ convertit mieux',
+        paragraphs: [
+          'La performance augmente quand la FAQ aide à décider vite : réserver, se déplacer, appeler ou consulter le menu.'
+        ],
+        bullets: [
+          '/faq-local-seo',
+          '/faq-page-contact',
+          '/faq-examples',
+          '/tool'
+        ]
+      }
+      ,
+      {
+        heading: 'Passer à l’action avec l’outil',
+        paragraphs: [
+          'Vous pouvez utiliser l’outil pour adapter cet exemple à votre restaurant, à votre carte, à votre politique de réservation et aux questions fréquentes de vos clients.'
+        ],
+        bullets: [
+          'générer une FAQ adaptée au restaurant',
+          'couvrir réservation et menu',
+          'préparer un bloc clair pour la page',
+          '/tool'
+        ]
+      }]
+  },
+  {
+    slug: '/examples/clinique-medicale',
+    type: 'example',
+    cluster: 'examples-metiers',
+    intents: ['locale', 'confiance', 'informationnelle'],
+    title: 'Exemple FAQ clinique médicale : structurer les questions patient sans alourdir la page',
+    description: 'Exemple de FAQ pour clinique médicale avec questions fréquentes sur rendez-vous, délais, documents à apporter et organisation du parcours patient.',
+    h1: 'Exemple FAQ clinique médicale : questions patient, prise de rendez-vous et informations utiles',
+    intro: 'Une clinique médicale reçoit toujours les mêmes questions : comment prendre rendez-vous, faut-il une référence, quels documents apporter, quels sont les délais et comment se déroule la consultation. Une FAQ bien construite améliore la lisibilité de la page et rassure les patients avant le premier contact.',
+    updatedAt: '2026-03-15',
+    author: 'OperonCore',
+    sections: [
+      {
+        heading: 'Pourquoi intégrer une FAQ pour une clinique',
+        paragraphs: [
+          'Dans le contexte médical, les utilisateurs cherchent avant tout de la clarté et de la confiance. Une FAQ permet de répondre aux questions pratiques sans surcharger la page principale ni forcer l’utilisateur à appeler pour chaque détail.',
+          'C’est aussi un bon moyen d’améliorer la qualité éditoriale des pages locales et de mieux couvrir les formulations de recherche fréquentes.'
+        ],
+        bullets: [
+          'prise de rendez-vous',
+          'documents à prévoir',
+          'délais et disponibilité',
+          'première consultation',
+          'coordonnées et accès'
+        ]
+      },
+      {
+        heading: 'Questions fréquentes pertinentes',
+        paragraphs: [
+          'Les questions doivent rester simples, visibles et alignées avec le parcours patient réel.'
+        ],
+        bullets: [
+          'Comment prendre rendez-vous ?',
+          'Quels documents dois-je apporter ?',
+          'Faut-il une ordonnance ou une référence ?',
+          'Quels sont les délais habituels ?',
+          'Comment contacter la clinique en cas de question ?'
+        ]
+      },
+      {
+        heading: 'Liens internes conseillés',
+        paragraphs: [
+          'Cette page est idéale pour renforcer les pages locales et les contenus de confiance.'
+        ],
+        bullets: [
+          '/faq-seo',
+          '/faq-local-seo',
+          '/faq-rassurer-avant-rdv',
+          '/tool'
+        ]
+      }
+    ]
+  },
+  {
+    slug: '/examples/psychologue',
+    type: 'example',
+    cluster: 'examples-metiers',
+    intents: ['confiance', 'locale', 'conversion'],
+    title: 'Exemple FAQ psychologue : rassurer avant le premier rendez-vous',
+    description: 'Exemple de FAQ pour psychologue avec questions sur la première séance, la confidentialité, les tarifs et la prise de rendez-vous.',
+    h1: 'Exemple FAQ psychologue : confidentialité, première séance et prise de rendez-vous',
+    intro: 'Pour un psychologue, la FAQ sert surtout à rassurer. Les utilisateurs veulent comprendre comment se déroule la première séance, ce qui est confidentiel, combien coûte un rendez-vous et comment prendre contact sans friction.',
+    updatedAt: '2026-03-15',
+    author: 'OperonCore',
+    sections: [
+      {
+        heading: 'Objectif principal de la FAQ',
+        paragraphs: [
+          'Une FAQ de psychologue doit réduire l’anxiété liée au premier contact. Elle ne cherche pas à être longue, mais à être rassurante, humaine et claire.'
+        ],
+        bullets: [
+          'rassurer avant le premier échange',
+          'expliquer le cadre',
+          'clarifier les modalités de rendez-vous',
+          'répondre aux questions sur la confidentialité'
+        ]
+      },
+      {
+        heading: 'Questions à inclure',
+        paragraphs: [
+          'Les meilleures questions portent sur le vécu concret du patient avant la première consultation.'
+        ],
+        bullets: [
+          'Comment se déroule la première séance ?',
+          'Les échanges sont-ils confidentiels ?',
+          'Comment prendre rendez-vous ?',
+          'Quels sont les tarifs ?',
+          'Que faire si je ne sais pas par où commencer ?'
+        ]
+      },
+      {
+        heading: 'Pages à lier',
+        paragraphs: [
+          'Cette page soutient fortement le cluster confiance et conversion.'
+        ],
+        bullets: [
+          '/faq-rassurer-avant-rdv',
+          '/faq-page-contact',
+          '/faq-examples',
+          '/tool'
+        ]
+      }
+    ]
+  },
+  {
+    slug: '/examples/serrurier',
+    type: 'example',
+    cluster: 'examples-metiers',
+    intents: ['urgence', 'locale', 'conversion'],
+    title: 'Exemple FAQ serrurier : urgence, délais et transparence tarifaire',
+    description: 'Exemple de FAQ pour serrurier avec questions sur l’urgence, le déplacement, les délais d’intervention et la transparence des prix.',
+    h1: 'Exemple FAQ serrurier : urgence, tarifs, déplacement et intervention',
+    intro: 'Pour un serrurier, les visiteurs cherchent une réponse rapide et rassurante. Une FAQ peut expliquer les délais d’intervention, les zones desservies, les éléments qui influencent le prix et la manière d’obtenir un devis clair en situation d’urgence.',
+    updatedAt: '2026-03-15',
+    author: 'OperonCore',
+    sections: [
+      {
+        heading: 'Pourquoi la FAQ est stratégique pour un serrurier',
+        paragraphs: [
+          'Le contexte urgence crée beaucoup d’hésitation : délai, prix, confiance, disponibilité, distance. Une FAQ précise permet de rassurer l’utilisateur et de réduire la friction avant appel.'
+        ],
+        bullets: [
+          'réduire la peur du prix caché',
+          'clarifier l’intervention en urgence',
+          'montrer les zones desservies',
+          'améliorer la conversion sur page service'
+        ]
+      },
+      {
+        heading: 'Questions fréquentes à intégrer',
+        paragraphs: [
+          'Les réponses doivent être directes, sans langage inutilement technique.'
+        ],
+        bullets: [
+          'Intervenez-vous en urgence ?',
+          'En combien de temps pouvez-vous vous déplacer ?',
+          'Comment est calculé le tarif ?',
+          'Pouvez-vous fournir un devis avant intervention ?',
+          'Quelles zones couvrez-vous ?'
+        ]
+      },
+      {
+        heading: 'Liens internes pertinents',
+        paragraphs: [
+          'Cette page renforce particulièrement les contenus orientés urgence et objections prix.'
+        ],
+        bullets: [
+          '/faq-page-service-urgence',
+          '/faq-reduire-objections-prix',
+          '/faq-page-devis',
+          '/tool'
+        ]
+      }
+    
+      ,
+      {
+        heading: 'Questions à traiter en priorité pour convertir',
+        paragraphs: [
+          'Pour un serrurier, la FAQ doit répondre à l’urgence, au délai, à la transparence tarifaire et à la zone couverte. Ce sont les points qui déclenchent ou bloquent l’appel.'
+        ],
+        bullets: [
+          'Pouvez-vous intervenir rapidement ?',
+          'Comment le prix est-il calculé ?',
+          'Faites-vous un devis avant intervention ?',
+          'Dans quelles zones intervenez-vous ?'
+        ]
+      },
+      {
+        heading: 'Quand cette FAQ convertit mieux',
+        paragraphs: [
+          'La conversion augmente quand la FAQ diminue la peur du prix caché et donne une image claire du déroulement de l’intervention.'
+        ],
+        bullets: [
+          '/faq-page-service-urgence',
+          '/faq-reduire-objections-prix',
+          '/faq-page-devis',
+          '/tool'
+        ]
+      }
+      ,
+      {
+        heading: 'Passer à l’action avec l’outil',
+        paragraphs: [
+          'L’outil est utile pour transformer cet exemple en FAQ adaptée à vos urgences, vos délais, vos zones couvertes et votre manière de présenter les tarifs.'
+        ],
+        bullets: [
+          'adapter la FAQ à l’urgence',
+          'clarifier les délais et devis',
+          'structurer une page plus convaincante',
+          '/tool'
+        ]
+      }]
+  },
+  {
+    slug: '/examples/dermatologue',
+    type: 'example',
+    cluster: 'examples-metiers',
+    intents: ['locale', 'confiance', 'informationnelle'],
+    title: 'Exemple FAQ dermatologue : questions fréquentes pour consultation, délais et traitements',
+    description: 'Exemple de FAQ dermatologue avec questions sur la prise de rendez-vous, les délais, le type de consultation et les informations à préparer.',
+    h1: 'Exemple FAQ dermatologue : consultation, délais et informations utiles',
+    intro: 'Une page dermatologue bénéficie d’une FAQ claire quand elle répond aux questions sur les délais, la prise de rendez-vous, le type de consultation, les documents à apporter et le déroulement du suivi. Cela rassure les patients et améliore la qualité globale de la page.',
+    updatedAt: '2026-03-15',
+    author: 'OperonCore',
+    sections: [
+      {
+        heading: 'Pourquoi cette FAQ améliore la page',
+        paragraphs: [
+          'Les utilisateurs cherchent des réponses concrètes avant de contacter un spécialiste. Une FAQ bien intégrée augmente la confiance et rend la page plus utile.'
+        ],
+        bullets: [
+          'questions de parcours patient',
+          'clarté sur les délais',
+          'préparation avant consultation',
+          'meilleure lecture de la page'
+        ]
+      },
+      {
+        heading: 'Questions à couvrir',
+        paragraphs: [
+          'Les formulations doivent rester simples et compréhensibles.'
+        ],
+        bullets: [
+          'Comment prendre rendez-vous ?',
+          'Quels sont les délais moyens ?',
+          'Faut-il une référence ?',
+          'Quels documents dois-je apporter ?',
+          'Quels types de consultations proposez-vous ?'
+        ]
+      },
+      {
+        heading: 'Maillage conseillé',
+        paragraphs: [
+          'La page doit renforcer les routes liées à la confiance et aux pages locales.'
+        ],
+        bullets: [
+          '/faq-seo',
+          '/faq-page-contact',
+          '/faq-rassurer-avant-rdv',
+          '/tool'
+        ]
+      }
+    ]
+  },
+  {
+    slug: '/examples/menuisier',
+    type: 'example',
+    cluster: 'examples-metiers',
+    intents: ['devis', 'locale', 'conversion'],
+    title: 'Exemple FAQ menuisier : devis, délais de fabrication et pose',
+    description: 'Exemple de FAQ menuisier pour répondre aux questions sur le devis, les délais, les matériaux et la pose.',
+    h1: 'Exemple FAQ menuisier : devis, fabrication, matériaux et pose',
+    intro: 'Pour un menuisier, une FAQ bien faite aide à cadrer le devis, les délais de fabrication, les choix de matériaux et les étapes de pose. Ce type de contenu rassure les prospects et améliore la qualité de la page service.',
+    updatedAt: '2026-03-15',
+    author: 'OperonCore',
+    sections: [
+      {
+        heading: 'Pourquoi cette FAQ convertit mieux',
+        paragraphs: [
+          'Sur les métiers artisanaux, les prospects veulent surtout comprendre le déroulé du projet et le niveau de précision du devis. Une FAQ évite beaucoup de confusion.'
+        ],
+        bullets: [
+          'clarifier les délais',
+          'mieux cadrer le devis',
+          'rassurer sur la pose',
+          'réduire les objections avant contact'
+        ]
+      },
+      {
+        heading: 'Questions fréquentes utiles',
+        paragraphs: [
+          'Les questions doivent répondre au besoin du client, pas au jargon du métier.'
+        ],
+        bullets: [
+          'Comment demander un devis ?',
+          'Quels sont les délais de fabrication ?',
+          'Quels matériaux proposez-vous ?',
+          'La pose est-elle incluse ?',
+          'Intervenez-vous dans ma zone ?'
+        ]
+      },
+      {
+        heading: 'Liens internes recommandés',
+        paragraphs: [
+          'Cette page est très liée aux contenus devis, prestation et local.'
+        ],
+        bullets: [
+          '/faq-page-devis',
+          '/faq-page-prestation-premium',
+          '/faq-examples',
+          '/tool'
+        ]
+      }
+    ]
+  },
+  {
+    slug: '/examples/entreprise-nettoyage',
+    type: 'example',
+    cluster: 'examples-metiers',
+    intents: ['locale', 'service', 'conversion'],
+    title: 'Exemple FAQ entreprise de nettoyage : fréquence, zones desservies et prix',
+    description: 'Exemple de FAQ entreprise de nettoyage avec questions sur les interventions, les zones couvertes, les devis et les formules de service.',
+    h1: 'Exemple FAQ entreprise de nettoyage : fréquence, devis et zones desservies',
+    intro: 'Une entreprise de nettoyage peut utiliser une FAQ pour expliquer ses zones d’intervention, ses fréquences de passage, la manière de demander un devis et la logique de tarification. C’est un très bon support pour une page locale ou service.',
+    updatedAt: '2026-03-15',
+    author: 'OperonCore',
+    sections: [
+      {
+        heading: 'Intérêt SEO et conversion',
+        paragraphs: [
+          'Les services de nettoyage s’appuient souvent sur des recherches locales et des besoins récurrents. Une FAQ permet de couvrir les questions les plus utiles sans multiplier les pages faibles.'
+        ],
+        bullets: [
+          'zones desservies',
+          'fréquence des interventions',
+          'formules et prix',
+          'devis et prise de contact'
+        ]
+      },
+      {
+        heading: 'Questions à intégrer',
+        paragraphs: [
+          'Il faut répondre avec clarté, en restant proche des formulations clients.'
+        ],
+        bullets: [
+          'Quelles zones couvrez-vous ?',
+          'Proposez-vous un nettoyage ponctuel ou régulier ?',
+          'Comment obtenir un devis ?',
+          'Quels types de locaux nettoyez-vous ?',
+          'Comment sont calculés les tarifs ?'
+        ]
+      },
+      {
+        heading: 'Pages à lier',
+        paragraphs: [
+          'Cette page alimente directement les contenus service locale et conversion.'
+        ],
+        bullets: [
+          '/faq-ameliorer-page-service-locale',
+          '/faq-convertir-page-seo-locale',
+          '/faq-page-devis',
+          '/tool'
+        ]
+      }
+    
+      ,
+      {
+        heading: 'Questions à traiter en priorité pour convertir',
+        paragraphs: [
+          'Une entreprise de nettoyage convertit mieux quand la FAQ clarifie les types d’intervention, les zones couvertes, la fréquence possible et la logique du devis.'
+        ],
+        bullets: [
+          'Intervenez-vous pour des besoins ponctuels ou réguliers ?',
+          'Comment demander un devis ?',
+          'Quels locaux ou surfaces prenez-vous en charge ?',
+          'Quelles zones desservez-vous ?'
+        ]
+      },
+      {
+        heading: 'Quand cette FAQ convertit mieux',
+        paragraphs: [
+          'Cette FAQ soutient la conversion quand elle rend le service concret et aide le prospect à se projeter dans la prestation.'
+        ],
+        bullets: [
+          '/faq-ameliorer-page-service-locale',
+          '/faq-convertir-page-seo-locale',
+          '/faq-page-devis',
+          '/tool'
+        ]
+      }
+      ,
+      {
+        heading: 'Passer à l’action avec l’outil',
+        paragraphs: [
+          'L’outil permet de reprendre cet exemple et de le transformer selon vos zones desservies, vos types d’intervention et votre logique de devis.'
+        ],
+        bullets: [
+          'adapter la FAQ à vos prestations',
+          'clarifier fréquence et zones',
+          'préparer un contenu plus concret',
+          '/tool'
+        ]
+      }]
+  },
+  {
+    slug: '/examples/architecte',
+    type: 'example',
+    cluster: 'examples-metiers',
+    intents: ['premium', 'devis', 'confiance'],
+    title: 'Exemple FAQ architecte : budget, étapes du projet et délais',
+    description: 'Exemple de FAQ architecte pour répondre aux questions sur le budget, les étapes du projet, les délais et la prise de contact.',
+    h1: 'Exemple FAQ architecte : budget, délais et déroulement du projet',
+    intro: 'Pour un architecte, les prospects veulent comprendre le budget, les grandes étapes du projet, le calendrier et la manière de démarrer une collaboration. Une FAQ bien rédigée améliore la confiance et aide à filtrer les demandes.',
+    updatedAt: '2026-03-15',
+    author: 'OperonCore',
+    sections: [
+      {
+        heading: 'Rôle de la FAQ sur une page architecte',
+        paragraphs: [
+          'La FAQ sert ici à cadrer l’attente client, à rassurer sur le processus et à rendre la page plus utile pour des requêtes orientées projet et prestation premium.'
+        ],
+        bullets: [
+          'clarifier le budget',
+          'expliquer les étapes',
+          'rassurer sur les délais',
+          'faciliter la prise de contact'
+        ]
+      },
+      {
+        heading: 'Questions clés',
+        paragraphs: [
+          'Les questions doivent parler le langage du client final.'
+        ],
+        bullets: [
+          'Comment se déroule un projet avec un architecte ?',
+          'Comment est défini le budget ?',
+          'Quels sont les délais habituels ?',
+          'À quel moment prendre contact ?',
+          'Travaillez-vous sur tous types de projets ?'
+        ]
+      },
+      {
+        heading: 'Liens internes utiles',
+        paragraphs: [
+          'Cette page renforce les contenus premium, contact et exemples.'
+        ],
+        bullets: [
+          '/faq-page-prestation-premium',
+          '/faq-page-contact',
+          '/faq-examples',
+          '/tool'
+        ]
+      }
+    
+      ,
+      {
+        heading: 'Questions à traiter en priorité pour convertir',
+        paragraphs: [
+          'Sur une page architecte, la FAQ doit aider à comprendre le budget, les étapes, les délais et le bon moment pour démarrer une discussion.'
+        ],
+        bullets: [
+          'Comment démarre un projet ?',
+          'Comment le budget est-il défini ?',
+          'Quels sont les délais habituels ?',
+          'Quels types de projets acceptez-vous ?'
+        ]
+      },
+      {
+        heading: 'Quand cette FAQ convertit mieux',
+        paragraphs: [
+          'La page devient plus performante quand la FAQ donne un cadre clair et rassurant à un service souvent perçu comme complexe ou coûteux.'
+        ],
+        bullets: [
+          '/faq-page-prestation-premium',
+          '/faq-page-contact',
+          '/faq-confiance-page-service',
+          '/tool'
+        ]
+      }
+      ,
+      {
+        heading: 'Passer à l’action avec l’outil',
+        paragraphs: [
+          'À partir de cet exemple, l’outil peut vous aider à générer une FAQ adaptée à votre manière de présenter le budget, les étapes du projet et la prise de contact.'
+        ],
+        bullets: [
+          'adapter la FAQ au projet type',
+          'clarifier budget et étapes',
+          'obtenir une base plus vite',
+          '/tool'
+        ]
+      }]
+  },
+  {
+    slug: '/guide-checklist-faq-seo',
+    type: 'guide',
+    cluster: 'faq-foundations',
+    intents: ['pratique', 'validation', 'seo'],
+    title: 'Checklist FAQ SEO : les points à valider avant publication',
+    description: 'Checklist simple pour vérifier la qualité SEO, la clarté et la pertinence d’une FAQ avant mise en ligne.',
+    h1: 'Checklist FAQ SEO : tout vérifier avant publication',
+    intro: 'Une FAQ peut aider une page… ou l’affaiblir si elle est artificielle, répétitive ou mal intégrée. Cette checklist permet de valider rapidement les points essentiels avant publication : intention, clarté, utilité, balisage et maillage interne.',
+    updatedAt: '2026-03-15',
+    author: 'OperonCore',
+    sections: [
+      {
+        heading: 'Ce qu’une bonne checklist doit vérifier',
+        paragraphs: [
+          'Le but n’est pas de cocher des cases abstraites, mais de confirmer que la FAQ aide vraiment l’utilisateur et s’intègre proprement dans la page.'
+        ],
+        bullets: [
+          'questions réellement utiles',
+          'réponses courtes et claires',
+          'aucune duplication interne',
+          'bonne cohérence avec l’intention de la page',
+          'liens internes pertinents'
+        ]
+      },
+      {
+        heading: 'Les erreurs les plus fréquentes',
+        paragraphs: [
+          'Les erreurs reviennent souvent : questions inventées, répétitions entre villes, réponses vagues, sur-optimisation SEO ou JSON-LD mal aligné avec le contenu visible.'
+        ],
+        bullets: [
+          'FAQ trop générique',
+          'bloc ajouté sans intention claire',
+          'maillage absent',
+          'balisage non cohérent avec le texte visible'
+        ]
+      },
+      {
+        heading: 'Pages à consulter ensuite',
+        paragraphs: [
+          'Cette checklist fonctionne comme une page passerelle vers les piliers techniques et l’outil.'
+        ],
+        bullets: [
+          '/faq-seo',
+          '/faq-schema',
+          '/faq-json-ld',
+          '/tool'
+        ]
+      }
+    
+      ,
+      {
+        heading: 'Passer à l’action avec l’outil',
+        paragraphs: [
+          'Après avoir vérifié les points de cette checklist, vous pouvez utiliser l’outil pour créer un premier brouillon FAQ, puis le relire avec cette grille de qualité avant publication.'
+        ],
+        bullets: [
+          'créer un brouillon plus vite',
+          'relire avec une checklist claire',
+          'éviter les oublis fréquents',
+          '/tool'
+        ]
+      }]
+  },
+  {
+    slug: '/guide-faq-page-a-propos',
+    type: 'guide',
+    cluster: 'business-conversion',
+    intents: ['confiance', 'pratique', 'conversion'],
+    title: 'Créer une FAQ sur une page À propos : quand c’est utile et comment le faire proprement',
+    description: 'Guide pour décider si une page À propos mérite une FAQ et comment la rédiger sans alourdir le message principal.',
+    h1: 'Ajouter une FAQ sur une page À propos : utile ou non ?',
+    intro: 'Une page À propos n’a pas toujours besoin d’une FAQ. Mais dans certains cas, elle peut aider à répondre aux objections de confiance, au fonctionnement de l’entreprise ou au mode de collaboration. L’enjeu est de l’intégrer sans casser le récit principal.',
+    updatedAt: '2026-03-15',
+    author: 'OperonCore',
+    sections: [
+      {
+        heading: 'Quand une FAQ À propos est pertinente',
+        paragraphs: [
+          'Elle devient utile quand la page À propos joue un rôle de réassurance important : mode de travail, zone de service, expérience, délais, valeurs, premier contact.'
+        ],
+        bullets: [
+          'présenter le fonctionnement',
+          'réduire les objections de confiance',
+          'clarifier le parcours de contact',
+          'renforcer la lisibilité'
+        ]
+      },
+      {
+        heading: 'Quand il vaut mieux éviter',
+        paragraphs: [
+          'Si la FAQ répète simplement la page contact ou la page service, elle peut devenir inutile. Il vaut mieux rester sélectif.'
+        ],
+        bullets: [
+          'éviter les redites',
+          'éviter les questions vagues',
+          'garder le cœur narratif de la page'
+        ]
+      },
+      {
+        heading: 'Maillage naturel',
+        paragraphs: [
+          'Cette page doit renvoyer vers les contenus confiance et le support.'
+        ],
+        bullets: [
+          '/about',
+          '/faq-seo',
+          '/guide-faq-utile-vs-artificielle',
+          '/tool'
+        ]
+      }
+    ]
+  },
+  {
+    slug: '/guide-faq-page-tarifs',
+    type: 'guide',
+    cluster: 'business-conversion',
+    intents: ['prix', 'conversion', 'pratique'],
+    title: 'Comment construire une FAQ de page tarifs sans créer de confusion',
+    description: 'Guide pratique pour structurer une FAQ de page tarifs, répondre aux objections prix et améliorer la conversion.',
+    h1: 'Construire une FAQ de page tarifs claire, crédible et utile',
+    intro: 'Une FAQ sur une page tarifs peut réduire les objections et améliorer la conversion, à condition de rester claire. Elle doit aider à comprendre le fonctionnement des prix, ce qui est inclus, les variations possibles et les étapes suivantes.',
+    updatedAt: '2026-03-15',
+    author: 'OperonCore',
+    sections: [
+      {
+        heading: 'Ce qu’une FAQ tarifs doit clarifier',
+        paragraphs: [
+          'Le rôle principal est de rendre la logique tarifaire plus lisible sans transformer la page en catalogue confus.'
+        ],
+        bullets: [
+          'ce qui est inclus',
+          'ce qui peut faire varier le prix',
+          'comment demander un devis',
+          'quelles garanties ou options existent'
+        ]
+      },
+      {
+        heading: 'Les pièges à éviter',
+        paragraphs: [
+          'Beaucoup de pages tarifs perdent en clarté quand la FAQ ajoute trop de nuances ou de formulations floues.'
+        ],
+        bullets: [
+          'trop de détails inutiles',
+          'réponses défensives',
+          'prix cachés ou mal expliqués',
+          'redondance avec le tableau principal'
+        ]
+      },
+      {
+        heading: 'Liens internes conseillés',
+        paragraphs: [
+          'Cette page renforce le bloc conversion et objections prix.'
+        ],
+        bullets: [
+          '/faq-reduire-objections-prix',
+          '/faq-page-prestation-premium',
+          '/faq-page-devis',
+          '/tool'
+        ]
+      }
+    ]
+  },
+  {
+    slug: '/guide-faq-schema-validation',
+    type: 'guide',
+    cluster: 'schema-implementation',
+    intents: ['validation', 'technique', 'pratique'],
+    title: 'Valider un FAQ Schema : méthode simple avant mise en ligne',
+    description: 'Guide simple pour vérifier un FAQ Schema avant publication : cohérence, visibilité et qualité des données structurées.',
+    h1: 'Valider un FAQ Schema avant mise en ligne',
+    intro: 'Avant de publier un FAQ Schema, il faut vérifier plus qu’une simple syntaxe. Le vrai contrôle consiste à s’assurer que le contenu est visible, cohérent avec la page, utile pour l’utilisateur et non dupliqué ailleurs sur le site.',
+    updatedAt: '2026-03-15',
+    author: 'OperonCore',
+    sections: [
+      {
+        heading: 'Ce qu’il faut valider',
+        paragraphs: [
+          'La validation technique ne suffit pas. Il faut aussi valider la logique éditoriale de la FAQ.'
+        ],
+        bullets: [
+          'questions visibles sur la page',
+          'réponses identiques entre HTML et JSON-LD',
+          'pas de duplication abusive',
+          'bonne cohérence avec l’intention'
+        ]
+      },
+      {
+        heading: 'Méthode simple de contrôle',
+        paragraphs: [
+          'Une bonne méthode consiste à relire la page du point de vue utilisateur, puis à valider le balisage et enfin à vérifier le maillage interne.'
+        ],
+        bullets: [
+          'relire comme un visiteur',
+          'tester le balisage',
+          'confirmer l’utilité des questions',
+          'vérifier les liens internes'
+        ]
+      },
+      {
+        heading: 'Pages à relier',
+        paragraphs: [
+          'Ce guide complète directement les piliers techniques.'
+        ],
+        bullets: [
+          '/faq-schema',
+          '/faq-json-ld',
+          '/how-to-add-faq-schema',
+          '/tool'
+        ]
+      }
+    
+      ,
+      {
+        heading: 'Passer à l’action avec l’outil',
+        paragraphs: [
+          'L’outil peut servir de point de départ pour structurer votre FAQ avant validation. Il reste ensuite à contrôler la cohérence du contenu visible, du HTML et du JSON-LD.'
+        ],
+        bullets: [
+          'préparer une base plus vite',
+          'vérifier ensuite le balisage',
+          'réduire les erreurs de départ',
+          '/tool'
+        ]
+      }]
+  },
+  {
+    slug: '/faq-schema-bonne-pratique',
+    type: 'guide',
+    cluster: 'schema-implementation',
+    intents: ['seo', 'qualite', 'pratique'],
+    title: 'FAQ Schema : bonnes pratiques pour un balisage utile, visible et durable',
+    description: 'Bonnes pratiques pour utiliser le FAQ Schema sans sur-optimisation, avec une approche durable orientée qualité de page.',
+    h1: 'FAQ Schema : les bonnes pratiques à suivre',
+    intro: 'Le FAQ Schema n’est pas une astuce magique. Il fonctionne mieux quand il accompagne une vraie amélioration de la page. Cette ressource synthétise les bonnes pratiques pour garder un balisage propre, visible et durable.',
+    updatedAt: '2026-03-15',
+    author: 'OperonCore',
+    sections: [
+      {
+        heading: 'Les principes à respecter',
+        paragraphs: [
+          'Les meilleures pratiques tournent autour de trois idées : utilité réelle, cohérence éditoriale et simplicité.'
+        ],
+        bullets: [
+          'poser peu de questions mais bien choisies',
+          'garder les réponses visibles',
+          'aligner le balisage et le contenu',
+          'éviter le copier-coller massif'
+        ]
+      },
+      {
+        heading: 'Approche durable',
+        paragraphs: [
+          'Une stratégie durable préfère un nombre limité de FAQ pertinentes plutôt qu’une industrialisation faible qui finit par nuire au site.'
+        ],
+        bullets: [
+          'prioriser la qualité',
+          'mettre à jour les pages importantes',
+          'éviter la duplication par ville ou service',
+          'mesurer sur données réelles'
+        ]
+      },
+      {
+        heading: 'Liens internes recommandés',
+        paragraphs: [
+          'Cette page agit comme pont entre la théorie et la mise en œuvre.'
+        ],
+        bullets: [
+          '/faq-schema',
+          '/faq-json-ld',
+          '/guide-erreurs-faq-seo',
+          '/tool'
+        ]
+      }
+    
+      ,
+      {
+        heading: 'Passer à l’action avec l’outil',
+        paragraphs: [
+          'Les bonnes pratiques sont plus faciles à appliquer quand on part d’un brouillon structuré. L’outil permet de générer une base puis de l’ajuster selon les principes de qualité vus sur cette page.'
+        ],
+        bullets: [
+          'générer une base exploitable',
+          'adapter ensuite selon les bonnes pratiques',
+          'garder un cadre éditorial plus propre',
+          '/tool'
+        ]
+      }]
+  },
+  {
+    slug: '/faq-confiance-page-service',
+    type: 'guide',
+    cluster: 'business-conversion',
+    intents: ['confiance', 'service', 'conversion'],
+    title: 'Renforcer la confiance d’une page service avec une FAQ claire et crédible',
+    description: 'Guide pour utiliser une FAQ de page service comme levier de confiance, de clarté et de conversion.',
+    h1: 'Renforcer la confiance d’une page service avec une FAQ',
+    intro: 'Une page service convertit mieux quand elle répond aux doutes réels du prospect. Une FAQ bien pensée peut renforcer la confiance, clarifier le fonctionnement, expliquer les délais ou rassurer sur la prise de contact sans surcharger la page principale.',
+    updatedAt: '2026-03-15',
+    author: 'OperonCore',
+    sections: [
+      {
+        heading: 'Pourquoi la confiance est centrale',
+        paragraphs: [
+          'Sur une page service, l’utilisateur veut comprendre si vous êtes crédible, si votre approche est claire et si la prochaine étape est simple. La FAQ aide à lever ces frictions.'
+        ],
+        bullets: [
+          'rassurer avant contact',
+          'clarifier les étapes',
+          'répondre aux objections fréquentes',
+          'augmenter la lisibilité de la page'
+        ]
+      },
+      {
+        heading: 'Questions les plus utiles',
+        paragraphs: [
+          'Les meilleures questions sont souvent simples et très orientées décision.'
+        ],
+        bullets: [
+          'Comment se déroule la prestation ?',
+          'Quels sont les délais ?',
+          'Comment demander un devis ?',
+          'Que se passe-t-il après le premier contact ?',
+          'Dans quelles zones intervenez-vous ?'
+        ]
+      },
+      {
+        heading: 'Maillage naturel',
+        paragraphs: [
+          'Cette page doit relier les contenus service, contact et réassurance.'
+        ],
+        bullets: [
+          '/faq-rassurer-avant-rdv',
+          '/faq-page-contact',
+          '/faq-page-devis',
+          '/tool'
+        ]
+      }
+    
+      ,
+      {
+        heading: 'Passer à l’action avec l’outil',
+        paragraphs: [
+          'Si votre objectif est de rassurer et convertir davantage sur une page service, l’outil peut vous aider à produire un premier bloc FAQ orienté confiance, contact et clarté.'
+        ],
+        bullets: [
+          'préparer une FAQ plus rassurante',
+          'clarifier le service plus vite',
+          'structurer les objections fréquentes',
+          '/tool'
+        ]
+      }]
+  }
+
 ];
 
 export const pageMap = new Map(pages.map((p) => [p.slug, p]));

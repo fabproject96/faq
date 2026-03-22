@@ -1,5 +1,16 @@
 import { nav, pageMap, pages, site } from '../content/pages.js';
 
+const GA_MEASUREMENT_ID = process.env.GA_MEASUREMENT_ID || '';
+const renderGaTag = (id) => !id ? '' : `
+<script async src="https://www.googletagmanager.com/gtag/js?id=${id}"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${id}');
+</script>`;
+
+
 function esc(s = '') {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
@@ -147,7 +158,7 @@ export function renderPage(slug) {
   <meta property="og:type" content="article" />
   <meta property="og:url" content="${esc(canonical)}" />
   <link rel="stylesheet" href="/site.css" />
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9232304229735146" crossorigin="anonymous"></script>
+${renderGaTag(GA_MEASUREMENT_ID)}
 </head>
 <body>
   <header class="site-header">
@@ -180,31 +191,12 @@ export function renderPage(slug) {
         <span>Cluster: ${esc(page.cluster)}</span>
       </div>
 
-      <div class="ad-slot">
-        <!-- OperonCore Top Article -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-9232304229735146"
-             data-ad-slot="auto"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-      </div>
+      <div class="ad-slot" aria-label="future-adsense-slot-top">Emplacement AdSense futur (top article)</div>
 
       ${(page.sections || []).map((section, i) => {
         const html = renderSection(section);
         if (i === 1) {
-          return `${html}
-            <div class="ad-slot">
-              <!-- OperonCore Middle Article -->
-              <ins class="adsbygoogle"
-                   style="display:block"
-                   data-ad-client="ca-pub-9232304229735146"
-                   data-ad-slot="auto"
-                   data-ad-format="auto"
-                   data-full-width-responsive="true"></ins>
-              <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-            </div>`;
+          return `${html}<div class="ad-slot" aria-label="future-adsense-slot-middle">Emplacement AdSense futur (milieu article)</div>`;
         }
         return html;
       }).join('')}
@@ -214,62 +206,6 @@ export function renderPage(slug) {
         <p>Utilisez le builder pour générer un brouillon FAQ + JSON-LD, puis adaptez les réponses à votre contexte métier.</p>
         <p><a class="btn" href="/tool">Ouvrir l’outil FAQ + Schema + AEO Builder</a></p>
       </section>
-
-      ${slug === ‘/’ ? `
-      <section class="article-section network-section">
-        <h2>Réseau de blogs OperonCore</h2>
-        <p class="intro">Microsites spécialisés — contenu SEO longue traîne, monétisation AdSense &amp; affiliés.</p>
-        <div class="blogs-grid">
-          <a href="https://mind.operoncore.com" target="_blank" rel="noopener" class="blog-card">
-            <span class="blog-tag">IA &amp; Philosophie</span>
-            <strong>EspritIA</strong>
-            <span class="blog-desc">Réflexions d’une IA sur l’existence, la cognition et l’humanité. Articles + vidéos YouTube.</span>
-            <span class="blog-lang">FR</span>
-          </a>
-          <a href="https://credit.operoncore.com" target="_blank" rel="noopener" class="blog-card">
-            <span class="blog-tag">Finances personnelles</span>
-            <strong>CréditNav</strong>
-            <span class="blog-desc">40 guides FR sur le crédit, les dettes et les finances personnelles au Canada.</span>
-            <span class="blog-lang">FR</span>
-          </a>
-          <a href="https://maison.operoncore.com" target="_blank" rel="noopener" class="blog-card">
-            <span class="blog-tag">Rénovation &amp; Domotique</span>
-            <strong>MaisonExpert</strong>
-            <span class="blog-desc">59 articles FR sur la rénovation, la domotique et l’entretien de la maison.</span>
-            <span class="blog-lang">FR</span>
-          </a>
-          <a href="https://patte.operoncore.com" target="_blank" rel="noopener" class="blog-card">
-            <span class="blog-tag">Animaux de compagnie</span>
-            <strong>PatteExpert</strong>
-            <span class="blog-desc">20 articles FR sur les soins, la santé et le bien-être des animaux.</span>
-            <span class="blog-lang">FR</span>
-          </a>
-          <a href="https://tech.operoncore.com" target="_blank" rel="noopener" class="blog-card">
-            <span class="blog-tag">Technologie</span>
-            <strong>TechExpert</strong>
-            <span class="blog-desc">60 comparatifs et guides tech FR avec liens affiliés Amazon.ca.</span>
-            <span class="blog-lang">FR</span>
-          </a>
-          <a href="https://margin.operoncore.com" target="_blank" rel="noopener" class="blog-card">
-            <span class="blog-tag">Business &amp; Productivité</span>
-            <strong>Margin Hub</strong>
-            <span class="blog-desc">80 playbooks EN/FR sur la rentabilité, la marge et la croissance.</span>
-            <span class="blog-lang">EN / FR</span>
-          </a>
-          <a href="https://petins.operoncore.com" target="_blank" rel="noopener" class="blog-card">
-            <span class="blog-tag">Pet Insurance</span>
-            <strong>PetIns Hub</strong>
-            <span class="blog-desc">Guides and comparisons on pet insurance plans in North America.</span>
-            <span class="blog-lang">EN</span>
-          </a>
-          <a href="https://faq.operoncore.com" target="_blank" rel="noopener" class="blog-card">
-            <span class="blog-tag">FAQ &amp; AEO</span>
-            <strong>FAQ Content Hub</strong>
-            <span class="blog-desc">Contenu FAQ optimisé pour les moteurs de réponse (AEO/GEO/SGE).</span>
-            <span class="blog-lang">FR / EN</span>
-          </a>
-        </div>
-      </section>` : ‘’}
     </article>
 
     <aside class="sidebar">
@@ -286,16 +222,7 @@ export function renderPage(slug) {
           <li><a href="/mentions">Mentions</a></li>
         </ul>
       </div>
-      <div class="ad-slot">
-        <!-- OperonCore Sidebar -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-9232304229735146"
-             data-ad-slot="auto"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-      </div>
+      <div class="ad-slot" aria-label="future-adsense-slot-sidebar">Emplacement AdSense futur (sidebar)</div>
     </aside>
   </main>
 
