@@ -102,7 +102,29 @@ export const pages = [
     sections: [
       {
         h2: 'Piliers stratégiques',
-        list: ['/faq-seo', '/faq-json-ld', '/faq-schema', '/faq-examples', '/faq-local-seo', '/how-to-add-faq-schema']
+        list: [
+          '/faq-seo',
+          '/faq-json-ld',
+          '/faq-schema',
+          '/faq-examples',
+          '/faq-local-seo',
+          '/how-to-add-faq-schema',
+          '/faq-saas-ia',
+          '/faq-boutique-eco-responsable',
+          '/faq-createur-contenu-influence',
+          '/faq-consultant-expert-independant',
+          '/faq-agence-immo-luxe',
+          '/faq-telemedecine-sante',
+          '/faq-energie-solaire',
+          '/faq-cybersecurite-pme',
+          '/faq-voyage-durable',
+          '/faq-edtech-cours-en-ligne',
+          '/faq-coworking-spaces',
+          '/faq-podcaster-independant',
+          '/faq-soins-animaux-domestiques',
+          '/faq-domotique-maison-intelligente',
+          '/faq-planification-financiere-millennials'
+        ]
       },
       {
         h2: 'Guides actionnables',
@@ -197,10 +219,182 @@ export const pages = [
             ['FAQ informative', 'Clarifier le sujet', 'Rester trop théorique'],
             ['FAQ service', 'Lever objections avant contact', 'Réponses vagues sans cadre concret'],
             ['FAQ locale', 'Préciser disponibilité géographique', 'Duplication massive sans adaptation']
-          ]
-        }
-      },
-      {
+            ]
+            }
+            ]
+            },
+
+            // --- EXPANSION: HIGH-VALUE PILLARS (50+ PAGES TARGET) ---
+            {
+            slug: '/faq-saas-ia',
+            title: 'FAQ pour SaaS IA: transparence, sécurité et respect de la vie privée',
+            description: 'Comment rassurer vos utilisateurs sur l’usage des données par vos modèles IA.',
+            h1: 'FAQ Spécialisée pour Logiciels et Outils IA',
+            intro: 'Les utilisateurs de SaaS IA ont des craintes spécifiques: fuite de données, biais algorithmiques, coût des jetons. Cette page vous guide pour construire une FAQ qui lève ces freins.',
+            ...meta({ type: 'pillar', cluster: 'ai-saas', intents: ['trust', 'technical'] }),
+            sections: [
+            {
+            h2: 'Les 5 questions critiques en 2026',
+            bullets: [
+            'Mes données servent-elles à entraîner vos modèles ?',
+            'Comment garantissez-vous l’absence de biais dans les résultats ?',
+            'Quelles sont les limites de l’automatisation proposée ?',
+            'Comment est calculée la consommation de crédits ?',
+            'Puis-je exporter mes données en format standard ?'
+            ]
+            }
+            ]
+            },
+            {
+            slug: '/faq-boutique-eco-responsable',
+            title: 'FAQ E-commerce éco-responsable: prouver vos engagements',
+            description: 'Transparence logistique, emballages et certifications pour boutiques durables.',
+            h1: 'FAQ Éthique et Durable: Rassurer l’acheteur engagé',
+            intro: 'L’acheteur éco-responsable est exigeant. Votre FAQ doit prouver votre authenticité sans faire de greenwashing.',
+            ...meta({ type: 'pillar', cluster: 'e-commerce', intents: ['ethical', 'trust'] }),
+            sections: [
+            {
+            h2: 'Section Transparence Radicale',
+            paragraphs: [
+            'Détaillez ici la provenance exacte de vos matières premières et le bilan carbone de votre dernier kilomètre de livraison.',
+            'Expliquez votre politique de retour "zéro gâchis" et vos partenariats avec des associations locales.'
+            ]
+            }
+            ]
+            },
+            {
+            slug: '/faq-createur-contenu-influence',
+            title: 'FAQ pour Créateurs et Influenceurs: gérer les partenariats',
+            description: 'Modèle de FAQ pour expliquer votre éthique de collaboration et vos tarifs.',
+            h1: 'FAQ Influenceur: Professionnaliser sa relation marque/audience',
+            intro: 'Gérez les attentes de vos partenaires marques et la confiance de votre audience avec une FAQ transparente sur vos processus créatifs.',
+            ...meta({ type: 'pillar', cluster: 'creator-economy', intents: ['business', 'trust'] }),
+            sections: [
+            {
+            h2: 'Réponses aux marques (B2B)',
+            list: [
+            'Quelles sont vos statistiques d’engagement réelles ?',
+            'Quel est votre délai moyen de production de contenu ?',
+            'Comment gérez-vous l’exclusivité sectorielle ?'
+            ]
+            }
+            ]
+            },
+            {
+            slug: '/faq-consultant-expert-independant',
+            title: 'FAQ Consultant: Lever les freins avant signature',
+            description: 'FAQ stratégique pour experts et consultants en freelance.',
+            h1: 'FAQ Consultant Expert: Optimiser son tunnel de vente',
+            intro: 'Un client potentiel ne veut pas seulement vos compétences, il veut comprendre votre méthode. Cette FAQ prépare le terrain de la signature.',
+            ...meta({ type: 'pillar', cluster: 'freelance', intents: ['transactional'] }),
+            sections: [
+            {
+            h2: 'Processus et Méthodologie',
+            paragraphs: [
+            'Expliquez ici votre phase de diagnostic, votre gestion des imprévus et vos formats de livrables.',
+            'Détaillez vos conditions de paiement et vos options d’accompagnement post-mission.'
+            ]
+            }
+            ]
+            },
+            {
+            slug: '/faq-agence-immo-luxe',
+            title: 'FAQ Immobilier de Prestige: Confidentialité et Accompagnement',
+            description: 'Répondre aux attentes d’une clientèle haut de gamme en immobilier.',
+            h1: 'FAQ Immo de Luxe: Rassurer les acquéreurs et vendeurs premium',
+            intro: 'Dans le luxe, la FAQ sert à prouver l’exclusivité du service et la discrétion totale de l’agence.',
+            ...meta({ type: 'pillar', cluster: 'real-estate', intents: ['premium'] }),
+            sections: [
+            {
+            h2: 'Services Conciergerie',
+            bullets: [
+            'Comment garantissez-vous l’anonymat des visites ?',
+            'Quels sont vos réseaux de diffusion "off-market" ?',
+            'Accompagnez-vous les clients internationaux (fiscalité, visas) ?'
+            ]
+            }
+            ]
+            },
+            {
+            slug: '/faq-telemedecine-sante',
+            title: 'FAQ Télémédecine: Sécurité des données et parcours de soin',
+            description: 'Rassurer les patients sur la consultation à distance.',
+            h1: 'FAQ Télémédecine: Établir la confiance médicale en ligne',
+            ...meta({ type: 'pillar', cluster: 'health', intents: ['trust', 'medical'] }),
+            sections: [{ h2: 'Questions Patients', bullets: ['Comment sont sécurisées mes données de santé ?', 'La téléconsultation est-elle remboursée ?', 'Comment recevoir mon ordonnance ?'] }]
+            },
+            {
+            slug: '/faq-energie-solaire',
+            title: 'FAQ Panneaux Solaires: Rentabilité, Installation et Aides',
+            description: 'Guide complet pour les futurs propriétaires de panneaux solaires.',
+            h1: 'FAQ Énergie Solaire: Passer à l’autoconsommation',
+            ...meta({ type: 'pillar', cluster: 'renewable-energy', intents: ['technical', 'financial'] }),
+            sections: [{ h2: 'Investissement et Aides', bullets: ['Quel est le temps de retour sur investissement ?', 'Quelles sont les aides de l’État disponibles ?', 'Quelle maintenance pour mes panneaux ?'] }]
+            },
+            {
+            slug: '/faq-cybersecurite-pme',
+            title: 'FAQ Cybersécurité PME: Protéger son entreprise des menaces',
+            description: 'Réponses aux questions critiques sur la sécurité informatique.',
+            h1: 'FAQ Cybersécurité: Anticiper et Réagir aux cyberattaques',
+            ...meta({ type: 'pillar', cluster: 'tech-security', intents: ['business', 'safety'] }),
+            sections: [{ h2: 'Prévention et Réponse', bullets: ['Quels sont les premiers signes d’une intrusion ?', 'Comment former mes employés à la sécurité ?', 'Que faire en cas de ransomware ?'] }]
+            },
+            {
+            slug: '/faq-voyage-durable',
+            title: 'FAQ Voyage Durable: Voyager sans détruire la planète',
+            description: 'Conseils et astuces pour un tourisme plus responsable.',
+            h1: 'FAQ Tourisme Éco-responsable: Voyager avec conscience',
+            ...meta({ type: 'pillar', cluster: 'travel', intents: ['ethical'] }),
+            sections: [{ h2: 'Pratiques Durables', bullets: ['Comment choisir un hébergement vraiment vert ?', 'Comment compenser mon empreinte carbone ?', 'Quels gestes pour respecter la culture locale ?'] }]
+            },
+            {
+            slug: '/faq-edtech-cours-en-ligne',
+            title: 'FAQ EdTech: Apprendre en ligne avec efficacité',
+            description: 'Réponses sur les plateformes de formation et certifications.',
+            h1: 'FAQ Formation en Ligne: Maximiser son apprentissage',
+            ...meta({ type: 'pillar', cluster: 'education', intents: ['informationnelle'] }),
+            sections: [{ h2: 'Méthodologie et Diplômes', bullets: ['Vos certificats sont-ils reconnus par l’État ?', 'Quel est le temps d’étude recommandé par semaine ?', 'Accompagnez-vous les étudiants après la formation ?'] }]
+            },
+            {
+            slug: '/faq-coworking-spaces',
+            title: 'FAQ Coworking: Trouver le bureau idéal pour son activité',
+            description: 'Tout savoir sur les services et abonnements en espace partagé.',
+            h1: 'FAQ Coworking: Flexibilité et Services pour Pros',
+            ...meta({ type: 'pillar', cluster: 'business-services', intents: ['practical'] }),
+            sections: [{ h2: 'Services et Vie Communautaire', bullets: ['Quels sont les services inclus (café, imprimante, etc.) ?', 'Puis-je domicilier mon entreprise dans votre espace ?', 'Organisez-vous des événements de networking ?'] }]
+            },
+            {
+            slug: '/faq-podcaster-independant',
+            title: 'FAQ Podcast: Créer, Diffuser et Monétiser son émission',
+            description: 'Guide pratique pour les podcasters débutants et confirmés.',
+            h1: 'FAQ Podcast: Réussir son lancement et sa croissance',
+            ...meta({ type: 'pillar', cluster: 'media', intents: ['technical', 'business'] }),
+            sections: [{ h2: 'Technique et Croissance', bullets: ['Quel matériel pour débuter avec un petit budget ?', 'Comment héberger son podcast sur toutes les plateformes ?', 'Comment trouver ses premiers sponsors ?'] }]
+            },
+            {
+            slug: '/faq-soins-animaux-domestiques',
+            title: 'FAQ Soins Animaux: Santé et Bien-être de vos compagnons',
+            description: 'Réponses aux questions fréquentes des propriétaires d’animaux.',
+            h1: 'FAQ Bien-être Animal: Prendre soin de son chien ou chat',
+            ...meta({ type: 'pillar', cluster: 'pets', intents: ['medical', 'practical'] }),
+            sections: [{ h2: 'Santé et Nutrition', bullets: ['Quelle alimentation choisir pour un animal âgé ?', 'Comment détecter les signes de stress chez son animal ?', 'À quelle fréquence vacciner son compagnon ?'] }]
+            },
+            {
+            slug: '/faq-domotique-maison-intelligente',
+            title: 'FAQ Domotique: Installer et Sécuriser sa Smart Home',
+            description: 'Tout sur les objets connectés et l’automatisation du foyer.',
+            h1: 'FAQ Maison Connectée: Confort, Sécurité et Économies',
+            ...meta({ type: 'pillar', cluster: 'tech-home', intents: ['technical'] }),
+            sections: [{ h2: 'Installation et Vie Privée', bullets: ['Comment sécuriser son réseau contre le piratage d’objets ?', 'Quels objets permettent de réduire sa facture d’énergie ?', 'Quels protocoles choisir (Zigbee, Matter, Thread) ?'] }]
+            },
+            {
+            slug: '/faq-planification-financiere-millennials',
+            title: 'FAQ Finances Millennials: Investir, Épargner et Gérer ses dettes',
+            description: 'Conseils financiers adaptés à la nouvelle génération.',
+            h1: 'FAQ Éducation Financière: Bâtir son patrimoine tôt',
+            ...meta({ type: 'pillar', cluster: 'finance', intents: ['financial'] }),
+            sections: [{ h2: 'Investissement et Budget', bullets: ['Comment débuter en bourse avec de petites sommes ?', 'Quelle stratégie pour rembourser ses dettes plus vite ?', 'Faut-il investir dans l’immobilier ou le marché financier ?'] }]
+            },
         h2: 'Quand utiliser / quand éviter',
         bullets: [
           'Utiliser: pages service, pages locales, pages offres à forte question client',

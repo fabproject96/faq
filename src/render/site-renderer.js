@@ -147,6 +147,7 @@ export function renderPage(slug) {
   <meta property="og:type" content="article" />
   <meta property="og:url" content="${esc(canonical)}" />
   <link rel="stylesheet" href="/site.css" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9232304229735146" crossorigin="anonymous"></script>
 </head>
 <body>
   <header class="site-header">
@@ -179,12 +180,31 @@ export function renderPage(slug) {
         <span>Cluster: ${esc(page.cluster)}</span>
       </div>
 
-      <div class="ad-slot" aria-label="future-adsense-slot-top">Emplacement AdSense futur (top article)</div>
+      <div class="ad-slot">
+        <!-- OperonCore Top Article -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-9232304229735146"
+             data-ad-slot="auto"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
 
       ${(page.sections || []).map((section, i) => {
         const html = renderSection(section);
         if (i === 1) {
-          return `${html}<div class="ad-slot" aria-label="future-adsense-slot-middle">Emplacement AdSense futur (milieu article)</div>`;
+          return `${html}
+            <div class="ad-slot">
+              <!-- OperonCore Middle Article -->
+              <ins class="adsbygoogle"
+                   style="display:block"
+                   data-ad-client="ca-pub-9232304229735146"
+                   data-ad-slot="auto"
+                   data-ad-format="auto"
+                   data-full-width-responsive="true"></ins>
+              <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>`;
         }
         return html;
       }).join('')}
@@ -266,7 +286,16 @@ export function renderPage(slug) {
           <li><a href="/mentions">Mentions</a></li>
         </ul>
       </div>
-      <div class="ad-slot" aria-label="future-adsense-slot-sidebar">Emplacement AdSense futur (sidebar)</div>
+      <div class="ad-slot">
+        <!-- OperonCore Sidebar -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-9232304229735146"
+             data-ad-slot="auto"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
     </aside>
   </main>
 
