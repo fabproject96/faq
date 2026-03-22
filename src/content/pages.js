@@ -19,7 +19,7 @@ export const site = {
   siteName: 'OperonCore FAQ Content Hub',
   description:
     'Guides, exemples et outil FAQ JSON-LD pour améliorer vos pages SEO sans complexité technique.',
-  editorialTeam: 'OperonCore Editorial Team'
+  editorialTeam: 'OperonCore Editorial Board'
 };
 
 export const nav = [
@@ -2114,7 +2114,6 @@ export const pages = [
     h1: 'Exemple FAQ restaurant : réservation, menu, horaires et allergènes',
     intro: 'Une page restaurant performe mieux quand elle répond vite aux questions que les clients se posent avant de réserver ou de se déplacer. Une FAQ bien pensée aide à clarifier les horaires, les options du menu, les allergènes, les réservations et les informations pratiques sans surcharger le reste de la page.',
     updatedAt: '2026-03-15',
-    author: 'OperonCore',
     sections: [
       {
         heading: 'Pourquoi une FAQ est utile sur un site de restaurant',
@@ -2204,7 +2203,6 @@ export const pages = [
     h1: 'Exemple FAQ clinique médicale : questions patient, prise de rendez-vous et informations utiles',
     intro: 'Une clinique médicale reçoit toujours les mêmes questions : comment prendre rendez-vous, faut-il une référence, quels documents apporter, quels sont les délais et comment se déroule la consultation. Une FAQ bien construite améliore la lisibilité de la page et rassure les patients avant le premier contact.',
     updatedAt: '2026-03-15',
-    author: 'OperonCore',
     sections: [
       {
         heading: 'Pourquoi intégrer une FAQ pour une clinique',
@@ -2257,7 +2255,6 @@ export const pages = [
     h1: 'Exemple FAQ psychologue : confidentialité, première séance et prise de rendez-vous',
     intro: 'Pour un psychologue, la FAQ sert surtout à rassurer. Les utilisateurs veulent comprendre comment se déroule la première séance, ce qui est confidentiel, combien coûte un rendez-vous et comment prendre contact sans friction.',
     updatedAt: '2026-03-15',
-    author: 'OperonCore',
     sections: [
       {
         heading: 'Objectif principal de la FAQ',
@@ -2308,7 +2305,6 @@ export const pages = [
     h1: 'Exemple FAQ serrurier : urgence, tarifs, déplacement et intervention',
     intro: 'Pour un serrurier, les visiteurs cherchent une réponse rapide et rassurante. Une FAQ peut expliquer les délais d’intervention, les zones desservies, les éléments qui influencent le prix et la manière d’obtenir un devis clair en situation d’urgence.',
     updatedAt: '2026-03-15',
-    author: 'OperonCore',
     sections: [
       {
         heading: 'Pourquoi la FAQ est stratégique pour un serrurier',
@@ -2397,7 +2393,6 @@ export const pages = [
     h1: 'Exemple FAQ dermatologue : consultation, délais et informations utiles',
     intro: 'Une page dermatologue bénéficie d’une FAQ claire quand elle répond aux questions sur les délais, la prise de rendez-vous, le type de consultation, les documents à apporter et le déroulement du suivi. Cela rassure les patients et améliore la qualité globale de la page.',
     updatedAt: '2026-03-15',
-    author: 'OperonCore',
     sections: [
       {
         heading: 'Pourquoi cette FAQ améliore la page',
@@ -2448,7 +2443,6 @@ export const pages = [
     h1: 'Exemple FAQ menuisier : devis, fabrication, matériaux et pose',
     intro: 'Pour un menuisier, une FAQ bien faite aide à cadrer le devis, les délais de fabrication, les choix de matériaux et les étapes de pose. Ce type de contenu rassure les prospects et améliore la qualité de la page service.',
     updatedAt: '2026-03-15',
-    author: 'OperonCore',
     sections: [
       {
         heading: 'Pourquoi cette FAQ convertit mieux',
@@ -2499,7 +2493,6 @@ export const pages = [
     h1: 'Exemple FAQ entreprise de nettoyage : fréquence, devis et zones desservies',
     intro: 'Une entreprise de nettoyage peut utiliser une FAQ pour expliquer ses zones d’intervention, ses fréquences de passage, la manière de demander un devis et la logique de tarification. C’est un très bon support pour une page locale ou service.',
     updatedAt: '2026-03-15',
-    author: 'OperonCore',
     sections: [
       {
         heading: 'Intérêt SEO et conversion',
@@ -2588,7 +2581,6 @@ export const pages = [
     h1: 'Exemple FAQ architecte : budget, délais et déroulement du projet',
     intro: 'Pour un architecte, les prospects veulent comprendre le budget, les grandes étapes du projet, le calendrier et la manière de démarrer une collaboration. Une FAQ bien rédigée améliore la confiance et aide à filtrer les demandes.',
     updatedAt: '2026-03-15',
-    author: 'OperonCore',
     sections: [
       {
         heading: 'Rôle de la FAQ sur une page architecte',
@@ -2677,7 +2669,6 @@ export const pages = [
     h1: 'Checklist FAQ SEO : tout vérifier avant publication',
     intro: 'Une FAQ peut aider une page… ou l’affaiblir si elle est artificielle, répétitive ou mal intégrée. Cette checklist permet de valider rapidement les points essentiels avant publication : intention, clarté, utilité, balisage et maillage interne.',
     updatedAt: '2026-03-15',
-    author: 'OperonCore',
     sections: [
       {
         heading: 'Ce qu’une bonne checklist doit vérifier',
@@ -2741,7 +2732,6 @@ export const pages = [
     h1: 'Ajouter une FAQ sur une page À propos : utile ou non ?',
     intro: 'Une page À propos n’a pas toujours besoin d’une FAQ. Mais dans certains cas, elle peut aider à répondre aux objections de confiance, au fonctionnement de l’entreprise ou au mode de collaboration. L’enjeu est de l’intégrer sans casser le récit principal.',
     updatedAt: '2026-03-15',
-    author: 'OperonCore',
     sections: [
       {
         heading: 'Quand une FAQ À propos est pertinente',
@@ -2790,7 +2780,6 @@ export const pages = [
     h1: 'Construire une FAQ de page tarifs claire, crédible et utile',
     intro: 'Une FAQ sur une page tarifs peut réduire les objections et améliorer la conversion, à condition de rester claire. Elle doit aider à comprendre le fonctionnement des prix, ce qui est inclus, les variations possibles et les étapes suivantes.',
     updatedAt: '2026-03-15',
-    author: 'OperonCore',
     sections: [
       {
         heading: 'Ce qu’une FAQ tarifs doit clarifier',
@@ -2840,7 +2829,6 @@ export const pages = [
     h1: 'Valider un FAQ Schema avant mise en ligne',
     intro: 'Avant de publier un FAQ Schema, il faut vérifier plus qu’une simple syntaxe. Le vrai contrôle consiste à s’assurer que le contenu est visible, cohérent avec la page, utile pour l’utilisateur et non dupliqué ailleurs sur le site.',
     updatedAt: '2026-03-15',
-    author: 'OperonCore',
     sections: [
       {
         heading: 'Ce qu’il faut valider',
@@ -2903,7 +2891,6 @@ export const pages = [
     h1: 'FAQ Schema : les bonnes pratiques à suivre',
     intro: 'Le FAQ Schema n’est pas une astuce magique. Il fonctionne mieux quand il accompagne une vraie amélioration de la page. Cette ressource synthétise les bonnes pratiques pour garder un balisage propre, visible et durable.',
     updatedAt: '2026-03-15',
-    author: 'OperonCore',
     sections: [
       {
         heading: 'Les principes à respecter',
@@ -2966,7 +2953,6 @@ export const pages = [
     h1: 'Renforcer la confiance d’une page service avec une FAQ',
     intro: 'Une page service convertit mieux quand elle répond aux doutes réels du prospect. Une FAQ bien pensée peut renforcer la confiance, clarifier le fonctionnement, expliquer les délais ou rassurer sur la prise de contact sans surcharger la page principale.',
     updatedAt: '2026-03-15',
-    author: 'OperonCore',
     sections: [
       {
         heading: 'Pourquoi la confiance est centrale',
