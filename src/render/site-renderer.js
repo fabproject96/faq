@@ -158,6 +158,7 @@ export function renderPage(slug) {
   <meta property="og:type" content="article" />
   <meta property="og:url" content="${esc(canonical)}" />
   <link rel="stylesheet" href="/site.css" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9232304229735146" crossorigin="anonymous"></script>
 ${renderGaTag(GA_MEASUREMENT_ID)}
 </head>
 <body>
@@ -191,12 +192,33 @@ ${renderGaTag(GA_MEASUREMENT_ID)}
         <span>Cluster: ${esc(page.cluster)}</span>
       </div>
 
-      <div class="ad-slot" aria-label="future-adsense-slot-top">Emplacement AdSense futur (top article)</div>
+      <div class="ad-slot">
+        <!-- OperonCore FAQ Top -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-9232304229735146"
+             data-ad-slot="operoncore_top"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
 
       ${(page.sections || []).map((section, i) => {
         const html = renderSection(section);
         if (i === 1) {
-          return `${html}<div class="ad-slot" aria-label="future-adsense-slot-middle">Emplacement AdSense futur (milieu article)</div>`;
+          return `${html}<div class="ad-slot">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-9232304229735146"
+                 data-ad-slot="operoncore_middle"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </div>`;
         }
         return html;
       }).join('')}
@@ -222,12 +244,43 @@ ${renderGaTag(GA_MEASUREMENT_ID)}
           <li><a href="/mentions">Mentions</a></li>
         </ul>
       </div>
-      <div class="ad-slot" aria-label="future-adsense-slot-sidebar">Emplacement AdSense futur (sidebar)</div>
+      <div class="ad-slot">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-9232304229735146"
+             data-ad-slot="operoncore_sidebar"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
     </aside>
   </main>
 
   <footer class="container footer">
-    <p>© OperonCore — Ressources éditoriales FAQ/Schema. Outil gratuit intégré pour accélérer la production.</p>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <p><strong>OperonCore Hub</strong></p>
+        <p>Ressources éditoriales FAQ/Schema. Outil gratuit intégré pour accélérer la production.</p>
+      </div>
+      <div class="footer-nav">
+        <p><strong>Ecosystem</strong></p>
+        <ul>
+          <li><a href="https://operoncore.com">Home</a></li>
+          <li><a href="https://petins.operoncore.com">Pet Insurance</a></li>
+          <li><a href="https://margin.operoncore.com">Margin Hub</a></li>
+          <li><a href="https://credit.operoncore.com">CréditNav</a></li>
+          <li><a href="https://maison.operoncore.com">MaisonExpert</a></li>
+          <li><a href="https://patte.operoncore.com">PatteExpert</a></li>
+          <li><a href="https://tech.operoncore.com">TechExpert</a></li>
+          <li><a href="https://agentai.operoncore.com">AgentAI</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 OperonCore · Content hubs and tools built to compound clarity.</p>
+    </div>
   </footer>
 </body>
 </html>`;
