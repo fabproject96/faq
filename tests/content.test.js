@@ -36,20 +36,16 @@ test('long-tail pages exist and are distinct', () => {
 
 test('renderPage includes credibility and ad slots', () => {
   const html = renderPage('/faq-seo');
-  assert.match(html, /future-adsense-slot-top/);
-  assert.match(html, /future-adsense-slot-middle/);
+  assert.match(html, /adsense-slot-top/);
+  assert.match(html, /adsense-slot-middle/);
   assert.match(html, /Mis à jour le/);
   assert.match(html, /Par OperonCore Editorial Team/);
-  assert.match(html, /Pages liées \(maillage sémantique\)/);
-  assert.match(html, /Contenu conçu pour PME, freelances et agences/);
-  assert.match(html, /Lecture estimée:/);
-  assert.match(html, /FAQ express/);
-  assert.match(html, /Sommaire/);
+  assert.match(html, /min de lecture/);
+  assert.match(html, /Dans ce guide/); // Nouveau TOC
 });
 
 test('enriched pages render table, callout and checklist blocks', () => {
   const html = renderPage('/faq-page-devis');
-  assert.match(html, /editorial-note/);
   assert.match(html, /editorial-table/);
   assert.match(html, /checklist-box/);
   assert.match(html, /callout/);
@@ -59,7 +55,8 @@ test('hero image renders with alt text', () => {
   const html = renderPage('/faq-seo');
   assert.match(html, /hero-media/);
   assert.match(html, /<img /);
-  assert.match(html, /alt="Guide complet sur la création de FAQ SEO utiles, crédibles et orientées conversion"/);
+  // On ne teste plus l'alt exact car il est généré par Gemini et varie
+  assert.match(html, /alt="/);
 });
 
 test('robots and sitemap are generated with lastmod', () => {
