@@ -14,8 +14,8 @@ export const nav = [
     "label": "Accueil"
   },
   {
-    "href": "/resources",
-    "label": "Resources"
+    "href": "/articles",
+    "label": "Tous les articles"
   },
   {
     "href": "/faq-seo",
@@ -27,7 +27,7 @@ export const nav = [
   },
   {
     "href": "/tool",
-    "label": "Outil gratuit"
+    "label": "⚡ Outil gratuit"
   }
 ];
 
@@ -158,6 +158,115 @@ export const pages = [
           "Interface utilisateur intuitive, accessible à tous.",
           "Conformité garantie avec les directives Google.",
           "Code prêt à copier-coller sur votre site web."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "/articles",
+    "title": "Tous les articles — FAQ SEO, JSON-LD et exemples métier",
+    "description": "Catalogue complet de nos 54 articles sur les FAQ SEO, le schema JSON-LD, le SEO local et les exemples par métier.",
+    "h1": "Tous les articles du hub FAQ SEO",
+    "hero": {
+      "src": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
+      "alt": "Catalogue des articles FAQ SEO et schema JSON-LD"
+    },
+    "intro": "Retrouvez ici l'ensemble de nos guides, exemples métier et ressources pratiques sur les FAQ SEO, le balisage JSON-LD et le SEO local. 54 articles organisés par thématique pour trouver rapidement ce dont vous avez besoin.",
+    "type": "index",
+    "cluster": "core",
+    "intents": [
+      "informationnelle",
+      "navigation"
+    ],
+    "updatedAt": "2026-03-31",
+    "author": "OperonCore Editorial Team",
+    "quickFaq": [],
+    "sections": [
+      {
+        "h2": "Guides fondamentaux FAQ SEO",
+        "list": [
+          "/faq-seo",
+          "/guide-faq-page-service",
+          "/guide-erreurs-faq-seo",
+          "/guide-faq-utile-vs-artificielle",
+          "/guide-adapter-faq-search-intent",
+          "/guide-faq-multilingue",
+          "/guide-faq-google-sge",
+          "/faq-reponses-courtes-vs-longues"
+        ]
+      },
+      {
+        "h2": "Implémentation JSON-LD & Schema",
+        "list": [
+          "/faq-json-ld",
+          "/faq-schema",
+          "/how-to-add-faq-schema",
+          "/guide-add-faq-schema-propre",
+          "/guide-when-use-faqpage-schema",
+          "/json-ld-page-service-locale",
+          "/json-ld-prestataire-freelance"
+        ]
+      },
+      {
+        "h2": "SEO Local & Pages géolocalisées",
+        "list": [
+          "/faq-local-seo",
+          "/faq-landing-page-locale",
+          "/faq-ameliorer-page-service-locale",
+          "/checklist-faq-schema-anti-duplication-villes",
+          "/faq-seo-mobile"
+        ]
+      },
+      {
+        "h2": "FAQ par type de page",
+        "list": [
+          "/faq-page-devis",
+          "/faq-page-contact",
+          "/faq-page-service-urgence",
+          "/faq-page-prestation-premium",
+          "/guide-faq-ecommerce",
+          "/faq-page-tarifs",
+          "/faq-page-blog"
+        ]
+      },
+      {
+        "h2": "FAQ & Conversion",
+        "list": [
+          "/faq-rassurer-avant-rdv",
+          "/faq-reduire-objections-prix",
+          "/faq-convertir-page-seo-locale"
+        ]
+      },
+      {
+        "h2": "Exemples métiers locaux",
+        "list": [
+          "/examples/plombier",
+          "/examples/electricien",
+          "/examples/couvreur",
+          "/examples/paysagiste",
+          "/examples/coiffeur",
+          "/examples/restaurant",
+          "/examples/entreprise-locale"
+        ]
+      },
+      {
+        "h2": "Exemples services de santé",
+        "list": [
+          "/examples/dentiste",
+          "/examples/kinesitherapeute",
+          "/examples/osteopathe",
+          "/examples/veterinaire"
+        ]
+      },
+      {
+        "h2": "Exemples professions libérales",
+        "list": [
+          "/examples/avocat",
+          "/examples/notaire",
+          "/examples/comptable",
+          "/examples/agent-immobilier",
+          "/examples/coach",
+          "/examples/agence-seo"
         ]
       }
     ]

@@ -198,17 +198,35 @@ export function renderPage(slug) {
 
       ${renderQuickFaq(page.quickFaq || [])}
 
-      <section class="article-section" style="background:var(--soft); padding:30px; border-radius:16px; border:none; margin-top:4rem;">
-        <h2>Prêt à optimiser vos FAQ ?</h2>
-        <p>Utilisez notre outil gratuit pour générer des balises JSON-LD propres et améliorer votre visibilité sur Google.</p>
-        <p style="margin-top:20px;"><a class="btn" href="/tool" style="background:var(--brand); color:white; padding:12px 24px; border-radius:8px; text-decoration:none; font-weight:600;">Lancer l’outil FAQ Builder →</a></p>
+      <section class="cta-tool-block" aria-label="Outil FAQ Builder gratuit">
+        <div class="cta-tool-inner">
+          <div class="cta-tool-text">
+            <h2>⚡ Générez votre FAQ JSON-LD en 30 secondes</h2>
+            <p>Notre outil gratuit produit un balisage schema propre, validé et prêt à coller sur votre site — sans coder.</p>
+          </div>
+          <a class="cta-tool-btn" href="/tool">Lancer l’outil FAQ Builder →</a>
+        </div>
       </section>
     </article>
 
     <aside class="sidebar">
+      <div class="card card-tool-cta">
+        <p class="card-tool-label">Outil gratuit</p>
+        <h3>FAQ Builder JSON-LD</h3>
+        <p>Générez vos balises schema en 30 secondes, sans coder.</p>
+        <a class="sidebar-tool-btn" href="/tool">⚡ Lancer l'outil →</a>
+      </div>
       <div class="card">
         <h3>Articles liés</h3>
         <ul>${related.map((p) => `<li><a href="${p.slug}">${esc(p.h1)}</a></li>`).join('')}</ul>
+      </div>
+      <div class="card">
+        <h3>Tous les articles</h3>
+        <ul>
+          <li><a href="/articles">Catalogue complet (54 articles)</a></li>
+          <li><a href="/faq-examples">Exemples par métier</a></li>
+          <li><a href="/faq-seo">Guide FAQ SEO</a></li>
+        </ul>
       </div>
       <div class="card">
         <h3>À propos</h3>
