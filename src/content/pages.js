@@ -260,7 +260,7 @@ export const pages = [
     "description": "Guide pilier FAQ SEO: définition, utilité, cadre d’usage, erreurs, checklist et cas concret.",
     "h1": "FAQ SEO: construire un bloc utile, crédible et performant",
     "hero": {
-      "src": "https://images.unsplash.com/photo-1549032304-44d41113b2c9?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1200&q=80",
       "alt": "Personne pensive devant un tableau blanc avec des questions et des marqueurs, symbolisant la planification d'une FAQ SEO."
     },
     "quickFaq": [
@@ -505,7 +505,7 @@ export const pages = [
     "description": "Page pilier sur le balisage FAQPage JSON-LD avec méthode de contrôle qualité.",
     "h1": "FAQ JSON-LD: structurer correctement sans dette technique",
     "hero": {
-      "src": "https://images.unsplash.com/photo-1510511232890-3841a1361952?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
       "alt": "Tableau de bord avec des graphiques et des données structurées"
     },
     "quickFaq": [
@@ -801,7 +801,7 @@ export const pages = [
     "description": "Comprendre quand utiliser FAQPage schema et éviter les implémentations faibles.",
     "h1": "FAQ Schema: usage intelligent dans une stratégie éditoriale",
     "hero": {
-      "src": "https://images.unsplash.com/photo-1542435503-9142646d3424?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
       "alt": "Diagramme de données structurées et code JSON-LD sur un écran d'ordinateur, illustrant le concept de FAQ Schema et l'optimisation sémantique."
     },
     "quickFaq": [
@@ -993,7 +993,7 @@ export const pages = [
     "description": "Bibliothèque d’exemples FAQ par secteur pour capter la longue traîne.",
     "h1": "Exemples FAQ par métier: base prête à adapter",
     "hero": {
-      "src": "https://images.unsplash.com/photo-1557426639-c5c6d32d56a3?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
       "alt": "Table de travail avec un ordinateur portable affichant des données, des documents et une tasse de café, symbolisant la stratégie de contenu et l'optimisation SEO."
     },
     "quickFaq": [
@@ -1185,7 +1185,7 @@ export const pages = [
     "description": "Construire une FAQ locale crédible pour entreprises de proximité.",
     "h1": "FAQ Local SEO: capter l’intention géographique sans sur-optimiser",
     "hero": {
-      "src": "https://images.unsplash.com/photo-1517486804551-be45610e28f3?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=1200&q=80",
       "alt": "Une personne utilisant un smartphone pour chercher des services locaux, avec une carte en arrière-plan, symbolisant le SEO local et la recherche de proximité."
     },
     "quickFaq": [
@@ -1453,7 +1453,7 @@ export const pages = [
     "description": "Tutoriel détaillé pour passer de la FAQ visible au JSON-LD validé et publié.",
     "h1": "Comment ajouter FAQ Schema sans erreur de mise en ligne",
     "hero": {
-      "src": "https://images.unsplash.com/photo-1678129598276-8f3b2e5c8e2f?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=1200&q=80",
       "alt": "Personne travaillant sur un ordinateur portable avec des diagrammes de code et une main tenant un stylo, symbolisant la mise en œuvre technique et la réflexion stratégique du schéma FAQ."
     },
     "quickFaq": [
@@ -1817,7 +1817,7 @@ export const pages = [
     "description": "Méthode durable pour implémenter et maintenir FAQPage JSON-LD.",
     "h1": "Ajouter un schema FAQ propre: la méthode sans dette",
     "hero": {
-      "src": "https://images.unsplash.com/photo-1557426673-c6035252b4ac?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
       "alt": "Une personne organisant des documents numériques sur un ordinateur portable, symbolisant une structuration propre et une maintenance efficace du schema FAQ."
     },
     "quickFaq": [
@@ -2246,7 +2246,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1616763355548-967b075e7a9b?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80",
       "alt": "Personne tenant un marqueur devant un tableau blanc avec des notes et des schémas, symbolisant l'analyse et la correction d'erreurs en SEO."
     }
   },
@@ -2453,7 +2453,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1518655290656-745194178657?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=1200&q=80",
       "alt": "Une personne analysant une checklist de critères avec un stylo, symbolisant l'audit et l'évaluation."
     }
   },
@@ -2661,7 +2661,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1517032742910-6c9c7f7e9f1e?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1200&q=80",
       "alt": "Personne pensive devant un tableau de décision, symbolisant le choix stratégique d'utiliser ou non un schéma FAQPage en SEO sémantique."
     }
   },
@@ -2823,7 +2823,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1517430816045-df4b7de1167b?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
       "alt": "Une personne concentrée analysant des données et des graphiques sur un écran, symbolisant l'optimisation SEO d'une FAQ pour l'intention de recherche."
     }
   },
@@ -3047,7 +3047,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1582219298453-e575797581ef?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80",
       "alt": "Un plombier professionnel en train de réparer une fuite d'eau, outils à la main, symbole de fiabilité et d'urgence."
     }
   },
@@ -3215,7 +3215,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1517840901107-827083049177?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1200&q=80",
       "alt": "Intérieur moderne et lumineux d'une clinique dentaire avec un fauteuil confortable et un environnement apaisant, symbolisant la tranquillité et le professionnalisme."
     }
   },
@@ -3418,7 +3418,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1579389083321-4f1146392095?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80",
       "alt": "Un avocat expliquant des documents juridiques à un client, symbolisant la clarté et la confiance dans un cabinet juridique moderne."
     }
   },
@@ -3692,7 +3692,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1517048676732-c74380edb865?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80",
       "alt": "Tableau de bord digital affichant des métriques SEO, avec des icônes d'analyse et un graphique de performance, symbolisant la clarté et la mesure de succès pour une agence SEO."
     }
   },
@@ -3978,7 +3978,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1517524285703-a15cfb22e118?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1573497019236-17f8177b81e8?auto=format&fit=crop&w=1200&q=80",
       "alt": "Un coach souriant en pleine discussion avec un client, symbolisant la clarté et la confiance dans l'accompagnement."
     }
   },
@@ -4274,7 +4274,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1576091160550-a92233b006c7?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1200&q=80",
       "alt": "Patient en kinésithérapie travaillant avec un professionnel de santé sur une table d'examen, symbolisant la réassurance et l'expertise."
     }
   },
@@ -4432,7 +4432,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1594910243179-c5c2a12d1b0d?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=1200&q=80",
       "alt": "Mains d'un ostéopathe effectuant un examen doux sur la colonne vertébrale d'un patient"
     }
   },
@@ -4646,7 +4646,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1594916848265-5b481d6c8b9d?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80",
       "alt": "Électricien professionnel vérifiant un tableau électrique avec des outils, symbolisant la sécurité et la conformité des installations."
     }
   },
@@ -4891,7 +4891,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1579737976159-450f61d5f306?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1200&q=80",
       "alt": "Un couvreur inspectant une toiture résidentielle avec des tuiles sous un ciel nuageux, symbolisant l'expertise et la résolution de problèmes urgents de toiture."
     }
   },
@@ -5141,7 +5141,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1589823223046-24a91437b0c3?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80",
       "alt": "Vue de près d'une pile de documents notariaux sur un bureau en bois, avec un stylo et une tablette, symbolisant la rigueur et la modernité des services notariaux."
     }
   },
@@ -5317,7 +5317,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1554224057-b248740c5f21?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1200&q=80",
       "alt": "Professionnel comptable travaillant sur des documents financiers dans un bureau moderne, symbolisant l'expertise et la clarté."
     }
   },
@@ -5482,7 +5482,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1560518498-883a4c07a9b1?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=1200&q=80",
       "alt": "Agent immobilier discutant avec un couple souriant devant une maison moderne, symbolisant l'accompagnement et la confiance."
     }
   },
@@ -5648,7 +5648,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1596707328268-c11c1d8b74c2?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1590579491624-f98f36d4c763?auto=format&fit=crop&w=1200&q=80",
       "alt": "Magnifique jardin paysagé avec allée en pierre et plantes vertes luxuriantes, exemple d'un projet de paysagiste réussi"
     }
   },
@@ -5848,7 +5848,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=80",
       "alt": "Un groupe de personnes en réunion, discutant de documents et de stratégies, symbolisant la clarté et la transparence dans les négociations de devis."
     }
   },
@@ -6029,7 +6029,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1596526131078-d4386927902d?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1200&q=80",
       "alt": "Bulles de dialogue et symbole d'interrogation flottant au-dessus d'un clavier, symbolisant le support client et les questions fréquentes."
     }
   },
@@ -6406,7 +6406,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1550995175-1a3b1c1d8c0b?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=80",
       "alt": "Personne regardant un tuyau d'eau éclaté avec inquiétude, symbolisant une urgence de plomberie et le besoin de réponses immédiates."
     }
   },
@@ -6561,7 +6561,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1517048676100-fd315b81de0f?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80",
       "alt": "Professionnels discutant stratégie et valeur d'une prestation premium, avec graphiques et documents sur table de conférence."
     }
   },
@@ -6786,7 +6786,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1579781390492-56360699ff8f?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1200&q=80",
       "alt": "Une personne regardant un écran avec une expression pensive, symbolisant la prise de décision et l'élimination des doutes avant un rendez-vous."
     }
   },
@@ -6987,7 +6987,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1549032333-e7178783451e?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&q=80",
       "alt": "Personne tenant un point d'interrogation au-dessus d'un graphique financier, symbolisant la complexité des objections de prix et la recherche de clarté."
     }
   },
@@ -7142,7 +7142,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1549490349-fdd173169865?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
       "alt": "Une personne naviguant sur une carte interactive affichant des marqueurs de services locaux, symbolisant l'amélioration de la pertinence locale d'une page de service via une FAQ."
     }
   },
@@ -7335,7 +7335,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1520607162590-f20367e9f3b5?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
       "alt": "Personne analysant des données et des questions pour optimiser l'information et la conversion locale"
     }
   },
@@ -7496,7 +7496,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1542435503-95627699f4d5?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
       "alt": "Tablette affichant une carte avec un marqueur de localisation et des icônes de services, superposée à des lignes de code JSON-LD, illustrant l'optimisation SEO sémantique locale."
     }
   },
@@ -7678,7 +7678,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1517048671679-e58849b3d18e?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=1200&q=80",
       "alt": "Freelancer travaillant sur un ordinateur portable, optimisant le SEO sémantique avec des données structurées"
     }
   },
@@ -7893,7 +7893,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-1518457018804-032eb9e46a78?auto=format&fit=crop&w=1200&q=80",
+      "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
       "alt": "Tableau de bord avec cartes et graphiques de données, symbolisant l'analyse SEO et la stratégie locale."
     }
   },
