@@ -175,7 +175,7 @@ export function renderPage(slug) {
       <p class="intro">${esc(page.intro || '')}</p>
 
       <figure class="hero-media">
-        <img src="${esc(page.hero?.src || site.defaultHero.src)}" alt="${esc(page.hero?.alt || page.h1)}" loading="eager" />
+        <img src="${page.hero?.src || site.defaultHero.src}" alt="${esc(page.hero?.alt || page.h1)}" loading="eager" />
       </figure>
 
       ${renderToc(page.sections || [])}
