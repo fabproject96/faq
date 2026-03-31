@@ -48,23 +48,32 @@ export const pages = [
     "description": "Un site éditorial SEO-first sur les FAQ, le schema JSON-LD et les cas métier pour PME, freelances et agences.",
     "h1": "Le hub éditorial pour créer des FAQ utiles et indexables",
     "hero": {
-      "alt": "Hub éditorial OperonCore dédié aux FAQ SEO, schema JSON-LD et contenus longue traîne"
+      "alt": "Hub éditorial OperonCore dédié aux FAQ SEO, schema JSON-LD et contenus longue traîne",
+      "src": "https://images.unsplash.com/photo-p0jW_pMhC60?w=1200&q=80"
     },
     "quickFaq": [
       {
-        "q": "À qui s’adresse ce hub ?",
-        "a": "Aux PME, freelances et agences qui veulent publier des FAQ utiles et maintenables."
+        "q": "Qu'est-ce qu'une FAQ Schema et pourquoi est-elle importante pour le SEO ?",
+        "a": "Le FAQ Schema est un balisage de données structurées qui permet aux moteurs de recherche d'afficher vos questions-réponses directement dans les résultats. Cela augmente votre visibilité, attire l'attention des utilisateurs et peut améliorer votre taux de clics (CTR) en offrant des informations instantanées sans visiter la page."
       },
       {
-        "q": "Que trouve-t-on ici ?",
-        "a": "Des guides piliers, des exemples métiers et un outil pour générer FAQ + JSON-LD + HTML."
+        "q": "Comment le schema FAQ peut-il améliorer mon SEO local ?",
+        "a": "Pour le SEO local, les FAQ Schema permettent de répondre aux questions spécifiques des internautes de votre région (horaires, services à proximité, tarifs locaux). En fournissant ces informations structurées, vous augmentez vos chances d'apparaître dans les packs locaux et d'attirer une clientèle de proximité qualifiée."
       },
       {
-        "q": "Quel est le but principal ?",
-        "a": "Produire des pages plus utiles, plus crédibles et plus faciles à faire évoluer."
+        "q": "Y a-t-il des risques ou des erreurs à éviter avec le FAQ Schema ?",
+        "a": "Oui, il est crucial de ne baliser que les FAQ visibles sur la page et pertinentes. Évitez le balisage de contenu promotionnel ou la duplication de FAQ sur plusieurs pages sans raison. Google peut ignorer votre balisage ou même pénaliser si les directives ne sont pas respectées."
+      },
+      {
+        "q": "Est-il nécessaire d'avoir un outil pour générer du JSON-LD pour les FAQ ?",
+        "a": "Non, mais un outil simplifie grandement le processus. La création manuelle de JSON-LD peut être complexe et sujette aux erreurs de syntaxe. Un générateur assure un code propre, valide et prêt à être intégré, vous faisant gagner un temps précieux et évitant les frustrations techniques."
+      },
+      {
+        "q": "Puis-je utiliser les FAQ Schema pour n'importe quel type de page ?",
+        "a": "Google recommande d'utiliser le FAQ Schema pour les pages où la question est la raison principale du contenu, comme les pages de support produit, de services, ou d'informations générales. Évitez de l'utiliser pour des forums ou des articles de blog où les questions sont secondaires."
       }
     ],
-    "intro": "Ce site combine des guides détaillés, des exemples par métier et un générateur gratuit pour accélérer la mise en production. L’objectif: produire des pages utiles pour les utilisateurs, crédibles pour Google et faciles à maintenir dans le temps.",
+    "intro": "Bienvenue sur le hub ultime dédié à la maîtrise des FAQ Schema pour propulser votre visibilité en ligne ! Que vous soyez une PME soucieuse de son SEO local, un freelance cherchant à optimiser ses services, ou une agence désirant offrir des solutions de pointe, ce guide complet est fait pour vous. Découvrez comment structurer des FAQ pertinentes, générer un schema JSON-LD impeccable, et transformer ces questions-réponses en véritables leviers de trafic organique. Nous vous fournissons des stratégies éprouvées, des exemples concrets pour divers métiers, et un outil intuitif pour créer vos balises sans effort. Préparez-vous à dominer les résultats de recherche !",
     "type": "hub",
     "cluster": "core",
     "intents": [
@@ -106,6 +115,49 @@ export const pages = [
             "href": "/tool",
             "label": "Lancer l’outil gratuit"
           }
+        ]
+      },
+      {
+        "h2": "Maîtrisez le FAQ Schema: De la théorie à la pratique",
+        "paragraphs": [
+          "Le FAQ Schema n'est plus un simple avantage, mais une nécessité pour se démarquer dans les SERP modernes. Ce guide décortique les fondamentaux du balisage de données structurées, expliquant en détail comment ces informations enrichissent l'affichage de vos pages dans Google. Comprenez les mécanismes sous-jacents qui transforment une simple liste de questions-réponses en un puissant atout SEO, améliorant significativement votre visibilité et l'engagement utilisateur.",
+          "Au-delà des définitions techniques, nous vous accompagnons pas à pas dans l'implémentation concrète du FAQ Schema. Apprenez les meilleures pratiques pour identifier les questions pertinentes, rédiger des réponses concises et optimisées, et intégrer le code JSON-LD sur votre site. Des conseils pratiques et des checklists vous aideront à éviter les erreurs courantes et à maximiser l'impact de chaque balisage pour un référencement optimal.",
+          "Notre approche combine expertise théorique et application pratique, vous permettant de passer rapidement à l'action. Que vous soyez débutant ou confirmé, vous trouverez ici les ressources nécessaires pour créer des FAQ Schema efficaces qui non seulement répondent aux interrogations de vos utilisateurs, mais aussi signalent clairement aux moteurs de recherche la valeur et la pertinence de votre contenu."
+        ]
+      },
+      {
+        "h2": "Booster votre SEO Local avec des FAQ pertinentes",
+        "paragraphs": [
+          "Le SEO local est un pilier essentiel pour les entreprises souhaitant attirer une clientèle de proximité. En intégrant des FAQ ciblées, vous pouvez répondre directement aux interrogations des utilisateurs cherchant des services ou produits dans votre zone géographique. Apprenez à identifier les requêtes locales spécifiques et à y répondre de manière structurée pour que votre entreprise apparaisse en tête des recherches \"près de moi\".",
+          "Nos stratégies détaillées vous montreront comment les FAQ peuvent renforcer votre profil Google My Business et vos pages de destination locales. En fournissant des informations précises sur vos horaires, votre adresse, vos services spécifiques à une zone ou vos tarifs régionaux, vous construisez une autorité locale incontestable. Cela se traduit par une meilleure visibilité et un afflux de clients potentiels qualifiés directement dans votre établissement."
+        ],
+        "bullets": [
+          "Optimiser les FAQ pour les requêtes géolocalisées.",
+          "Intégrer les horaires d'ouverture et l'adresse physique.",
+          "Détailler les services ou produits spécifiques à la région.",
+          "Répondre aux questions sur les tarifs locaux ou les promotions.",
+          "Mettre en avant les avis clients locaux dans les réponses."
+        ]
+      },
+      {
+        "h2": "Exemples Concrets et Cas d'Usage Métier",
+        "paragraphs": [
+          "La puissance du FAQ Schema réside dans son adaptabilité à une multitude de secteurs d'activité. Ce hub vous propose une collection d'exemples concrets, illustrant comment des entreprises diverses – de l'e-commerce aux services de santé, en passant par l'artisanat local – peuvent tirer parti de ce balisage. Découvrez des cas pratiques qui vous inspireront pour appliquer ces techniques à votre propre contexte métier.",
+          "Chaque exemple est décortiqué pour vous montrer non seulement \"quoi\" baliser, mais aussi \"comment\" le faire de manière optimale. Apprenez à identifier les questions clés spécifiques à votre niche, celles qui génèrent le plus de valeur pour vos utilisateurs et pour les moteurs de recherche. Ces études de cas pratiques sont conçues pour vous offrir une vision claire des bénéfices tangibles et mesurables du FAQ Schema.",
+          "Que vous vendiez des produits en ligne, proposiez des services de conseil ou gériez un restaurant, vous trouverez des stratégies sur mesure pour intégrer des FAQ pertinentes. Ces exemples vous guideront dans la création de contenu qui non seulement informe, mais aussi convertit, en répondant aux doutes et aux besoins spécifiques de votre audience cible."
+        ]
+      },
+      {
+        "h2": "Simplifiez la Génération de JSON-LD avec notre Outil",
+        "paragraphs": [
+          "La création manuelle de code JSON-LD peut être un défi, même pour les plus aguerris, sans parler des risques d'erreurs de syntaxe qui peuvent annuler tous vos efforts SEO. Notre outil de génération de JSON-LD pour FAQ a été conçu pour éliminer cette complexité. Il vous permet de créer un balisage structuré parfait en quelques clics, sans aucune connaissance en programmation.",
+          "Fini les heures passées à vérifier chaque parenthèse et chaque virgule ! Notre générateur intuitif vous guide à travers le processus, assurant que votre code est toujours conforme aux dernières directives de Google. Gagnez un temps précieux et concentrez-vous sur ce qui compte vraiment : créer du contenu de qualité qui répond aux besoins de vos utilisateurs et booste votre référencement."
+        ],
+        "bullets": [
+          "Génération rapide et sans erreur de JSON-LD.",
+          "Interface utilisateur intuitive, accessible à tous.",
+          "Conformité garantie avec les directives Google.",
+          "Code prêt à copier-coller sur votre site web."
         ]
       }
     ]
@@ -1589,23 +1641,32 @@ export const pages = [
     "description": "Tutoriel structuré pour rédiger des FAQ orientées conversion douce.",
     "h1": "Créer une FAQ utile pour une page service: méthode pratique",
     "hero": {
-      "alt": "Méthode pratique pour créer une FAQ utile sur une page service"
+      "alt": "Méthode pratique pour créer une FAQ utile sur une page service",
+      "src": "https://images.unsplash.com/photo-y9l5y4-Y0gA?w=1200&q=80"
     },
     "quickFaq": [
       {
-        "q": "Quelle source utiliser ?",
-        "a": "Les questions réelles reçues en vente, support ou rendez-vous."
+        "q": "Pourquoi créer une FAQ pour une page service?",
+        "a": "Une FAQ répond directement aux doutes des prospects, renforce la confiance, et réduit les objections. Elle améliore l'expérience utilisateur et positionne votre entreprise comme experte, augmentant ainsi les chances de conversion et la satisfaction client."
       },
       {
-        "q": "Quel ton adopter ?",
-        "a": "Court, concret, utile et non défensif."
+        "q": "Quels types de questions inclure dans ma FAQ?",
+        "a": "Concentrez-vous sur les interrogations récurrentes concernant vos services, tarifs, processus, délais, garanties, et votre zone d'intervention. Pensez aux questions que vos clients posent le plus souvent par téléphone ou email."
       },
       {
-        "q": "Quand mettre à jour ?",
-        "a": "Tous les 2 à 3 mois selon les retours terrain."
+        "q": "Comment le schema FAQPage aide-t-il le SEO?",
+        "a": "Le schema FAQPage permet à Google d'afficher vos questions-réponses directement dans les résultats de recherche sous forme de \"rich snippets\". Cela augmente votre visibilité, le taux de clics (CTR) et votre crédibilité sur les SERP."
+      },
+      {
+        "q": "Dois-je mentionner les prix dans ma FAQ?",
+        "a": "C'est souvent recommandé. Si vos prix sont transparents ou si vous pouvez donner une fourchette, cela filtre les prospects non qualifiés et rassure ceux qui sont prêts à investir. Adaptez selon votre modèle commercial et la complexité de vos services."
+      },
+      {
+        "q": "À quelle fréquence dois-je mettre à jour ma FAQ?",
+        "a": "Idéalement, révisez votre FAQ tous les 6 à 12 mois, ou dès qu'il y a un changement majeur dans vos services, tarifs ou processus. Analysez les nouvelles questions des clients pour maintenir sa pertinence et son utilité."
       }
     ],
-    "intro": "Ce guide transforme une page service “classique” en page plus performante grâce à une FAQ qui répond aux objections avant devis. Vous trouverez une méthode pas-à-pas applicable immédiatement.",
+    "intro": "Dans le monde digital actuel, une page service est bien plus qu'une simple description de vos prestations. Pour les artisans, prestataires de services et entreprises locales, elle doit rassurer, informer et convertir. C'est là qu'une FAQ (Foire Aux Questions) bien conçue devient un atout stratégique majeur. Ce guide pratique vous dévoilera comment créer une section FAQ non seulement utile pour vos visiteurs, mais aussi puissante pour votre référencement local. En répondant aux interrogations fréquentes de vos prospects, vous construirez la confiance, réduirez les freins à l'achat et améliorerez significativement votre positionnement dans les résultats de recherche, notamment grâce au schema FAQPage.",
     "keyTakeaways": [
       "Commencer par les questions vente/support réelles.",
       "Regrouper par thèmes de décision (prix, délai, process, garanties).",
@@ -1703,6 +1764,49 @@ export const pages = [
             "href": "/tool",
             "label": "Créer un brouillon FAQ depuis la page service"
           }
+        ]
+      },
+      {
+        "h2": "Pourquoi une FAQ est-elle cruciale pour votre page service ?",
+        "paragraphs": [
+          "Une FAQ bien pensée est un pilier de l'expérience utilisateur. Elle anticipe les besoins d'information de vos prospects, leur offrant des réponses claires et immédiates sans qu'ils aient à chercher ailleurs ou à contacter votre service client. Cette proactivité renforce la confiance, un élément vital pour les artisans et prestataires locaux.",
+          "D'un point de vue SEO, une FAQ est un réservoir de mots-clés de longue traîne. Chaque question et réponse représente une opportunité de se positionner sur des requêtes spécifiques que vos clients potentiels pourraient taper. De plus, elle signale à Google la richesse et la pertinence de votre contenu, favorisant l'affichage de \"rich snippets\".",
+          "Au-delà de l'information, une FAQ est un puissant levier de conversion. En levant les doutes et en clarifiant les zones d'ombre, elle réduit les frictions dans le parcours client. Un prospect rassuré sur les modalités de service, les délais ou les garanties est un prospect plus enclin à passer à l'action, que ce soit pour une demande de devis ou un appel direct."
+        ]
+      },
+      {
+        "h2": "Méthode pour identifier les questions pertinentes de vos clients",
+        "paragraphs": [
+          "La première étape pour une FAQ efficace est d'écouter attentivement vos clients. Les sources d'informations sont multiples : les questions fréquentes posées à votre service client, les interrogations via les formulaires de contact, les commentaires sur Google My Business ou les réseaux sociaux, et même les discussions lors des devis.",
+          "Utilisez des outils de recherche de mots-clés pour découvrir les requêtes populaires liées à vos services. Explorez la section \"Autres questions posées\" de Google pour déceler les interrogations connexes. Analyser les FAQ de vos concurrents peut aussi révéler des angles que vous n'auriez pas envisagés, vous permettant d'offrir une valeur ajoutée."
+        ],
+        "bullets": [
+          "Interrogez directement vos équipes de vente et de support client.",
+          "Analysez les requêtes de recherche internes de votre site web.",
+          "Consultez les avis et questions sur votre fiche Google My Business.",
+          "Utilisez des outils comme AnswerThePublic ou Semrush pour les questions.",
+          "Examinez les commentaires sur vos publications de réseaux sociaux."
+        ]
+      },
+      {
+        "h2": "Structurer et rédiger des réponses qui convertissent",
+        "paragraphs": [
+          "Chaque réponse de votre FAQ doit être un modèle de clarté et de concision. Allez droit au but, utilisez un langage simple et évitez le jargon technique. L'objectif est de fournir une information utile et actionable, qui guide le prospect vers la prochaine étape, qu'il s'agisse de prendre rendez-vous ou de demander un devis.",
+          "Intégrez naturellement vos mots-clés cibles dans les questions et les réponses, sans sur-optimisation. Pensez à la sémantique et aux synonymes. Chaque réponse est une opportunité d'enrichir le contexte de votre page service pour les moteurs de recherche, renforçant ainsi votre pertinence sur des requêtes variées et locales.",
+          "N'hésitez pas à inclure des appels à l'action (CTA) pertinents au sein de certaines réponses ou à la fin de votre section FAQ. Par exemple, après avoir expliqué votre processus, proposez un lien direct vers le formulaire de devis. Cela transforme une simple information en une opportunité de conversion directe pour votre entreprise locale."
+        ]
+      },
+      {
+        "h2": "Optimisation SEO locale et schema FAQ pour booster votre visibilité",
+        "paragraphs": [
+          "Pour les entreprises locales, l'intégration de mots-clés géolocalisés est primordiale. Mentionnez votre ville, votre quartier ou votre zone d'intervention dans les questions et réponses pertinentes de votre FAQ. Cela signale à Google votre pertinence pour les recherches locales, augmentant vos chances d'apparaître dans le pack local et les résultats organiques.",
+          "L'implémentation du balisage schema.org de type `FAQPage` est une étape technique mais essentielle. Il s'agit d'ajouter un code JSON-LD à votre page qui structure vos questions-réponses pour les moteurs de recherche. Cela permet à Google de comprendre et d'afficher vos FAQ sous forme de \"rich snippets\" directement dans les SERP, captant ainsi davantage l'attention."
+        ],
+        "bullets": [
+          "Amélioration visible de votre présence dans les résultats de recherche.",
+          "Augmentation significative du taux de clics (CTR) vers votre page.",
+          "Affichage direct des réponses, établissant votre autorité.",
+          "Possibilité d'occuper plus d'espace sur la page de résultats."
         ]
       }
     ]
@@ -3883,7 +3987,7 @@ export const pages = [
     "title": "Exemples FAQ entreprise locale: zone, délais, tarifs",
     "description": "Base FAQ longue traîne pour entreprises locales multi-services.",
     "h1": "Exemples FAQ pour entreprise locale: version scalable",
-    "intro": "Cette structure convient aux TPE/PME locales qui veulent standardiser leurs réponses sans perdre en précision.",
+    "intro": "Une section FAQ bien conçue est un atout inestimable pour toute entreprise locale, agissant comme un véritable assistant virtuel pour vos clients. Elle répond proactivement aux questions les plus fréquentes concernant votre zone d'intervention, les délais de service, et vos tarifs, réduisant ainsi la charge de travail de votre équipe et améliorant l'expérience utilisateur. Plus qu'une simple liste, une FAQ optimisée avec le schema FAQPage est un levier SEO puissant. Elle permet à Google de mieux comprendre et afficher des extraits enrichis dans les résultats de recherche, augmentant votre visibilité locale et votre taux de clic. Cet article vous propose des exemples concrets et scalables pour construire une FAQ qui sert à la fois vos clients et votre stratégie SEO.",
     "type": "example",
     "cluster": "local-business",
     "intents": [
@@ -3927,8 +4031,77 @@ export const pages = [
             "label": "Créer un brouillon FAQ locale"
           }
         ]
+      },
+      {
+        "h2": "Optimiser votre FAQ pour le SEO Local",
+        "paragraphs": [
+          "Une FAQ bien structurée n'est pas seulement utile pour vos clients ; elle est cruciale pour votre SEO local. En répondant aux questions que vos clients potentiels tapent dans les moteurs de recherche, vous positionnez votre entreprise comme une autorité. Intégrez naturellement des mots-clés locaux pertinents comme \"serrurier [ville]\", \"restaurant [quartier]\", ou \"coiffeur [code postal]\" dans vos questions et réponses pour capter un trafic qualifié.",
+          "L'implémentation du balisage schema FAQPage est une étape indispensable. Ce code structuré permet aux moteurs de recherche de comprendre le contenu de votre FAQ et de l'afficher directement dans les résultats sous forme de \"rich snippets\". Cela augmente considérablement la visibilité de votre site, améliore le taux de clic (CTR) et peut même vous aider à obtenir une position zéro, renforçant ainsi votre présence dans les recherches locales.",
+          "Pensez à l'intention de recherche de vos utilisateurs. Les questions fréquemment posées sont souvent des points de friction ou des doutes avant un achat ou une prise de contact. En anticipant et en répondant clairement à ces interrogations, vous construisez la confiance, réduisez le nombre d'appels répétitifs et guidez efficacement les prospects vers la conversion. Une FAQ est un investissement stratégique pour l'expérience client et la performance SEO."
+        ]
+      },
+      {
+        "h2": "Exemples concrets de FAQ par thématique",
+        "paragraphs": [
+          "Pour qu'une FAQ soit réellement efficace, il est essentiel de la segmenter par thématiques claires. Cette approche permet aux utilisateurs de trouver rapidement l'information recherchée sans se perdre dans une liste interminable. En regroupant les questions similaires, vous facilitez la navigation et offrez une meilleure expérience, ce qui est également apprécié par les algorithmes des moteurs de recherche pour l'organisation du contenu.",
+          "Les thèmes les plus pertinents pour une entreprise locale tournent souvent autour des aspects pratiques et logistiques. Pensez aux informations cruciales que vos clients recherchent avant de faire appel à vos services ou d'acheter vos produits. Une bonne segmentation inclura inévitablement les questions sur votre zone d'action, la disponibilité, les coûts et la manière de prendre contact, comme détaillé ci-dessous."
+        ],
+        "bullets": [
+          "Zone d'intervention et frais de déplacement",
+          "Délais de réalisation des services ou de livraison",
+          "Tarifs, devis personnalisés et modes de paiement",
+          "Processus de prise de rendez-vous ou de commande",
+          "Garanties, services après-vente et politique de retour"
+        ]
+      },
+      {
+        "h2": "FAQ sur la zone desservie et les déplacements",
+        "paragraphs": [
+          "La zone d'intervention est une question fondamentale pour toute entreprise locale. Les clients veulent savoir rapidement si vous pouvez les servir. Soyez précis : mentionnez les villes, quartiers, codes postaux ou même un rayon kilométrique autour de votre établissement. Cela évite les malentendus et qualifie vos prospects dès le départ, leur faisant gagner du temps et vous évitant des demandes hors de votre périmètre.",
+          "N'oubliez pas d'aborder la question des frais de déplacement. Si vous appliquez des coûts supplémentaires en fonction de la distance, indiquez clairement comment ils sont calculés ou à partir de quelle zone ils s'appliquent. La transparence sur ces aspects renforce la confiance. Vous pouvez aussi expliquer si certains services nécessitent une intervention sur site ou peuvent être réalisés à distance, élargissant ainsi votre flexibilité.",
+          "Pensez à inclure des questions sur la capacité à intervenir en urgence ou sur des sites spécifiques (ex: accès difficile, immeubles). Ces détails, souvent négligés, peuvent faire la différence pour un client confronté à une situation particulière. Une réponse claire à ces interrogations démontre votre professionnalisme et votre capacité à anticiper les besoins variés de votre clientèle locale."
+        ]
+      },
+      {
+        "h2": "FAQ sur les délais et les tarifs: Transparence avant tout",
+        "paragraphs": [
+          "Les délais et les tarifs sont souvent les premières préoccupations des clients potentiels. Fournir des informations claires et transparentes à ce sujet est essentiel pour gérer les attentes et éviter toute surprise désagréable. Indiquez des fourchettes de temps réalistes pour la réalisation de vos services ou la livraison de vos produits, en précisant les facteurs qui peuvent influencer ces délais, comme la complexité ou la disponibilité.",
+          "Concernant les tarifs, même si un devis personnalisé est souvent nécessaire, proposer des prix indicatifs ou une grille tarifaire pour les services standards est un excellent moyen de rassurer vos prospects. Expliquez clairement ce qui est inclus dans le prix, les options supplémentaires, et les modalités de paiement. Cette transparence contribue grandement à établir une relation de confiance et à faciliter la décision d'achat."
+        ],
+        "bullets": [
+          "Quel est le délai moyen pour vos services ?",
+          "Que faire en cas d'urgence ou de besoin rapide ?",
+          "Comment sont calculés vos tarifs ? Avez-vous une grille ?",
+          "Le devis est-il gratuit et sans engagement ?",
+          "Quels modes de paiement acceptez-vous ?"
+        ]
       }
-    ]
+    ],
+    "quickFaq": [
+      {
+        "q": "Quelle est votre zone d'intervention principale ?",
+        "a": "Nous couvrons principalement [Ville X] et ses environs, incluant [Ville Y] et [Ville Z] dans un rayon de [X] km. Pour toute demande en dehors de cette zone, n'hésitez pas à nous contacter pour vérifier la faisabilité et les éventuels frais de déplacement."
+      },
+      {
+        "q": "Quels sont les délais typiques pour vos services ou livraisons ?",
+        "a": "Les délais varient selon le service. Pour une intervention standard, comptez généralement [X] jours ouvrés. Les livraisons prennent [Y] à [Z] jours. Nous nous efforçons de répondre aux urgences et vous communiquerons une estimation précise lors de votre demande initiale."
+      },
+      {
+        "q": "Comment obtenir un devis ou connaître vos tarifs ?",
+        "a": "Pour une transparence optimale, nous proposons des devis personnalisés et gratuits. Contactez-nous par téléphone, email ou via notre formulaire en ligne. Après discussion de vos besoins, nous vous enverrons une proposition détaillée sous [X] heures/jours, sans engagement de votre part."
+      },
+      {
+        "q": "Comment puis-je prendre rendez-vous avec vous ?",
+        "a": "La prise de rendez-vous est simple et rapide. Utilisez notre système de réservation en ligne disponible 24/7 sur notre site web, appelez-nous directement pendant nos heures d'ouverture, ou envoyez-nous un email. Nous vous recontacterons rapidement pour confirmer votre créneau."
+      },
+      {
+        "q": "Offrez-vous une garantie sur vos services ou produits ?",
+        "a": "Absolument. Nous sommes fiers de la qualité de nos prestations et produits. Tous nos services sont accompagnés d'une garantie de [X] mois/ans, et nos produits bénéficient de la garantie constructeur. Votre satisfaction est notre priorité."
+      }
+    ],
+    "hero": {
+      "src": "https://images.unsplash.com/photo-XkC_8o-kQy8?w=1200&q=80"
+    }
   },
   {
     "slug": "/examples/kinesitherapeute",
@@ -5865,7 +6038,7 @@ export const pages = [
     "title": "FAQ pour landing page locale: structure et bonnes questions",
     "description": "FAQ locale pour landing pages ville/quartier orientées conversion.",
     "h1": "FAQ pour landing page locale",
-    "intro": "Sur une landing locale, la FAQ doit répondre aux contraintes géographiques réelles.",
+    "intro": "En tant qu'expert SEO et rédacteur web, je constate que l'optimisation locale est devenue une pierre angulaire de la visibilité en ligne pour les entreprises de proximité. Une landing page bien construite, ciblant des requêtes comme « plombier Paris » ou « électricien Lyon », est essentielle. Mais pour vraiment se démarquer, intégrer une section FAQ structurée et optimisée est une stratégie redoutable. Non seulement elle répond aux interrogations clés de vos prospects, mais elle renforce aussi votre positionnement grâce au FAQ schema, offrant des rich snippets qui boostent votre taux de clics. Découvrez comment transformer votre FAQ en un puissant levier de SEO local.",
     "type": "guide",
     "cluster": "local-seo",
     "intents": [
@@ -5902,8 +6075,76 @@ export const pages = [
             "label": "Checklist anti-duplication"
           }
         ]
+      },
+      {
+        "h2": "Pourquoi une FAQ est cruciale pour votre SEO local ?",
+        "paragraphs": [
+          "L'intégration d'une section FAQ sur votre landing page locale est bien plus qu'une simple commodité pour vos utilisateurs. Elle représente un atout SEO majeur. En répondant aux questions les plus fréquentes, vous enrichissez le contenu de votre page avec des mots-clés pertinents, améliorant ainsi la compréhension de votre offre par les moteurs de recherche. Cela signale à Google que votre page est une source d'information fiable et complète pour les requêtes locales spécifiques à votre métier.",
+          "De plus, une FAQ bien pensée et structurée contribue à une meilleure expérience utilisateur. Les visiteurs peuvent trouver rapidement les informations dont ils ont besoin sans avoir à naviguer sur plusieurs pages ou à contacter directement. Cette facilité d'accès à l'information réduit le taux de rebond et augmente le temps passé sur votre site, des signaux positifs que Google prend en compte pour évaluer la pertinence et la qualité de votre page locale.",
+          "Enfin, la FAQ permet de cibler une multitude de requêtes de longue traîne, souvent posées sous forme interrogative. Par exemple, au lieu de simplement « plombier Paris », les utilisateurs peuvent chercher « prix dépannage plombier Paris » ou « plombier urgence Paris dimanche ». Chaque question-réponse de votre FAQ est une opportunité de capturer ces requêtes spécifiques, élargissant ainsi votre spectre de visibilité dans les résultats de recherche locaux."
+        ]
+      },
+      {
+        "h2": "Structure idéale et types de questions à poser",
+        "paragraphs": [
+          "Pour qu'une FAQ soit efficace, sa structure doit être claire, logique et facile à parcourir. Organisez vos questions par catégories thématiques si elles sont nombreuses, ou par ordre de priorité si elles sont plus limitées. Chaque question doit être concise et formulée comme une recherche utilisateur potentielle. Les réponses doivent être directes, informatives et ne pas dépasser 50 à 70 mots pour maintenir l'engagement et la lisibilité, tout en intégrant naturellement vos mots-clés cibles.",
+          "L'identification des bonnes questions est la clé du succès. Pensez aux préoccupations récurrentes de vos clients. Collectez les questions posées via votre formulaire de contact, vos appels téléphoniques, vos avis Google My Business, ou même via des outils d'analyse de mots-clés. L'objectif est de prédire ce que votre audience locale cherche activement à savoir avant de faire appel à vos services. Ne sous-estimez pas l'importance des questions pratiques et logistiques."
+        ],
+        "bullets": [
+          "Questions sur les services spécifiques (ex: « Quels types de dépannage électrique proposez-vous ? »)",
+          "Questions sur les tarifs et devis (ex: « Comment sont calculés vos tarifs d'intervention ? »)",
+          "Questions sur la zone d'intervention (ex: « Intervenez-vous dans le 16e arrondissement de Paris ? »)",
+          "Questions sur le processus (ex: « Quel est le délai moyen pour une installation ? »)",
+          "Questions sur les garanties et certifications (ex: « Vos travaux sont-ils garantis ? »)"
+        ]
+      },
+      {
+        "h2": "Implémentation du FAQ Schema pour des résultats visibles",
+        "paragraphs": [
+          "Le FAQ schema est un balisage de données structurées qui permet à Google de comprendre explicitement que votre contenu est organisé en questions et réponses. En l'implémentant sur votre landing page locale, vous donnez la possibilité à vos FAQ d'apparaître sous forme de rich snippets dans les résultats de recherche. Ces extraits enrichis, affichant directement les questions et leurs réponses sous votre titre de page, augmentent considérablement votre visibilité et votre taux de clics (CTR).",
+          "Pour implémenter le FAQ schema, vous devrez utiliser le format JSON-LD. Il s'agit d'un petit bloc de code JavaScript que vous placez dans la section `<head>` ou `<body>` de votre page. Ce code décrit chaque question et sa réponse associée. Il est crucial que le contenu du schema corresponde exactement au contenu visible de votre FAQ sur la page pour éviter les pénalités et assurer la validité de votre balisage aux yeux de Google.",
+          "L'impact du FAQ schema sur le SEO local est direct. En occupant plus d'espace dans les SERP (Search Engine Results Pages), votre entreprise locale gagne en autorité et en crédibilité. Les utilisateurs voient immédiatement que vous fournissez des informations pertinentes, ce qui les incite à cliquer sur votre lien plutôt que sur celui d'un concurrent. C'est une tactique simple mais puissante pour renforcer votre présence locale et capter l'attention des prospects."
+        ]
+      },
+      {
+        "h2": "Erreurs courantes à éviter et bonnes pratiques",
+        "paragraphs": [
+          "De nombreuses entreprises commettent des erreurs en créant leur FAQ, ce qui peut nuire à leur SEO local. L'une des plus fréquentes est de remplir la FAQ de questions non pertinentes ou trop génériques, qui n'apportent aucune valeur ajoutée. Une autre erreur est d'utiliser des réponses trop longues ou trop techniques, décourageant la lecture. Enfin, l'absence de FAQ schema ou une implémentation incorrecte est une opportunité manquée qui limite la visibilité de votre contenu.",
+          "Pour maximiser l'efficacité de votre FAQ, assurez-vous de la maintenir à jour. Les informations sur les services, les prix ou les zones d'intervention peuvent évoluer, et votre FAQ doit refléter ces changements. Intégrez des appels à l'action clairs à la fin des réponses pertinentes, comme « Demandez un devis gratuit » ou « Contactez-nous pour une intervention rapide ». Une FAQ bien gérée est un atout dynamique pour votre stratégie de contenu et votre SEO local."
+        ],
+        "bullets": [
+          "Assurez-vous que les questions sont pertinentes et ciblent les besoins locaux.",
+          "Rédigez des réponses concises, claires et optimisées avec des mots-clés.",
+          "Testez et validez votre implémentation du FAQ schema avec l'outil de test des résultats enrichis de Google.",
+          "Mettez régulièrement à jour votre FAQ pour refléter les évolutions de vos services ou de votre marché."
+        ]
       }
-    ]
+    ],
+    "quickFaq": [
+      {
+        "q": "Pourquoi une FAQ est-elle si importante pour une landing page locale ?",
+        "a": "Une FAQ répond directement aux questions des utilisateurs, améliore l'expérience client et fournit du contenu pertinent aux moteurs de recherche. Elle peut aussi générer des rich snippets via le schema, augmentant la visibilité de votre page dans les résultats locaux."
+      },
+      {
+        "q": "Quels types de questions devrais-je inclure dans ma FAQ locale ?",
+        "a": "Concentrez-vous sur les services offerts, les zones géographiques couvertes, les tarifs, les délais d'intervention, les garanties et les questions pratiques spécifiques à votre activité. Pensez aux requêtes que vos clients potentiels tapent sur Google."
+      },
+      {
+        "q": "Comment le FAQ schema aide-t-il mon SEO local ?",
+        "a": "Le FAQ schema permet à Google de comprendre la structure question-réponse de votre contenu. En l'implémentant correctement, vos questions et réponses peuvent apparaître directement dans les résultats de recherche sous forme de rich snippets, augmentant votre visibilité et votre CTR localement."
+      },
+      {
+        "q": "Dois-je inclure des informations sur les prix dans ma FAQ locale ?",
+        "a": "Oui, si possible. La transparence sur les prix (même des fourchettes ou des exemples) peut rassurer les clients et réduire les frictions. Cela répond à une question fréquente et peut vous positionner comme une option fiable et honnête dans votre zone de service."
+      },
+      {
+        "q": "Comment puis-je trouver les meilleures questions pour ma FAQ locale ?",
+        "a": "Utilisez Google My Business Insights, les requêtes de recherche de la Google Search Console, les avis clients, les questions posées directement par téléphone ou email, et analysez les FAQ de vos concurrents locaux pour identifier les thèmes récurrents."
+      }
+    ],
+    "hero": {
+      "src": "https://images.unsplash.com/photo-uG_oT3xR6sM?w=1200&q=80"
+    }
   },
   {
     "slug": "/faq-page-service-urgence",
@@ -7807,5 +8048,3 @@ export const pages = [
     ]
   }
 ];
-
-export const pageMap = new Map(pages.map((p) => [p.slug, p]));
