@@ -9065,3 +9065,5 @@ export const pages = [
     ]
   }
 ];
+
+export const pageMap = new Map(pages.map(p => [p.slug, p]));
