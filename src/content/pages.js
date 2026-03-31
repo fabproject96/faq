@@ -49,7 +49,7 @@ export const pages = [
     "h1": "Le hub éditorial pour créer des FAQ utiles et indexables",
     "hero": {
       "alt": "Hub éditorial OperonCore dédié aux FAQ SEO, schema JSON-LD et contenus longue traîne",
-      "src": "https://images.unsplash.com/photo-p0jW_pMhC60?w=1200&q=80"
+      "src": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200&q=80"
     },
     "quickFaq": [
       {
@@ -1642,7 +1642,7 @@ export const pages = [
     "h1": "Créer une FAQ utile pour une page service: méthode pratique",
     "hero": {
       "alt": "Méthode pratique pour créer une FAQ utile sur une page service",
-      "src": "https://images.unsplash.com/photo-y9l5y4-Y0gA?w=1200&q=80"
+      "src": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1200&q=80"
     },
     "quickFaq": [
       {
@@ -4100,7 +4100,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-XkC_8o-kQy8?w=1200&q=80"
+      "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80"
     }
   },
   {
@@ -6143,7 +6143,7 @@ export const pages = [
       }
     ],
     "hero": {
-      "src": "https://images.unsplash.com/photo-uG_oT3xR6sM?w=1200&q=80"
+      "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80"
     }
   },
   {
